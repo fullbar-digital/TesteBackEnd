@@ -25,10 +25,11 @@ Criar uma aplicação web para cadastrar e gerenciar alunos.
 - Excluir o aluno selecionado
 
 #### Requisitos:
-- Microsoft .NET Core Framework a partir da versão 2.0
+- Microsoft ASP.NETCore MVC Framework a partir da versão 2.0
 - EntityFramework e banco SQL server
 #### Ganha mais pontos:
 - Teste Unitario 
+
 
 #### Submissão
 Criar um fork desse projeto e entregar via pull request.
