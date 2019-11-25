@@ -1,4 +1,10 @@
-# Teste Prático Backend - 01
+# Teste Prático Backend
+
+## Teste 01 - Questionario
+- Levando em consideração duas aplicações X e Y que não se conversam, sendo a aplicação X receptora de informações do cliente final. A aplicação Y terá que apresentar algumas dessas informações, para isso será necessario que essas informações sejam armazenadas em seu banco de dados. Descreva qual a solução você daria para esse tipo de problema:
+- Obs: Enviar a resposta por e-mail
+
+## Teste 02 - Desenvolvimento 
 
 Criar uma aplicação web para cadastrar e gerenciar alunos.
 
