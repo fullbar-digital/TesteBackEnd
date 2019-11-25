@@ -26,9 +26,11 @@ Criar uma aplicação web para cadastrar e gerenciar alunos.
 
 #### Requisitos:
 - Microsoft ASP.NETCore MVC Framework a partir da versão 2.0
-- EntityFramework e banco SQL server
+- ORM EntityFramework e banco SQL server
 #### Ganha mais pontos:
 - Teste Unitario 
+- Ioc Container - Ninject
+- WebAPi .NetCore 
 
 
 #### Submissão
