@@ -1,0 +1,115 @@
+﻿@{
+    ViewData["Title"] = "Criar Aluno";
+}
+
+<div id="app">
+    <template>
+        <v-card>
+            <v-card-title>
+                <span class="headline">{{ formTitle }}</span>
+            </v-card-title>
+
+            <v-card-text>
+                <v-container>
+                    <v-row>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.nome" label="Nome"></v-text-field>
+                        </v-col>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.registroAcademico" label="Registro acadêmico"></v-text-field>
+                        </v-col>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.curso" label="Curso"></v-text-field>
+                        </v-col>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.periodo" label="Periodo"></v-text-field>
+                        </v-col>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.nota" label="Nota"></v-text-field>
+                        </v-col>
+                    </v-row>
+                </v-container>
+            </v-card-text>
+
+            <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn color="primary" dark @@click="save">Save</v-btn>
+            </v-card-actions>
+        </v-card>
+
+    </template>
+</div>
+
+@section Scripts{
+    <script>new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        data() {
+            return {
+                formTitle: 'Editar Aluno',
+                item: {
+                    id: 0,
+                    nome: "",
+                    registroAcademico: "",
+                    periodo: 0,
+                    curso: "",
+                    nota: 0,
+                },
+            }
+        },
+
+
+
+        created() {
+            this.initialize()
+        },
+        methods: {
+            initialize() {
+                var self = this;
+                var params = window.location.pathname.split("/");
+                axios.get('/api/aluno/' + params[params.length - 1])
+                    .then(function (response) {
+                        self.item = response.data;
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+
+            },
+            save() {
+                var form = new FormData();
+                form.append("nome", this.item.nome);
+                form.append("registroAcademico", this.item.registroAcademico);
+                form.append("periodo", this.item.periodo);
+                form.append("curso", this.item.curso);
+                form.append("nota", this.item.nota);
+                debugger
+
+                var self = this;
+                debugger
+                axios.put('/api/aluno/' + self.item.id,form)
+                    .then(function (response) {
+                        if (response.data) {
+                            window.location.href = "/"
+                        }
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+
+                //axios({
+                //    method: 'put',
+                //    url: '/api/aluno/' + this.item.id,
+                //    data: form,
+                //}).then(function (response) {
+                //    if (response.data) {
+                //        window.location.href = "/"
+                //    }
+                //}).catch(function (error) {
+                //    console.log(error);
+                //});
+
+            },
+        }
+    })</script>
+}

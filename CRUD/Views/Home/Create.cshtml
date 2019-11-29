@@ -1,0 +1,92 @@
+﻿@{
+    ViewData["Title"] = "Criar Aluno";
+}
+
+<div id="app">
+    <template>
+        <v-card>
+            <v-card-title>
+                <span class="headline">{{ formTitle }}</span>
+            </v-card-title>
+
+            <v-card-text>
+                <v-container>
+                    <v-row>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.nome" label="Nome"></v-text-field>
+                        </v-col>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.registroAcademico" label="Registro acadêmico"></v-text-field>
+                        </v-col>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.curso" label="Curso"></v-text-field>
+                        </v-col>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.periodo" label="Periodo"></v-text-field>
+                        </v-col>
+                        <v-col cols="12" sm="6" md="6">
+                            <v-text-field v-model="item.nota" label="Nota"></v-text-field>
+                        </v-col>
+                    </v-row>
+                </v-container>
+            </v-card-text>
+
+            <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn color="primary" dark @@click="save">Save</v-btn>
+            </v-card-actions>
+        </v-card>
+
+    </template>
+
+</div>
+@section Scripts{
+    <script>new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        data() {
+            return {
+                formTitle: 'Novo Aluno',
+                item: {
+                    nome: "",
+                    registroAcademico: "",
+                    periodo: 0,
+                    curso: "",
+                    nota: 0,
+                },
+            }
+        },
+
+
+        created() {
+            this.initialize()
+        },
+        methods: {
+            initialize() {
+
+            },
+            save() {
+                var form = new FormData();
+                form.append("nome", this.item.nome);
+                form.append("registroAcademico",this.item.registroAcademico);
+                form.append("periodo", this.item.periodo);
+                form.append("curso", this.item.curso);
+                form.append("nota", this.item.nota);
+
+                axios({
+                    method: 'post',
+                    url: '/api/aluno',
+                    data: form,
+                }).then(function (response) {
+                    if (response.data) {
+                        window.location.href = "/"
+                    }
+                }).catch(function (error) {
+                    console.log(error);
+                });
+
+
+            },
+        }
+    })</script>
+}
