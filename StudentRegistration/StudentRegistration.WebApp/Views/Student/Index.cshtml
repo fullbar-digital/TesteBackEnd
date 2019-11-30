@@ -1,0 +1,115 @@
+﻿@model IEnumerable<StudentRegistration.WebApp.Models.ViewModels.StudentViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Alunos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista de Alunos</h1>
+
+<table id="StudentsTable" class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">
+                <input id="filterRA" class="form-control-sm" type="text" placeholder="RA">
+            </th>
+            <th scope="col">
+                <input id="filterName" class="form-control-sm" type="text" placeholder="Nome">
+            </th>
+            <th scope="col">
+                <input id="filterCourse" class="form-control-sm" type="text" placeholder="Curso">
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Period)
+            </th>
+            <th scope="col">
+                @Html.DisplayNameFor(model => model.Grade)
+            </th>
+            <th scope="col">
+                <input id="filterStatus" class="form-control-sm" type="text" placeholder="Status">
+            </th>
+            <th scope="col">
+                Ações
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.AR)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.DisplayCourse)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.DisplayPeriod)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.Grade)
+                </td>
+                <td scope="row">
+                    @Html.DisplayFor(modelItem => item.DisplayStatus)
+                </td>
+                <td scope="row">
+                    @Html.ActionLink("Editar", "Edit", new { item.ID }) |
+                    @Html.ActionLink("Detalhes", "Details", new { item.ID }) |
+                    @Html.ActionLink("Deletar", "Delete", new { item.ID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    // A curto prazo, foi o meio encontrado para realizar os filtros
+    // Acredito que seria o ideal:
+    //   1. os headers Período e Status serem Dropdown List
+    //   2. Automatizar o código para uma única função
+
+    $("#StudentsTable tbody").addClass("search");
+
+    $('#filterRA').keyup(function () {
+        var rex = new RegExp($(this).val(), 'i');
+        $('.search tr ').hide();
+
+        $('.search tr ').filter(function (i, v) {
+            var $t = $(this).children(":eq(" + "0" + ")");
+            return rex.test($t.text());
+        }).show();
+    });
+    
+    $('#filterName').keyup(function () {
+        var rex = new RegExp($(this).val(), 'i');
+        $('.search tr ').hide();
+
+        $('.search tr ').filter(function (i, v) {
+            var $t = $(this).children(":eq(" + "1" + ")");
+            return rex.test($t.text());
+        }).show();
+    });
+    
+    $('#filterCourse').keyup(function () {
+        var rex = new RegExp($(this).val(), 'i');
+        $('.search tr ').hide();
+
+        $('.search tr ').filter(function (i, v) {
+            var $t = $(this).children(":eq(" + "2" + ")");
+            return rex.test($t.text());
+        }).show();
+    });
+    
+    $('#filterStatus').keyup(function () {
+        var rex = new RegExp($(this).val(), 'i');
+        $('.search tr ').hide();
+
+        $('.search tr ').filter(function (i, v) {
+            var $t = $(this).children(":eq(" + "5" + ")");
+            return rex.test($t.text());
+        }).show();
+    });
+</script>
