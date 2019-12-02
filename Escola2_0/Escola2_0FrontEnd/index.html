@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="Scripts/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="Content/index.css" />
+    <title>Banco Alunos</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <p>Banco de Alunos</p>
+        </h1>
+    </header>
+
+    <section class="sessao_botoes">
+        <h2>
+            <input onclick="location.href = 'incluir.html' ;" " id=" btn-incluir" type="button" value="Novo" />
+            <input id="btn-lista-alunos" type="button" value="Listar Alunos" />
+            <input onclick="location.href = 'editar.html' ;" " id=" btn-editar" type="button" value="Editar" />
+
+            <!-- Em Desenvolvimento
+            <input onclick="location.href = 'filtrar.html' ;" " id="btn-filtrar" type="button" value="Filtrar Alunos"/>
+            -->
+
+            <input id="btnClear" type="button" value="Limpar Listagem" />
+        </h2>
+    </section>
+
+    <p><br /><br /></p>
+    <section>
+        <h3>
+            <table id="tabela-alunos">
+                <thead>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>RA</th>
+                    <th>Curso</th>
+                    <th>Periodo</th>
+                    <th>Nota</th>
+                    <th>Status</th>
+                    <th>Delete</th>
+                <tbody>
+                    <tr>
+
+                    </tr>
+                </tbody>
+                </thead>
+            </table>
+            <div id="updatemessage"></div>
+            <p id="info"></p>
+        </h3>
+    </section>
+
+</body>
+
+</html>

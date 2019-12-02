@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="Scripts/incluir.js"></script>
+    <title>Incluir Aluno</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <p>Incluir Novo Aluno</p>
+        </h1>
+    </header>
+    <section>
+        <h2>
+            <form id="incluirForm" action="" method="post">
+                <p>
+                    <label>Nome: </label>
+                    <input type="text" name="nome" id="fieldNome">
+                </p>
+                <p>
+                    <label>RA: </label>
+                    <input type="number" maxlength="8" name="ra" id="fieldRA">
+                </p>
+                <p>
+                    <label>Periodo: </label>
+                    <input type="text" name="periodo" id="fieldPeriodo">
+                </p>
+                <p>
+                    <label>Curso: </label>
+                    <input type="text" name="curso" id="fieldCurso">
+                </p>
+                <p>
+                    <label>Nota: </label>
+                    <input type="number" max="10" maxlength="4" name="nota" id="fieldNota">
+                </p>
+                <p>
+                    <input id="btnIncluir" type="button" value="Incluir">
+                </p>
+            </form>
+            <p>
+                <input onclick="location.href = 'index.html'" type="button" value="Voltar">
+            </p>
+        </h2>
+    </section>
+</body>
+
+</html>

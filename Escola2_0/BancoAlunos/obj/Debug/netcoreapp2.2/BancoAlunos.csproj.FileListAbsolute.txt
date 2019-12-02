@@ -1,0 +1,47 @@
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.deps.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.runtimeconfig.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.runtimeconfig.dev.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.pdb
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorAssemblyInfo.cache
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorAssemblyInfo.cs
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.AssemblyInfoInputs.cache
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.AssemblyInfo.cs
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorTargetAssemblyInfo.cache
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.deps.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.runtimeconfig.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.runtimeconfig.dev.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorAssemblyInfo.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorAssemblyInfo.cs
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.AssemblyInfoInputs.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.AssemblyInfo.cs
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorTargetAssemblyInfo.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.csprojAssemblyReference.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.deps.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.runtimeconfig.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.runtimeconfig.dev.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\bin\Debug\netcoreapp2.2\BancoAlunos.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.csprojAssemblyReference.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorAssemblyInfo.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorAssemblyInfo.cs
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.AssemblyInfoInputs.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.AssemblyInfo.cs
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.RazorTargetAssemblyInfo.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos\obj\Debug\netcoreapp2.2\BancoAlunos.pdb

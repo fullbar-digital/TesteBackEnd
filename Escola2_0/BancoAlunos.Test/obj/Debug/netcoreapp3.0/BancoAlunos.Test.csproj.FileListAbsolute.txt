@@ -1,0 +1,603 @@
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.csprojAssemblyReference.cache
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.AssemblyInfoInputs.cache
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.AssemblyInfo.cs
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.deps.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.runtimeconfig.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.runtimeconfig.dev.json
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.pdb
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Autofac.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Autofac.Extras.Moq.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Castle.Core.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cors.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Localization.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Localization.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Net.Http.Headers.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\testhost.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Moq.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Xml.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.abstractions.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.assert.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.core.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.execution.dotnet.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.pdb
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.csproj.CopyComplete
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.dll
+C:\Users\mlluc\Desktop\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.deps.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.runtimeconfig.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.runtimeconfig.dev.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Autofac.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Autofac.Extras.Moq.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Castle.Core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cors.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Localization.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Localization.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Net.Http.Headers.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\testhost.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Moq.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Xml.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.assert.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.execution.dotnet.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.csprojAssemblyReference.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.AssemblyInfoInputs.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.AssemblyInfo.cs
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.csproj.CopyComplete
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\Private-Repository\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.deps.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.runtimeconfig.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.runtimeconfig.dev.json
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.Test.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Autofac.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Autofac.Extras.Moq.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Castle.Core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Antiforgery.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cors.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Html.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Localization.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Cors.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Localization.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.RazorPages.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Razor.Runtime.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Routing.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileProviders.Composite.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Localization.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Localization.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.ObjectPool.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Extensions.WebEncoders.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.Net.Http.Headers.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\testhost.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\dotnet-aspnet-codegenerator-design.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Moq.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Newtonsoft.Json.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Newtonsoft.Json.Bson.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\NuGet.Frameworks.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\Remotion.Linq.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.AttributedModel.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Convention.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Hosting.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.Runtime.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Composition.TypedParts.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Data.SqlClient.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Interactive.Async.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Cryptography.Xml.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.abstractions.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.assert.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.core.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\xunit.execution.dotnet.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\bin\Debug\netcoreapp3.0\BancoAlunos.pdb
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.csprojAssemblyReference.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.AssemblyInfoInputs.cache
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.AssemblyInfo.cs
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.csproj.CopyComplete
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.dll
+C:\Users\mlluc\Dropbox\Lucas\Estudos\1. Programação\Repositorios\Github Repositories\TesteBackEnd\Escola2_0\BancoAlunos.Test\obj\Debug\netcoreapp3.0\BancoAlunos.Test.pdb

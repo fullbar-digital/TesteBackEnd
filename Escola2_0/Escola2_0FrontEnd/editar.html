@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="Scripts/editar.js"></script>
+    <title>Cadastro Aluno</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <p>Tela de Cadastro</p>
+        </h1>
+    </header>
+    <section>
+        <h2>
+            <form id="editarForm" action="" method="post">
+                <p>
+                    <label>Id: </label>
+                    <input type="number" id="alunoIdEdit" required />
+                </p>
+                <p>
+                    <label>Nome: </label>
+                    <input type="text" name="nome" id="fieldNomeEdit">
+                </p>
+                <p>
+                    <label>RA: </label>
+                    <input type="number" maxlength="8" name="ra" id="fieldRAEdit">
+                </p>
+                <p>
+                    <label>Periodo: </label>
+                    <input type="text" name="periodo" id="fieldPeriodoEdit">
+                </p>
+                <p>
+                    <label>Curso: </label>
+                    <input type="text" name="curso" id="fieldCursoEdit">
+                </p>
+                <p>
+                    <label>Nota: </label>
+                    <input type="number" max="10" maxlength="4" name="nota" id="fieldNotaEdit">
+                </p>
+                <p>
+                    <input id="btnCadastro" type="button" value="Salvar">
+                </p>
+            </form>
+            <p>
+                <input onclick="location.href = 'index.html'" type="button" value="Voltar">
+            </p>
+        </h2>
+    </section>
+</body>
+
+</html>
