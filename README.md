@@ -15,10 +15,21 @@ Criar uma aplicação web para cadastrar e gerenciar alunos.
 - RA (Registro acadêmico)
 - Período
 - Curso
-- Nota do Aluno
 - Status
+- Foto
+
+### Criar um cadastro do Curso com os seguintes campos:
+- Nome do Curso
+- Diciplinas do Curso
+
+### Criar um cadastro de Diciplinas com os seguintes campos:
+- Nome do Diciplinas
+- Nota Minima Aporvação
+
 #### Regra de Negocio 
-- O status do Aluno deverá ser aprovado ou reprovado, o que irá determinar seu status será a nota sendo maior que 7.0.
+- Um curso pode ter varias diciplinas
+- O Aluno precisa ter notas em cada diciplina que o curso contempla
+- Ao listar os alunos o status do Aluno deverá ser aprovado ou reprovado na diciplina X, o que irá determinar seu status será a nota sendo maior que 7.0.
 - O status não poderá ser editavel 
 
 #### Listar alunos: 
@@ -34,8 +45,9 @@ Criar uma aplicação web para cadastrar e gerenciar alunos.
 - Excluir o aluno selecionado
 
 #### Requisitos:
-- Microsoft ASP.NETCore MVC Framework a partir da versão 2.0
+- Microsoft .Net c#
 - ORM EntityFramework e banco SQL server
+- No caso de escolher arquitetura API, não é necessario criar o frontend da aplicação, iremos testar via Postman
 
 #### O nivel de conhecimento será avalido com a utilização das seguintes tecnologias:
 - Teste Unitario 
