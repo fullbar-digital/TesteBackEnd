@@ -1,0 +1,159 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div id="app">
+    <template>
+        <v-card>
+
+            <v-card-text>
+                <v-container>
+                    <v-row>
+                        <v-col cols="3">
+                            <v-text-field v-model="filter.nome" label="Nome"></v-text-field>
+                        </v-col>
+                        <v-col cols="3">
+                            <v-text-field v-model="filter.registroAcademico" label="Registro acadêmico"></v-text-field>
+                        </v-col>
+                        <v-col cols="3">
+                            <v-text-field v-model="filter.curso" label="Curso"></v-text-field>
+                        </v-col>
+                        <v-col cols="3">
+                            <select v-model="filter.status" style="width:200px;border: solid 1px black;">
+                                
+                                <option value="">Selecione</option>
+                                <option value="Aprovado">Aprovado</option>
+                                <option value="Reprovado">Reprovado</option>
+                            </select>
+                        </v-col>
+                    </v-row>
+                </v-container>
+            </v-card-text>
+
+            <v-card-actions>
+                <v-spacer></v-spacer>
+                <v-btn color="primary" dark @@click="filtrar">Filtrar</v-btn>
+            </v-card-actions>
+        </v-card>
+
+        <v-btn color="primary" dark class="mt-3" @@click="createItem">Novo Aluno</v-btn>
+        <v-data-table :headers="headers"
+                      :items="alunos"
+                      :items-per-page="5"
+                      class="elevation-1">
+
+
+            <template v-slot:item.acoes="{ item }">
+                <v-icon small
+                        class="mr-2"
+                        @@click="editItem(item)">
+                    mdi-pencil
+                </v-icon>
+                <v-icon small
+                        @@click="deleteItem(item)">
+                    mdi-delete
+                </v-icon>
+            </template>
+
+
+        </v-data-table>
+
+
+    </template>
+</div>
+
+@section Scripts{
+    <script>new Vue({
+        el: '#app',
+        vuetify: new Vuetify(),
+        data() {
+            return {
+                headers: [
+                    { text: 'Nome', value: 'nome', },
+                    { text: 'Registro Academico', value: 'registroAcademico' },
+                    { text: 'Periodo', value: 'periodo' },
+                    { text: 'Curso', value: 'curso' },
+                    { text: 'Nota', value: 'nota' },
+                    { text: 'Status', value: 'status' },
+                    { text: 'Ações', value: 'acoes' },
+                ],
+                alunos: [
+
+                ],
+                itemStatus: [
+                    "Aprovado",
+                    "Reprovado"
+                ],
+                filter: {
+                    nome: "",
+                    registroAcademico: "",
+                    curso: "",
+                    status: ""
+                }
+            }
+        },
+
+
+        created() {
+            this.initialize()
+        },
+        methods: {
+            initialize() {
+                var self = this;
+
+                axios.get('/api/aluno')
+                    .then(function (response) {
+                        self.alunos = response.data;
+                    })
+                    .catch(function (error) {
+                        console.log(error);
+                    });
+
+            },
+            filtrar() {
+
+                var self = this;
+                var form = new FormData();
+                form.append("nome", this.filter.nome);
+                form.append("registroAcademico", this.filter.registroAcademico);
+                form.append("status", this.filter.status);
+                form.append("curso", this.filter.curso);
+                axios({
+                    method: 'post',
+                    url: '/api/aluno/filter',
+                    data: form,
+                }).then(function (response) {
+
+                    self.alunos = response.data;
+                }).catch(function (error) {
+                    console.log(error);
+                });
+
+            },
+
+            editItem(item) {
+                window.location.href = "/home/edit/" + item.id
+            },
+            createItem() {
+                window.location.href = "/home/create"
+            },
+
+            deleteItem(item) {
+                var self = this;
+                const index = this.alunos.indexOf(item)
+                if (confirm('Tem certeza de que deseja excluir este item?')) {
+                    axios.delete('/api/aluno/' + item.id)
+                        .then(function (response) {
+                            if (response.data)
+                                self.alunos.splice(index, 1)
+                        })
+                        .catch(function (error) {
+                            console.log(error);
+                        });
+                }
+            },
+
+        }
+    })</script>
+}
