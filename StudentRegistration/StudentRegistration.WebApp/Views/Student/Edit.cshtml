@@ -1,0 +1,67 @@
+﻿@model StudentRegistration.WebApp.Models.ViewModels.StudentViewModel
+
+@{
+    ViewData["Title"] = "Editar Aluno";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar Aluno</h1>
+
+<h4>Aluno</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AR" class="control-label"></label>
+                <input asp-for="AR" class="form-control" />
+                <span asp-validation-for="AR" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Course" class="control-label"></label>
+                <select asp-for="Course" asp-items="Model.StudentCourses" class="form-control">
+                    <option value="">Selecione o Curso</option>
+                </select>
+                <span asp-validation-for="Course" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Period" class="control-label"></label>
+                <select asp-for="Period" asp-items="Model.StudentPeriods" class="form-control">
+                    <option value="">Selecione o Período</option>
+                </select>
+                <span asp-validation-for="Period" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @*
+                    Bug: ao inserir valor com ponto, o mesmo é desconsiderado,
+                    burlando a validação "número entre 0 e 10"
+                    Exemplo: 7.2 -> 72
+                *@
+                <label asp-for="Grade" class="control-label"></label>
+                <input asp-for="Grade" class="form-control" />
+                <span asp-validation-for="Grade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <input asp-for="DisplayStatus" class="form-control" readonly />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-outline-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
