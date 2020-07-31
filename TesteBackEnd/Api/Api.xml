@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Api</name>
+    </assembly>
+    <members>
+        <member name="M:Api.Controllers.UsersController.#ctor(ApplicationCore.Domain.Repositories.IUserRepository)">
+            <summary>
+                Contrutor
+            </summary>
+            <param name="userRepository"></param>
+        </member>
+        <member name="M:Api.Controllers.UsersController.All">
+            <summary>
+                Endpoint responsável por listar os usuários
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.UsersController.Get(System.Int32)">
+            <summary>
+                Endpoint responsável por recuperar o usuário pelo Id
+            </summary>
+        </member>
+        <member name="M:Api.Controllers.UsersController.CreateOrUpdate(ApplicationCore.Domain.User)">
+            <summary>
+                Endpoint responsável por criar ou editar um usuário
+            </summary>
+            <param name="model">usuário a ser criado ou editado</param>
+        </member>
+        <member name="M:Api.Controllers.UsersController.Delete(System.Int32)">
+            <summary>
+                Endpoint responsável por recuperar o usuário pelo Id
+            </summary>
+        </member>
+        <member name="T:Api.Startup">
+            <summary>
+                Startup
+            </summary>
+        </member>
+        <member name="M:Api.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+                Construtor
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:Api.Startup.Configuration">
+            <summary>
+                Configuração
+            </summary>
+        </member>
+        <member name="M:Api.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+                Configuração do serviço
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:Api.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+                Configuração
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:Api.Support.ServicesExtensions">
+            <summary>
+                Extensões de serviços
+            </summary>
+        </member>
+    </members>
+</doc>
