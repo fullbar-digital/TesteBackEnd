@@ -1,0 +1,12 @@
+C:\Pessoal\Dev\.NET\App\App.Domain\bin\Debug\net5.0\App.Domain.deps.json
+C:\Pessoal\Dev\.NET\App\App.Domain\bin\Debug\net5.0\App.Domain.dll
+C:\Pessoal\Dev\.NET\App\App.Domain\bin\Debug\net5.0\ref\App.Domain.dll
+C:\Pessoal\Dev\.NET\App\App.Domain\bin\Debug\net5.0\App.Domain.pdb
+C:\Pessoal\Dev\.NET\App\App.Domain\obj\Debug\net5.0\App.Domain.csprojAssemblyReference.cache
+C:\Pessoal\Dev\.NET\App\App.Domain\obj\Debug\net5.0\App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pessoal\Dev\.NET\App\App.Domain\obj\Debug\net5.0\App.Domain.AssemblyInfoInputs.cache
+C:\Pessoal\Dev\.NET\App\App.Domain\obj\Debug\net5.0\App.Domain.AssemblyInfo.cs
+C:\Pessoal\Dev\.NET\App\App.Domain\obj\Debug\net5.0\App.Domain.csproj.CoreCompileInputs.cache
+C:\Pessoal\Dev\.NET\App\App.Domain\obj\Debug\net5.0\App.Domain.dll
+C:\Pessoal\Dev\.NET\App\App.Domain\obj\Debug\net5.0\ref\App.Domain.dll
+C:\Pessoal\Dev\.NET\App\App.Domain\obj\Debug\net5.0\App.Domain.pdb

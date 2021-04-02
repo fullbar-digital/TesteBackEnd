@@ -1,0 +1,28 @@
+version: '3'
+
+networks: 
+    dockersql-network:
+        driver: bridge
+
+services:
+    backend:
+        build: "."
+        container_name: 'api_app'
+        ports: 
+            - "80:80"
+        networks:
+            - dockersql-network
+        depends_on:
+            - sql.database
+        environment:
+            - ASPNETCORE_ENVIRONMENT=Development
+        command: ["dotnet", "ef", "database update"]
+
+    sql.database:
+        container_name: dockersql.database
+        image: mcr.microsoft.com/mssql/server
+        environment:
+            - SA_PASSWORD=123Aa321
+            - ACCEPT_EULA=Y
+        networks:
+            - dockersql-network

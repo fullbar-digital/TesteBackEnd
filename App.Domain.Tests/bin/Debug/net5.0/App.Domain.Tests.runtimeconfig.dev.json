@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\maced\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\maced\\.nuget\\packages"
+    ]
+  }
+}
