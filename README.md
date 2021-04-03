@@ -6,10 +6,10 @@ Projeto responsável pela gestão de alunos e suas respectivas disciplinas
 
 ## Tecnologias
 
-[.NET 5 (Web API, MSTest)](https://github.com/matheusangelo/TesteBackEnd.git) </br>
-[SQL Server](https://github.com/matheusangelo/TesteBackEnd.git) </br>
-[Docker](https://github.com/matheusangelo/TesteBackEnd.git) </br>
-[Flunt](https://github.com/matheusangelo/TesteBackEnd.git) </br>
+[.NET 5 (Web API, MSTest)](https://dotnet.microsoft.com/download/dotnet/5.0) </br>
+[SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) </br>
+[Docker](https://docs.docker.com/docker-for-windows/install/) </br>
+[Flunt](https://www.nuget.org/packages/Flunt/) </br>
 
 
 ## Recursos

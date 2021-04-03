@@ -54,8 +54,7 @@ namespace App.Domain.Api
 
 
             //Database
-            // services.AddDbContext<ApplicationContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
-            services.AddDbContext<ApplicationContext>(options => options.UseInMemoryDatabase(databaseName: "App"));
+            services.AddDbContext<ApplicationContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
