@@ -21,7 +21,7 @@ public class DeleteStudentCommand : Notifiable, ICommand
     {
         AddNotifications(
             new Contract()
-            .IsNullOrEmpty("Id","Id", "Id is required")
+            .HasMinLen(Id.ToString(), 3, "Name", "Name should have at least 3 chars")
         );
     }
 }

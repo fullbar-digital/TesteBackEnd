@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VoOy6bAtRVwVIqJwYUBo6JJX9jh+Egl7E+iFa3I7n+1MqMxyUb1zexXV2+kGuLpJ0DL/YFMrT0xQ44qEe0nEgg==",
+  "dgSpecHash": "Hna8vcen+JE86ApLmIzcpo4GM8Yvkt1yhLEkCFC54Ak0g8EDrPE3eHPEaCrx2FTlHipc8MFXl+zQ+QjgzrC5KQ==",
   "success": true,
-  "projectFilePath": "c:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain.Tests\\App.Domain.Tests.csproj",
+  "projectFilePath": "C:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain.Tests\\App.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maced\\.nuget\\packages\\coverlet.collector\\1.3.0\\coverlet.collector.1.3.0.nupkg.sha512",
     "C:\\Users\\maced\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",

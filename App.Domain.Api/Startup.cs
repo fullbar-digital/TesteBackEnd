@@ -41,10 +41,9 @@ namespace App.Domain.Api
             services.AddScoped<GetAllStudentsHandler, GetAllStudentsHandler>();
             services.AddScoped<DeleteStudentsHandler, DeleteStudentsHandler>();
             services.AddScoped<UpdateStudentHandler, UpdateStudentHandler>();
-
+            services.AddScoped<GetStudentsByFilterHandler, GetStudentsByFilterHandler>();
             //Services - Courses
             services.AddScoped<CreateCourseHandler, CreateCourseHandler>();
-
             //Services - Subject
             services.AddScoped<CreateSubjectHandler, CreateSubjectHandler>();
             //Contracts

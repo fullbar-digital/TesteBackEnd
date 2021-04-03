@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using App.Domain.Commands.Queries;
 using App.Domain.Infra.Contexts;
 using App.Domain.Models;
 using App.Domain.Repositories;
@@ -30,6 +31,33 @@ namespace App.Domain.Infra.Respositories
         public List<Student> GetAll()
         {
             return _appContext.students.Include(x => x.StudentSubjects).ToList();
+        }
+
+        public List<Student> GetByFilter(GetStudentsQuery query)
+        {
+            IQueryable<Student> q = _appContext.students;
+            
+            if (query.CourseId != null) {
+                q = q.Where(s => s.CourseId == query.CourseId);
+            }
+
+            if (query.Name != null) {
+                q = q.Where(s => s.Name == query.Name);
+            }
+
+            if (query.Register != null) {
+                q = q.Where(s => s.Register == query.Register);
+            }
+
+            if (query.Period != null) {
+                q = q.Where(s => s.Period == query.Period);
+            }
+
+            if (query.Status != null) {
+                q = q.Where(s => s.Status == query.Status);
+            }
+
+            return q.ToList();
         }
 
         public Student GetById(Guid Id)

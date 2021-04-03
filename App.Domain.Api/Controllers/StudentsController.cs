@@ -62,6 +62,19 @@ namespace App.Domain.Api.Controllers
 
             return Ok(result);
         }
+
+        [HttpGet]
+        [Route("filters")]
+        public async Task<ActionResult> GetByFilters([FromQuery] GetStudentsQuery query, 
+                                                     [FromServices] GetStudentsByFilterHandler handler)
+        {   
+            var result = (CommandResult)handler.handle(query);
+
+            if (!result.Success)
+                return BadRequest(result);
+
+            return Ok(result);
+        }
     }
 
 }

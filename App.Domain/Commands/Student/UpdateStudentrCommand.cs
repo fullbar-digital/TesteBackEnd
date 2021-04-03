@@ -10,7 +10,7 @@ public class UpdateStudentrCommand : Notifiable, ICommand
             
         }
 
-        public UpdateStudentrCommand(Guid Id, string Name, string Register, string Period, string Status, string Photo, Guid CourseId)
+        public UpdateStudentrCommand(Guid Id, string Name, string Register, string Period, string Photo, Guid CourseId)
         {
             this.Id = Id;
             this.Name = Name;
