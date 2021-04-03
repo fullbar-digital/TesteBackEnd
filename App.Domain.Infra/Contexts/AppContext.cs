@@ -52,9 +52,9 @@ namespace App.Domain.Infra.Contexts
 
 
             var courses = new Course[] {
-                new Course{Id= courseIdDevelopment, Name="IT Development"},
-                new Course{Id= courseIdEgineering, Name="Software Egineering"},
-                new Course{Id= courseIdBiology, Name="Biology"}
+                new Course{Id= courseIdDevelopment, Name="IT Development", Subjects=subjects},
+                new Course{Id= courseIdEgineering, Name="Software Egineering", Subjects=subjects},
+                new Course{Id= courseIdBiology, Name="Biology", Subjects=subjects}
             };
 
             var studentSubject = new StudentSubject[] {

@@ -13,14 +13,14 @@ namespace App.Domain.Models
         public Course(string name, ICollection<Subject> Subjects, ICollection<Student> Students)
         {
             this.Name = name;
-            // this.Subjects = Subjects;
+            this.Subjects = Subjects;
             this.Students = Students;
 
         }
         public string Name { get; set; }
 
-        public ICollection<Subject> Subjects { get; set; }
-        public ICollection<Student> Students { get; set; }
+        public virtual ICollection<Subject> Subjects { get; set; }
+        public virtual ICollection<Student> Students { get; set; }
 
     }
 }

@@ -5764,11 +5764,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain.Tests\\App.Domain.Tests.csproj",
+      "projectUniqueName": "c:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain.Tests\\App.Domain.Tests.csproj",
       "projectName": "App.Domain.Tests",
-      "projectPath": "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain.Tests\\App.Domain.Tests.csproj",
+      "projectPath": "c:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain.Tests\\App.Domain.Tests.csproj",
       "packagesPath": "C:\\Users\\maced\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain.Tests\\obj\\",
+      "outputPath": "c:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5786,8 +5786,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain\\App.Domain.csproj": {
-              "projectPath": "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain\\App.Domain.csproj"
+            "c:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain\\App.Domain.csproj": {
+              "projectPath": "c:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain\\App.Domain.csproj"
             }
           }
         }

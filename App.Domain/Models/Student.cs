@@ -30,7 +30,7 @@ namespace App.Domain.Models
         #region Releationships
         public Guid CourseId{ get; set; }
         public Course Course { get; set; }
-        public ICollection<StudentSubject> StudentSubjects { get; set; }
+        public virtual ICollection<StudentSubject> StudentSubjects { get; set; }
         #endregion
 
 
