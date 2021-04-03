@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xnDJeccwPtRfDjipB23pQEs9TDJFmg+aUjGpnkktdJlyd6etJdk2XkxKLwyxaGJe9IOjRajYYADqfJIoJBSxWA==",
+  "dgSpecHash": "cCOuCWh+XMR3IZuMMcM2VUnQeNSW7mC8z0+FRAZQyPhbebaq0IiKEPplU54qz4KBheK/HU+u6URthIDj1mpmQw==",
   "success": true,
-  "projectFilePath": "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain.Infra\\App.Domain.Infra.csproj",
+  "projectFilePath": "C:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain.Infra\\App.Domain.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\maced\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512",
     "C:\\Users\\maced\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

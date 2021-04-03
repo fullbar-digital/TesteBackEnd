@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain\\App.Domain.csproj": {}
+    "C:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain\\App.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain\\App.Domain.csproj": {
+    "C:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain\\App.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain\\App.Domain.csproj",
+        "projectUniqueName": "C:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain\\App.Domain.csproj",
         "projectName": "App.Domain",
-        "projectPath": "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain\\App.Domain.csproj",
+        "projectPath": "C:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain\\App.Domain.csproj",
         "packagesPath": "C:\\Users\\maced\\.nuget\\packages\\",
-        "outputPath": "C:\\Pessoal\\Dev\\.NET\\App\\App.Domain\\obj\\",
+        "outputPath": "C:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

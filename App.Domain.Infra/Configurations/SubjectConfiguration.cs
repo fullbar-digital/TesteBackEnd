@@ -25,7 +25,8 @@ namespace App.Domain.Infra.Configurations
 
             builder.HasOne(p => p.Course)
                    .WithMany(u => u.Subjects)
-                   .HasForeignKey(u => u.CourseId);
+                   .HasForeignKey(u => u.CourseId)
+                   .OnDelete(DeleteBehavior.Cascade);
         }
     }
 }
