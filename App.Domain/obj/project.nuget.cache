@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BmHK3TGn1GznS4IzqB+/bq7z9LpYy+unVQewD94Zvid+MUXgYQqeKdS8X/lDrXBVrHBvYMSOt8YkEaqXSAPwzg==",
+  "success": true,
+  "projectFilePath": "C:\\Pessoal\\Dev\\.NET\\TesteBackEnd\\App.Domain\\App.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\maced\\.nuget\\packages\\flunt\\1.0.4\\flunt.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
