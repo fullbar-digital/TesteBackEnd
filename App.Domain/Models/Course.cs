@@ -20,7 +20,7 @@ namespace App.Domain.Models
         public string Name { get; set; }
 
         public virtual ICollection<Subject> Subjects { get; set; }
-        public virtual ICollection<Student> Students { get; set; }
+        public virtual ICollection<Student>? Students { get; set; }
 
     }
 }

@@ -4,8 +4,8 @@ using App.Domain.Models;
 
 namespace App.Domain.Repositories
 {
-    public interface IStudentSubjectRepository
+    public interface ISubjectRepository
     {
-        List<StudentSubject> GetById(Guid Id);
+        void AddSubject(Subject subject);
     }
 }

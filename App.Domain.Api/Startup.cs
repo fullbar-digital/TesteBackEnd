@@ -36,18 +36,27 @@ namespace App.Domain.Api
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "App.Domain.Api", Version = "v1" });
             });
 
-            //Services
+            //Services - Student
             services.AddScoped<CreateStudentHandler, CreateStudentHandler>();
             services.AddScoped<GetAllStudentsHandler, GetAllStudentsHandler>();
             services.AddScoped<DeleteStudentsHandler, DeleteStudentsHandler>();
             services.AddScoped<UpdateStudentHandler, UpdateStudentHandler>();
 
+            //Services - Courses
+            services.AddScoped<CreateCourseHandler, CreateCourseHandler>();
+
+            //Services - Subject
+            services.AddScoped<CreateSubjectHandler, CreateSubjectHandler>();
             //Contracts
             services.AddScoped<IStudentRepository, StudentRepository>();
+            services.AddScoped<ICourseRepository, CourseRepository>();
+            services.AddScoped<ISubjectRepository, SubjectRepository>();
+
+
 
             //Database
-            services.AddDbContext<ApplicationContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
-            // services.AddDbContext<ApplicationContext>(options => options.UseInMemoryDatabase(databaseName: "BoardGames"));
+            // services.AddDbContext<ApplicationContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
+            services.AddDbContext<ApplicationContext>(options => options.UseInMemoryDatabase(databaseName: "App"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

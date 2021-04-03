@@ -1,68 +1,70 @@
-# Teste Prático Backend
+# Teste prático - BACKEND
 
-## Teste 01 - Questionario
-- Levando em consideração duas aplicações X e Y que não se conversam, sendo a aplicação X receptora de informações do cliente final. A aplicação Y terá que apresentar algumas dessas informações, para isso será necessario que essas informações sejam armazenadas em seu banco de dados. Descreva qual a solução você daria para esse tipo de problema:
-- Obs: Enviar a resposta por e-mail
+## Descição
 
-## Teste 02 - Desenvolvimento 
+Projeto responsável pela gestão de alunos e suas respectivas disciplinas
 
-Criar uma aplicação web para cadastrar e gerenciar alunos.
+## Tecnologias
 
-## Cadastro de Alunos
-
-### Criar um cadastro de alunos com os seguintes campos:
-- Nome
-- RA (Registro acadêmico)
-- Período
-- Curso
-- Status
-- Foto
-
-### Criar um cadastro do Curso com os seguintes campos:
-- Nome do Curso
-- Diciplinas do Curso
-
-### Criar um cadastro de Diciplinas com os seguintes campos:
-- Nome do Diciplinas
-- Nota Minima Aporvação
-
-#### Regra de Negocio 
-- Um curso pode ter varias diciplinas
-- O Aluno precisa ter notas em cada diciplina que o curso contempla
-- Ao listar os alunos o status do Aluno deverá ser aprovado ou reprovado na diciplina X, o que irá determinar seu status será a nota sendo maior que 7.0.
-- O status não poderá ser editavel 
-
-#### Listar alunos: 
-- Trazer todas as informação relacionada ao aluno.
-
-#### Filtrar alunos: 
-- Criar filtro com Nome, RA,Curso e Status.
-
-#### Alterar dados do aluno: 
-- Somente o campo Status não será editavel os demais sim.
-
-#### Excluir aluno:
-- Excluir o aluno selecionado
-
-#### Requisitos:
-- Microsoft .Net c#
-- ORM EntityFramework e banco SQL server
-- No caso de escolher arquitetura API, não é necessario criar o frontend da aplicação, iremos testar via Postman
-
-#### O nivel de conhecimento será avalido com a utilização das seguintes tecnologias:
-- Teste Unitario 
-- Ioc Container - Ninject
-- WebAPi .NetCore 
-- ORM
-
-### O que esperamos de você ?
-- Crie uma aplicação testável
-- Crie um código organizado
-- Crie um código de fácil manutenção
-
-#### Submissão
-Criar um fork desse projeto e entregar via pull request.
-Prazo de Entrega em até 4 dias.
+[.NET 5 (Web API, MSTest)](https://github.com/matheusangelo/TesteBackEnd.git) </br>
+[SQL Server](https://github.com/matheusangelo/TesteBackEnd.git) </br>
+[Docker](https://github.com/matheusangelo/TesteBackEnd.git) </br>
+[Flunt](https://github.com/matheusangelo/TesteBackEnd.git) </br>
 
 
-Boa Sorte!
+## Recursos
+
+### Banco de Dados
+
+- Base: App
+- Tabelas:
+
+|Nome|Descrição|
+| ----------- | ----------- |
+|STUDENT|Entidade responsável pelos alunos|
+|COURSE|Entidade responsável pelos cursos|
+|SUBJECT|Entidade responsável pelas disciplinas|
+|STUDENT_SUBJECT|Entidade responsável pelo relacionamento entre Aluno e Disciplina|
+
+<br>
+
+## Desenvolvimento
+
+### Clonar o projeto
+
+Primeiramente, clone o repositório [app-teste-pratico-backend](https://github.com/matheusangelo/TesteBackEnd.git)
+
+```shell
+git clone https://github.com/matheusangelo/TesteBackEnd.git
+cd TesteBackEnd
+```
+
+O projeto em questão, foi utilizado docker para facilitar a utilização dos recursos como SQL Server / .NET em qualquer instância.
+Com o docker e docker-compose instalado, executar os seguintes comandos na raiz do projeto:
+
+```shell
+docker-compose up --build
+```
+
+![plot](./Evidencias/containers.png)
+
+
+Após a construção do container, utilizar a url conforme a evidência:
+
+
+![plot](./Evidencias/postman.png)
+
+## Swagger
+
+### App Swagger
+
+* [API App](https://localhost/swagger/index.html)
+
+## Testes
+
+
+Para rodar os testes, basta rodar o comando no terminal:
+
+```shell
+dotnet test
+```
