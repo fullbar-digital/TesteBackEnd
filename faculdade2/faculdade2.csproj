@@ -68,6 +68,30 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model1.edmx</DependentUpon>
     </Compile>
+    <Compile Include="View\CadastroDisciplina.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CadastroDisciplina.Designer.cs">
+      <DependentUpon>CadastroDisciplina.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CadastroAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CadastroAluno.Designer.cs">
+      <DependentUpon>CadastroAluno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\CadastroCurso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\CadastroCurso.Designer.cs">
+      <DependentUpon>CadastroCurso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\Index.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\Index.Designer.cs">
+      <DependentUpon>Index.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -77,8 +101,10 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +122,20 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="View\CadastroAluno.resx">
+      <DependentUpon>CadastroAluno.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CadastroCurso.resx">
+      <DependentUpon>CadastroCurso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\CadastroDisciplina.resx">
+      <DependentUpon>CadastroDisciplina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\Index.resx">
+      <DependentUpon>Index.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
