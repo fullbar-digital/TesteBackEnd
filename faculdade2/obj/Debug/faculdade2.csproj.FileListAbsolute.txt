@@ -1,0 +1,7 @@
+C:\Users\Vitoria\Source\Repos\TesteBackEnd2\faculdade2\obj\Debug\faculdade2.csproj.AssemblyReference.cache
+C:\Users\Vitoria\Source\Repos\TesteBackEnd2\faculdade2\obj\Debug\faculdade2.View.CadastroAluno.resources
+C:\Users\Vitoria\Source\Repos\TesteBackEnd2\faculdade2\obj\Debug\faculdade2.View.CadastroCurso.resources
+C:\Users\Vitoria\Source\Repos\TesteBackEnd2\faculdade2\obj\Debug\faculdade2.View.CadastroDisciplina.resources
+C:\Users\Vitoria\Source\Repos\TesteBackEnd2\faculdade2\obj\Debug\faculdade2.View.Index.resources
+C:\Users\Vitoria\Source\Repos\TesteBackEnd2\faculdade2\obj\Debug\faculdade2.csproj.GenerateResource.cache
+C:\Users\Vitoria\Source\Repos\TesteBackEnd2\faculdade2\obj\Debug\faculdade2.csproj.CoreCompileInputs.cache
