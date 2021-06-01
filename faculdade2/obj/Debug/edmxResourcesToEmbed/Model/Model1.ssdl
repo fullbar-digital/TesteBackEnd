@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model1StoreContainer">
+    <EntitySet Name="Aluno" EntityType="Model1.Store.Aluno" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Curso" EntityType="Model1.Store.Curso" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Disciplina" EntityType="Model1.Store.Disciplina" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="DisciplinaCurso" Association="Model1.Store.DisciplinaCurso">
+      <End Role="Disciplina" EntitySet="Disciplina" />
+      <End Role="Curso" EntitySet="Curso" />
+    </AssociationSet>
+    <AssociationSet Name="AlunoCurso" Association="Model1.Store.AlunoCurso">
+      <End Role="Aluno" EntitySet="Aluno" />
+      <End Role="Curso" EntitySet="Curso" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Aluno">
+    <Key>
+      <PropertyRef Name="IdAluno" />
+    </Key>
+    <Property Name="IdAluno" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="RA" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Período" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Curso" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Foto" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="IdCurso" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Curso">
+    <Key>
+      <PropertyRef Name="IdCurso" />
+    </Key>
+    <Property Name="IdCurso" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomeCurso" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Disciplina">
+    <Key>
+      <PropertyRef Name="IdDisciplina" />
+    </Key>
+    <Property Name="IdDisciplina" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomeDisciplina" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="NotaMinima" Type="float" Nullable="false" />
+    <Property Name="IdCurso" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="DisciplinaCurso">
+    <End Role="Disciplina" Type="Model1.Store.Disciplina" Multiplicity="*" />
+    <End Role="Curso" Type="Model1.Store.Curso" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Curso">
+        <PropertyRef Name="IdCurso" />
+      </Principal>
+      <Dependent Role="Disciplina">
+        <PropertyRef Name="IdCurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AlunoCurso">
+    <End Role="Aluno" Type="Model1.Store.Aluno" Multiplicity="*" />
+    <End Role="Curso" Type="Model1.Store.Curso" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Curso">
+        <PropertyRef Name="IdCurso" />
+      </Principal>
+      <Dependent Role="Aluno">
+        <PropertyRef Name="IdCurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

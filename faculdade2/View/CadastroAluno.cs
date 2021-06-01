@@ -1,4 +1,5 @@
-﻿using faculdade2.Model;
+﻿using faculdade2.Controller;
+using faculdade2.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -154,6 +155,7 @@ namespace faculdade2.View
             this.buttonCadastrar.TabIndex = 13;
             this.buttonCadastrar.Text = "Cadastrar";
             this.buttonCadastrar.UseVisualStyleBackColor = true;
+            this.buttonCadastrar.Click += new System.EventHandler(this.buttonCadastrar_Click);
             // 
             // CadastroAluno
             // 
@@ -178,5 +180,18 @@ namespace faculdade2.View
 
         }
 
+        private void buttonCadastrar_Click(object sender, EventArgs e)
+        {
+            AlunoController controller = new AlunoController();
+            Aluno objeto = new Aluno();
+            objeto.Nome = textNome.Text;
+            objeto.Período = comboPeriodo.SelectedItem.ToString();
+            objeto.Curso = comboCurso.SelectedItem.ToString();
+            objeto.Status = labelStatus.Text;
+            objeto.RA = textRA.Text;
+            objeto.Foto = textFoto.Text;
+            objeto.IdCurso = comboCurso.SelectedIndex;
+            controller.cadastrarAluno(objeto);
+        }
     }
 }

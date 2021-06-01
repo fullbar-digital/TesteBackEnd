@@ -1,4 +1,6 @@
-﻿using System;
+﻿using faculdade2.Controller;
+using faculdade2.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,5 +18,17 @@ namespace faculdade2.View
         {
             InitializeComponent();
         }
+
+        private void buttonCadastrarDisciplina_Click(object sender, EventArgs e)
+        {
+            DisciplinaController controller = new DisciplinaController();
+            Disciplina objeto = new Disciplina();
+            objeto.NomeDisciplina = textNomeDisciplina.Text;
+            objeto.NotaMinima = double.Parse(textNotaMinima.Text);
+            objeto.IdCurso = comboCurso.SelectedIndex;
+
+            controller.cadastrarDisciplina(objeto);
+        }
+
     }
 }

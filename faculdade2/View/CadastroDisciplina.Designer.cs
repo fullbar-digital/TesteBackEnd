@@ -35,6 +35,8 @@ namespace faculdade2.View
             this.textNomeDisciplina = new System.Windows.Forms.TextBox();
             this.textNotaMinima = new System.Windows.Forms.TextBox();
             this.buttonCadastrarDisciplina = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboCurso = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -87,12 +89,32 @@ namespace faculdade2.View
             this.buttonCadastrarDisciplina.TabIndex = 14;
             this.buttonCadastrarDisciplina.Text = "Cadastrar";
             this.buttonCadastrarDisciplina.UseVisualStyleBackColor = true;
+            this.buttonCadastrarDisciplina.Click += new System.EventHandler(this.buttonCadastrarDisciplina_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(39, 227);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(36, 13);
+            this.label4.TabIndex = 15;
+            this.label4.Text = "curso:";
+            // 
+            // comboCurso
+            // 
+            this.comboCurso.FormattingEnabled = true;
+            this.comboCurso.Location = new System.Drawing.Point(165, 227);
+            this.comboCurso.Name = "comboCurso";
+            this.comboCurso.Size = new System.Drawing.Size(121, 21);
+            this.comboCurso.TabIndex = 16;
             // 
             // CadastroDisciplina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(336, 348);
+            this.Controls.Add(this.comboCurso);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.buttonCadastrarDisciplina);
             this.Controls.Add(this.textNotaMinima);
             this.Controls.Add(this.textNomeDisciplina);
@@ -114,5 +136,7 @@ namespace faculdade2.View
         private System.Windows.Forms.TextBox textNomeDisciplina;
         private System.Windows.Forms.TextBox textNotaMinima;
         private System.Windows.Forms.Button buttonCadastrarDisciplina;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboCurso;
     }
 }

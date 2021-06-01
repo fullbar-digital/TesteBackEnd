@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Aluno" EntityType="Model1.Aluno" />
+    <EntitySet Name="Curso" EntityType="Model1.Curso" />
+    <EntitySet Name="Disciplina" EntityType="Model1.Disciplina" />
+    <AssociationSet Name="DisciplinaCurso" Association="Model1.DisciplinaCurso">
+      <End Role="Disciplina" EntitySet="Disciplina" />
+      <End Role="Curso" EntitySet="Curso" />
+    </AssociationSet>
+    <AssociationSet Name="AlunoCurso" Association="Model1.AlunoCurso">
+      <End Role="Aluno" EntitySet="Aluno" />
+      <End Role="Curso" EntitySet="Curso" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Aluno">
+    <Key>
+      <PropertyRef Name="IdAluno" />
+    </Key>
+    <Property Name="IdAluno" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" Nullable="false" />
+    <Property Name="RA" Type="String" Nullable="false" />
+    <Property Name="Período" Type="String" Nullable="false" />
+    <Property Name="Curso" Type="String" Nullable="false" />
+    <Property Name="Status" Type="String" Nullable="false" />
+    <Property Name="Foto" Type="String" Nullable="false" />
+    <NavigationProperty Name="CursoAluno" Relationship="Model1.AlunoCurso" FromRole="Aluno" ToRole="Curso" />
+    <Property Name="IdCurso" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Curso">
+    <Key>
+      <PropertyRef Name="IdCurso" />
+    </Key>
+    <Property Name="IdCurso" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NomeCurso" Type="String" Nullable="false" />
+    <NavigationProperty Name="Disciplina" Relationship="Model1.DisciplinaCurso" FromRole="Curso" ToRole="Disciplina" />
+    <NavigationProperty Name="Aluno" Relationship="Model1.AlunoCurso" FromRole="Curso" ToRole="Aluno" />
+  </EntityType>
+  <EntityType Name="Disciplina">
+    <Key>
+      <PropertyRef Name="IdDisciplina" />
+    </Key>
+    <Property Name="IdDisciplina" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NomeDisciplina" Type="String" Nullable="false" />
+    <Property Name="NotaMinima" Type="Double" Nullable="false" />
+    <NavigationProperty Name="CursoDisciplina" Relationship="Model1.DisciplinaCurso" FromRole="Disciplina" ToRole="Curso" />
+    <Property Name="IdCurso" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="DisciplinaCurso">
+    <End Type="Model1.Disciplina" Role="Disciplina" Multiplicity="*" />
+    <End Type="Model1.Curso" Role="Curso" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Curso">
+        <PropertyRef Name="IdCurso" />
+      </Principal>
+      <Dependent Role="Disciplina">
+        <PropertyRef Name="IdCurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="AlunoCurso">
+    <End Type="Model1.Aluno" Role="Aluno" Multiplicity="*" />
+    <End Type="Model1.Curso" Role="Curso" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="Curso">
+        <PropertyRef Name="IdCurso" />
+      </Principal>
+      <Dependent Role="Aluno">
+        <PropertyRef Name="IdCurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
