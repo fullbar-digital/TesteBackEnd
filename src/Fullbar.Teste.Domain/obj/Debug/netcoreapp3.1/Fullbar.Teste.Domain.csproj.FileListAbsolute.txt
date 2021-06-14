@@ -1,0 +1,9 @@
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\bin\Debug\netcoreapp3.1\Fullbar.Teste.Domain.deps.json
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\bin\Debug\netcoreapp3.1\Fullbar.Teste.Domain.dll
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\bin\Debug\netcoreapp3.1\Fullbar.Teste.Domain.pdb
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\obj\Debug\netcoreapp3.1\Fullbar.Teste.Domain.csprojAssemblyReference.cache
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\obj\Debug\netcoreapp3.1\Fullbar.Teste.Domain.AssemblyInfoInputs.cache
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\obj\Debug\netcoreapp3.1\Fullbar.Teste.Domain.AssemblyInfo.cs
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\obj\Debug\netcoreapp3.1\Fullbar.Teste.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\obj\Debug\netcoreapp3.1\Fullbar.Teste.Domain.dll
+C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Domain\obj\Debug\netcoreapp3.1\Fullbar.Teste.Domain.pdb
