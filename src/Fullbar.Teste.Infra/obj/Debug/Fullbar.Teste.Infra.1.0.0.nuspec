@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Fullbar.Teste.Infra</id>
+    <version>1.0.0</version>
+    <authors>Fullbar.Teste.Infra</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\tinogueira\source\repos\Fullbar.Teste\src\Fullbar.Teste.Infra\bin\Debug\netcoreapp3.1\Fullbar.Teste.Infra.dll" target="lib\netcoreapp3.1\Fullbar.Teste.Infra.dll" />
+  </files>
+</package>

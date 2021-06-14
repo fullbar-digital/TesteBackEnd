@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IYhtrl4krGiKH9p68PANnkkM47lIz3e7sCzgBKwg1B7/w20338moRjAIIbNpgGj6vIo3DaedB7qJW+5Ae5/pDg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tinogueira\\source\\repos\\Fullbar.Teste\\src\\Fullbar.Teste.Domain\\Fullbar.Teste.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tinogueira\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
