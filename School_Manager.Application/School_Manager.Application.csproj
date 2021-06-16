@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+
+
+<ItemGroup>
+    <ProjectReference Include="..\School_Manager.Domain\School_Manager.Domain.csproj" />
+    <ProjectReference Include="..\School_Manager.Persistence\School_Manager.Persistence.csproj" />
+</ItemGroup>
+</Project>
