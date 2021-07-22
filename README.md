@@ -66,3 +66,11 @@ Prazo de Entrega em até 4 dias.
 
 
 Boa Sorte!
+
+
+
+## Anotações Murilo
+- Em nenhum momento é citado como, onde ou quando serão salvas as informações sobre as notas dos alunos.
+- Na disciplina tem uma nota mínima para aprovação, mas nas regras de negócio existe um valor fixo para usar para indicar se o aluno está aprovado ou não.
+
+#MeContrata
