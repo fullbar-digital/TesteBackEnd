@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/GerenciadorDeAlunos/AppAlunos.Business/bin/Debug/net5.0
+/.vs
+/GerenciadorDeAlunos/.vs/GerenciadorDeAlunos
+/GerenciadorDeAlunos/AppAlunos.Business/obj
+/GerenciadorDeAlunos/src/AppAlunos.Api/bin/Debug/net5.0
+/GerenciadorDeAlunos/src/AppAlunos.Api/obj
+/GerenciadorDeAlunos/src/AppAlunos.Data/bin/Debug/net5.0
+/GerenciadorDeAlunos/src/AppAlunos.Data/obj
+/GerenciadorDeAlunos/src/AppAlunos.Test/bin/Debug/net5.0
+/GerenciadorDeAlunos/src/AppAlunos.Test/obj
