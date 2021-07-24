@@ -1,6 +1,7 @@
-﻿using System;
-using Microsoft.AspNetCore;
+﻿using Lamar.Microsoft.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 using student.manager.webapi.Infraestructure;
 
 namespace student.manager.webapi
@@ -12,9 +13,21 @@ namespace student.manager.webapi
             CreateWebHostBuilder(args).Build().Run();
         }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>()
-                .UseUrls(@"http://localhost:5000");
+        public static IHostBuilder CreateWebHostBuilder(string[] args)
+        {
+            return Host.CreateDefaultBuilder(args)
+                .UseLamar()
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+
+                    webBuilder.UseUrls(@"http://localhost:5000");
+
+                    webBuilder.ConfigureServices(services =>
+                    {
+                        services.AddControllers();
+                    });
+                });
+        }
     }
 }

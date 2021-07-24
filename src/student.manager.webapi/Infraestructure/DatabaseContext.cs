@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using student.manager.webapi.Models;
 
-namespace student.manager.webapi.Models
+namespace student.manager.webapi.Infraestructure
 {
     public class DatabaseContext: DbContext
     {

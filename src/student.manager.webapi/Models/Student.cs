@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Newtonsoft.Json;
 using student.manager.webapi.Infraestructure;
 
@@ -40,5 +41,10 @@ namespace student.manager.webapi.Models
         [JsonIgnore]
         public long CourseId { get; set; }
         public Course Course { get; set; }
+
+        public static implicit operator Student(EntityEntry<Student> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
