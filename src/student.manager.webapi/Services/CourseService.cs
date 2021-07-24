@@ -25,13 +25,13 @@ namespace student.manager.webapi.Services
         public async Task<Course> Create(Course course)
         {
             if (course.CourseId != 0)
-                throw new BadHttpRequestException("Um novo registro não pode conter um ID diferente de zero!");
+                throw new BadRequestException("Um novo registro não pode conter um ID diferente de zero!");
             
             bool courseExists =
                 await _context.Courses.AsQueryable().AnyAsync(c => c.Name.ToLower() == course.Name.ToLower());
             
             if (courseExists)
-                throw new BadHttpRequestException("Um curso com este nome já existe!");
+                throw new BadRequestException("Um curso com este nome já existe!");
 
 
             await _context.Courses.AddAsync(course);
@@ -43,7 +43,7 @@ namespace student.manager.webapi.Services
         public async Task<bool> Delete(long courseId)
         {
             if(courseId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
 
             Course course =
                 await _context.Courses.FindAsync(courseId);
@@ -61,7 +61,7 @@ namespace student.manager.webapi.Services
         public async Task<Course> Find(long courseId)
         {
             if(courseId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
 
             Course course =
                 await _context.Courses.FindAsync(courseId);
@@ -75,7 +75,7 @@ namespace student.manager.webapi.Services
         public async Task<bool> Update(Course course)
         {
             if(course.CourseId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
 
             Course createdCourse =
                 await _context.Courses.FindAsync(course.CourseId);

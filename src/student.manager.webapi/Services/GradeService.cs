@@ -24,8 +24,12 @@ namespace student.manager.webapi.Services
         public async Task<Grade> Create(Grade grade)
         {
             if (grade.GradeId != 0)
-                throw new BadHttpRequestException("Um novo registro não pode conter um ID diferente de zero!");
-            
+                throw new BadRequestException("Um novo registro não pode conter um ID diferente de zero!");
+            if(grade.AcademicRecord.IsNullOrEmpty() || grade.CourseId <= 0)
+                throw new BadRequestException("Não é possível lançar uma nota sem que o RA e ID do Curso estejam preenchidos!");
+            if(grade.Value < 0)
+                throw new BadRequestException("A nota deve ser maior ou igual a zero!");
+
             await _context.Grades.AddAsync(grade);
             _context.SaveChanges();
 
@@ -35,7 +39,7 @@ namespace student.manager.webapi.Services
         public async Task<bool> Delete(long gradeId)
         {
             if(gradeId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
 
             Grade grade =
                 await _context.Grades.FindAsync(gradeId);
@@ -52,7 +56,7 @@ namespace student.manager.webapi.Services
         public async Task<Grade> Find(long gradeId)
         {
             if(gradeId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
 
             Grade grade =
                 await _context.Grades.FindAsync(gradeId);
@@ -66,7 +70,9 @@ namespace student.manager.webapi.Services
         public async Task<bool> Update(Grade grade)
         {
             if(grade.GradeId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
+            if(grade.Value < 0)
+                throw new BadRequestException("A nota deve ser maior ou igual a zero!");
 
             Grade createdGrade =
                 await _context.Grades.FindAsync(grade.GradeId);

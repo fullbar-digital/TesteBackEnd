@@ -1,29 +1,27 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using grade.manager.webapi.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 using student.manager.webapi.Exceptions;
 using student.manager.webapi.Infraestructure;
-using student.manager.webapi.Interfaces;
 using student.manager.webapi.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
-namespace student.manager.webapi.Controllers
+namespace grade.manager.webapi.Controllers
 {
     /// <summary>
-    /// Ações dos estudantes
+    /// Controller de Notas (boletim) dos estudantes
     /// </summary>
     [Route("api/[controller]")]
     [ApiController]
-    public class StudentController : ControllerBase
+    public class GradeController : ControllerBase
     {
-        private readonly IStudentService _service;
+        private readonly IGradeService _service;
 
         /// <summary>
-        /// Ações do estudantes
+        /// Controller de Notas (boletim) dos estudantes
         /// </summary>
         /// <param name="service"></param>
-        public StudentController(IStudentService service)
+        public GradeController(IGradeService service)
         {
             _service = service;
         }
@@ -31,16 +29,16 @@ namespace student.manager.webapi.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="academicRecord"></param>
+        /// <param name="id"></param>
         /// <returns></returns>
-        [HttpGet("{academicRecord}")]
-        public async Task<ActionResult<Student>> Find(string academicRecord)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Grade>> Find(long id)
         {
             try
             {
-                var student = await _service.Find(academicRecord);
+                var grade = await _service.Find(id);
 
-                return student.IsNull() ? NotFound() : student;
+                return grade.IsNull() ? NotFound() : grade;
             }
             catch (NotFoundException e)
             {
@@ -62,50 +60,16 @@ namespace student.manager.webapi.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="academicRecord"></param>
-        /// <param name="name"></param>
-        /// <param name="courseId"></param>
-        /// <param name="status"></param>
-        /// <returns></returns>
-        [HttpGet("{academicRecord}/{name}/{courseId}/{status}")]
-        public async Task<ActionResult<IEnumerable<Student>>> FindAny(string academicRecord, string name, long courseId, string status)
-        {
-            try
-            {
-                var students = await _service.FindAny(academicRecord, name, courseId, status);
-
-                return students.ToList();
-            }
-            catch (NotFoundException e)
-            {
-                Console.WriteLine(e.Message);
-                return NotFound(e.Message);
-            }
-            catch (BadRequestException e)
-            {
-                Console.WriteLine(e.Message);
-                return BadRequest(e.Message);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-                return Problem(e.Message);
-            }
-        }
-
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="student"></param>
+        /// <param name="grade"></param>
         /// <returns></returns>
         [HttpPost()]
-        public async Task<ActionResult<Student>> Create(Student student)
+        public async Task<ActionResult<Grade>> Create(Grade grade)
         {
             try
             {
-                var createdStudent = await _service.Create(student);
+                var createdGrade = await _service.Create(grade);
 
-                return createdStudent;
+                return createdGrade;
             }
             catch (NotFoundException e)
             {
@@ -127,16 +91,16 @@ namespace student.manager.webapi.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="academicRecord"></param>
+        /// <param name="id"></param>
         /// <returns></returns>
-        [HttpDelete("{academicRecord}")]
-        public async Task<ActionResult> Delete(string academicRecord)
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(long id)
         {
             try
             {
-                var studentDeleted = await _service.Delete(academicRecord);
+                var gradeDeleted = await _service.Delete(id);
 
-                return studentDeleted ? Ok() : BadRequest();
+                return gradeDeleted ? Ok() : BadRequest();
             }
             catch (NotFoundException e)
             {
@@ -158,19 +122,19 @@ namespace student.manager.webapi.Controllers
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="academicRecord"></param>
-        /// <param name="student"></param>
+        /// <param name="id"></param>
+        /// <param name="grade"></param>
         /// <returns></returns>
-        [HttpPut("{academicRecord}")]
-        public async Task<ActionResult> Update(string academicRecord, Student student)
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update(long id, Grade grade)
         {
             try
             {
-                student.AcademicRecord = academicRecord;
+                grade.GradeId = id;
 
-                var studentUpdated = await _service.Update(student);
+                var gradeUpdated = await _service.Update(grade);
 
-                return studentUpdated ? NoContent() : BadRequest();
+                return gradeUpdated ? NoContent() : BadRequest();
             }
             catch (NotFoundException e)
             {

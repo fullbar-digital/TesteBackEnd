@@ -21,11 +21,11 @@ namespace student.manager.webapi.Services
         public async Task<Student> Create(Student student)
         {
             if (student.AcademicRecord.IsNullOrEmpty())
-                throw new BadHttpRequestException("O RA não está preenchido!");
+                throw new BadRequestException("O RA não está preenchido!");
             Student createdStudent =
                 await _context.Students.FindAsync(student.AcademicRecord);
             if (createdStudent.IsNull())
-                throw new BadHttpRequestException("Um estudante com este RA já está cadastrado!");
+                throw new BadRequestException("Um estudante com este RA já está cadastrado!");
 
 
             await _context.Students.AddAsync(student);
@@ -51,7 +51,7 @@ namespace student.manager.webapi.Services
         public async Task<Student> Find(string academicRecord)
         {
             if (academicRecord.IsNullOrEmpty())
-                throw new BadHttpRequestException("O RA não está preenchido!");
+                throw new BadRequestException("O RA não está preenchido!");
 
             Student student =
                 await _context.Students.FindAsync(academicRecord);
@@ -65,7 +65,7 @@ namespace student.manager.webapi.Services
         {
             if (academicRecord.IsNullOrEmpty() && name.IsNullOrEmpty() && courseId == 0 &&
                 status.IsNullOrEmpty())
-                throw new BadHttpRequestException("Nenhum dos parâmetros da consulta foi informado!");
+                throw new BadRequestException("Nenhum dos parâmetros da consulta foi informado!");
 
             return await _context.Students
                 .AsQueryable()
@@ -79,11 +79,11 @@ namespace student.manager.webapi.Services
         public async Task<bool> Update(Student student)
         {
             if (student.AcademicRecord.IsNullOrEmpty())
-                throw new BadHttpRequestException("O RA não está preenchido!");
+                throw new BadRequestException("O RA não está preenchido!");
             Student createdStudent =
                 await _context.Students.FindAsync(student.AcademicRecord);
             if (createdStudent.IsNull())
-                throw new BadHttpRequestException("Um estudante com este RA já está cadastrado!");
+                throw new BadRequestException("Um estudante com este RA já está cadastrado!");
 
             _context.Entry(student).State = EntityState.Modified;
             await _context.SaveChangesAsync();

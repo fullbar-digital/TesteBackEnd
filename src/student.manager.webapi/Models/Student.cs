@@ -41,10 +41,5 @@ namespace student.manager.webapi.Models
         [JsonIgnore]
         public long CourseId { get; set; }
         public Course Course { get; set; }
-
-        public static implicit operator Student(EntityEntry<Student> v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

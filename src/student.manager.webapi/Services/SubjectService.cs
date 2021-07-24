@@ -22,13 +22,15 @@ namespace student.manager.webapi.Services
         public async Task<Subject> Create(Subject subject)
         {
             if (subject.SubjectId != 0)
-                throw new BadHttpRequestException("Um novo registro não pode conter um ID diferente de zero!");
-            
+                throw new BadRequestException("Um novo registro não pode conter um ID diferente de zero!");
+            if(subject.PassingScore < 0)
+                throw new BadRequestException("A nota mínima de aprovação deve ser maior ou igual a zero!");
+
             bool subjectExists =
                 await _context.Subjects.AsQueryable().AnyAsync(c => c.Name.ToLower() == subject.Name.ToLower());
             
             if (subjectExists)
-                throw new BadHttpRequestException("Uma matéria com este nome já existe!");
+                throw new BadRequestException("Uma matéria com este nome já existe!");
 
 
             await _context.Subjects.AddAsync(subject);
@@ -40,7 +42,7 @@ namespace student.manager.webapi.Services
         public async Task<bool> Delete(long subjectId)
         {
             if(subjectId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
 
             Subject subject =
                 await _context.Subjects.FindAsync(subjectId);
@@ -57,7 +59,7 @@ namespace student.manager.webapi.Services
         public async Task<Subject> Find(long subjectId)
         {
             if(subjectId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
 
             Subject subject =
                 await _context.Subjects.FindAsync(subjectId);
@@ -71,7 +73,10 @@ namespace student.manager.webapi.Services
         public async Task<bool> Update(Subject subject)
         {
             if(subject.SubjectId <= 0)
-                throw new BadHttpRequestException("Informe um número maior que zero!");
+                throw new BadRequestException("Informe um número maior que zero!");
+            
+            if(subject.PassingScore < 0)
+                throw new BadRequestException("A nota mínima de aprovação deve ser maior ou igual a zero!");
 
             Subject createdSubject =
                 await _context.Subjects.FindAsync(subject.SubjectId);

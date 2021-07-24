@@ -73,4 +73,7 @@ Boa Sorte!
 - Em nenhum momento é citado como, onde ou quando serão salvas as informações sobre as notas dos alunos.
 - Na disciplina tem uma nota mínima para aprovação, mas nas regras de negócio existe um valor fixo para usar para indicar se o aluno está aprovado ou não.
 
+- Como o ninject não é 100% compatível com .Net Core, decidi usar o Lamar para Injeção de Dependencias.
+- Acabei passando um pouco do prazo, mas o projeto ta bunitim
+
 #MeContrata
