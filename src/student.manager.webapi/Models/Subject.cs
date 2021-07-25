@@ -17,10 +17,14 @@ namespace student.manager.webapi.Models
         public long SubjectId { get; set; }
 
         public string Name { get; set; }
-
+        
+        [Required]
         public double PassingScore { get; set; }
 
-        //[JsonIgnore]
-        //public List<Course> Courses { get; set; }
+        [JsonIgnore]
+        public List<Course> Courses { get; set; }
+
+        [JsonIgnore]
+        public List<CourseSubject> CourseSubjects { get; set; }
     }
 }

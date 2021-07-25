@@ -1,5 +1,6 @@
 ﻿using Lamar.Microsoft.DependencyInjection;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using student.manager.webapi.Infraestructure;
@@ -10,7 +11,18 @@ namespace student.manager.webapi
     {
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            var host = CreateWebHostBuilder(args).Build();
+
+            using (var scope = host.Services.CreateScope())
+            {
+                //Carrega a instância do banco de dados
+                var myDbContext = scope.ServiceProvider.GetRequiredService<DatabaseContext>();
+
+                //Executa os migrations ainda não executados
+                myDbContext.Database.Migrate();
+            }
+
+            host.Run();
         }
 
         public static IHostBuilder CreateWebHostBuilder(string[] args)
@@ -22,11 +34,6 @@ namespace student.manager.webapi
                     webBuilder.UseStartup<Startup>();
 
                     webBuilder.UseUrls(@"http://localhost:5000");
-
-                    webBuilder.ConfigureServices(services =>
-                    {
-                        services.AddControllers();
-                    });
                 });
         }
     }

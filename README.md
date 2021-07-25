@@ -75,5 +75,3 @@ Boa Sorte!
 
 - Como o ninject não é 100% compatível com .Net Core, decidi usar o Lamar para Injeção de Dependencias.
 - Acabei passando um pouco do prazo, mas o projeto ta bunitim
-
-#MeContrata

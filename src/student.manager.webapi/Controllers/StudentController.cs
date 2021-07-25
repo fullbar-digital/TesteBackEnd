@@ -44,18 +44,18 @@ namespace student.manager.webapi.Controllers
             }
             catch (NotFoundException e)
             {
-                Console.WriteLine(e.Message);
-                return NotFound(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return NotFound(e.InnerException?.Message ?? e.Message);
             }
             catch (BadRequestException e)
             {
-                Console.WriteLine(e.Message);
-                return BadRequest(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return BadRequest(e.InnerException?.Message ?? e.Message);
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                return Problem(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return Problem(e.InnerException?.Message ?? e.Message);
             }
         }
 
@@ -78,18 +78,18 @@ namespace student.manager.webapi.Controllers
             }
             catch (NotFoundException e)
             {
-                Console.WriteLine(e.Message);
-                return NotFound(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return NotFound(e.InnerException?.Message ?? e.Message);
             }
             catch (BadRequestException e)
             {
-                Console.WriteLine(e.Message);
-                return BadRequest(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return BadRequest(e.InnerException?.Message ?? e.Message);
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                return Problem(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return Problem(e.InnerException?.Message ?? e.Message);
             }
         }
 
@@ -109,18 +109,18 @@ namespace student.manager.webapi.Controllers
             }
             catch (NotFoundException e)
             {
-                Console.WriteLine(e.Message);
-                return NotFound(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return NotFound(e.InnerException?.Message ?? e.Message);
             }
             catch (BadRequestException e)
             {
-                Console.WriteLine(e.Message);
-                return BadRequest(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return BadRequest(e.InnerException?.Message ?? e.Message);
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                return Problem(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return Problem(e.InnerException?.Message ?? e.Message);
             }
         }
 
@@ -140,18 +140,18 @@ namespace student.manager.webapi.Controllers
             }
             catch (NotFoundException e)
             {
-                Console.WriteLine(e.Message);
-                return NotFound(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return NotFound(e.InnerException?.Message ?? e.Message);
             }
             catch (BadRequestException e)
             {
-                Console.WriteLine(e.Message);
-                return BadRequest(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return BadRequest(e.InnerException?.Message ?? e.Message);
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                return Problem(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return Problem(e.InnerException?.Message ?? e.Message);
             }
         }
 
@@ -174,18 +174,18 @@ namespace student.manager.webapi.Controllers
             }
             catch (NotFoundException e)
             {
-                Console.WriteLine(e.Message);
-                return NotFound(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return NotFound(e.InnerException?.Message ?? e.Message);
             }
             catch (BadRequestException e)
             {
-                Console.WriteLine(e.Message);
-                return BadRequest(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return BadRequest(e.InnerException?.Message ?? e.Message);
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
-                return Problem(e.Message);
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return Problem(e.InnerException?.Message ?? e.Message);
             }
         }
     }

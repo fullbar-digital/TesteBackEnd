@@ -15,7 +15,7 @@ namespace student.manager.webapi.Infraestructure
         
         public static bool IsNullOrEmpty(this string str)
         {
-            return string.IsNullOrEmpty(str);
+            return string.IsNullOrWhiteSpace(str);
         }
     }
 }

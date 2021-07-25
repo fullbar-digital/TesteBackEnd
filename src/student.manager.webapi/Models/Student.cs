@@ -18,8 +18,10 @@ namespace student.manager.webapi.Models
         [JsonProperty("RA")]
         public string AcademicRecord { get; set; }
 
+        [Required]
         public string Name { get; set; }
-
+        
+        [Required]
         public int Period { get; set; }
 
         public string Picture { get; set; }
@@ -33,13 +35,27 @@ namespace student.manager.webapi.Models
 
                 if (Course.IsNull() || Course.Subjects.IsNull() || !Course.Subjects.Any())
                     return "";
-                
+                if(Course.Subjects.Count != (Grades?.Count ?? 0))
+                    return "O aluno não possui nota em todas as matérias que está matriculado!";
+
+                foreach (var grade in Grades)
+                {
+                    var subject = Course.Subjects.FirstOrDefault(s => s.SubjectId == grade.SubjectId);
+
+                    if(grade.Value < subject.PassingScore)
+                        _status += string.Format("Reprovado com nota {0} na matéria {1}!\n", grade.Value, subject.Name);
+                    else
+                        _status += string.Format("Aprovado com nota {0} na matéria {1}!\n", grade.Value, subject.Name);
+                }
+
                 return _status;
             }
         }
 
-        [JsonIgnore]
+        [Required]
         public long CourseId { get; set; }
         public Course Course { get; set; }
+        
+        public List<Grade> Grades { get; set; }
     }
 }

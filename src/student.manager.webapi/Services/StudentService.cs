@@ -22,11 +22,17 @@ namespace student.manager.webapi.Services
         {
             if (student.AcademicRecord.IsNullOrEmpty())
                 throw new BadRequestException("O RA não está preenchido!");
-            Student createdStudent =
-                await _context.Students.FindAsync(student.AcademicRecord);
-            if (createdStudent.IsNull())
-                throw new BadRequestException("Um estudante com este RA já está cadastrado!");
+            if(student.CourseId <= 0)
+                throw new BadRequestException("O ID do curso deve ser maior que zero!");
 
+            if(! await _context.Courses.AnyAsync(c => c.CourseId == student.CourseId))
+                throw new BadRequestException(string.Format("Não foi possível encontrar um curso com o ID {0}!", student.CourseId));
+
+            /* Verify if student exists */
+            var studentExists =
+                await _context.Students.AsQueryable().AnyAsync(c => c.AcademicRecord.ToLower() == student.AcademicRecord.ToLower());
+            if (studentExists)
+                throw new BadRequestException("Um estudante com este mesmo RA já existe no sistema!");
 
             await _context.Students.AddAsync(student);
             _context.SaveChanges();
@@ -36,11 +42,7 @@ namespace student.manager.webapi.Services
 
         public async Task<bool> Delete(string academicRecord)
         {
-            Student student =
-                await _context.Students.FindAsync(academicRecord);
-            if (student.IsNull())
-                throw new NotFoundException("Estudante não encontrado");
-
+            Student student = await Find(academicRecord);
 
             _context.Students.Remove(student);
             await _context.SaveChangesAsync();
@@ -54,7 +56,10 @@ namespace student.manager.webapi.Services
                 throw new BadRequestException("O RA não está preenchido!");
 
             Student student =
-                await _context.Students.FindAsync(academicRecord);
+                await _context.Students
+                    .Include(s => s.Course)
+                    .Include(s => s.Grades)
+                    .FirstAsync(s => s.AcademicRecord.ToLower() == academicRecord.ToLower());
             if (student.IsNull())
                 throw new NotFoundException("Estudante não encontrado");
 
@@ -78,14 +83,14 @@ namespace student.manager.webapi.Services
 
         public async Task<bool> Update(Student student)
         {
-            if (student.AcademicRecord.IsNullOrEmpty())
-                throw new BadRequestException("O RA não está preenchido!");
-            Student createdStudent =
-                await _context.Students.FindAsync(student.AcademicRecord);
-            if (createdStudent.IsNull())
-                throw new BadRequestException("Um estudante com este RA já está cadastrado!");
+            Student createdStudent = await Find(student.AcademicRecord);
 
-            _context.Entry(student).State = EntityState.Modified;
+            createdStudent.Name = student.Name;
+            createdStudent.Period = student.Period;
+            createdStudent.Picture = student.Picture;
+            createdStudent.CourseId = student.CourseId;
+
+            _context.Entry(createdStudent).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
             return true;

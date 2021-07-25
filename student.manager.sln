@@ -5,7 +5,12 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "student.manager.webapi", "src\student.manager.webapi\student.manager.webapi.csproj", "{97BFE88D-13DC-4CCE-960E-4FA82744C5C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "student.manager.test", "src\student.manager.test\student.manager.test.csproj", "{7BFEB0B8-E24F-4BA6-82E4-882C2864F89C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "student.manager.test", "src\student.manager.test\student.manager.test.csproj", "{7BFEB0B8-E24F-4BA6-82E4-882C2864F89C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CCCD9AF-B834-4E87-B69E-BFC24A6755BA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

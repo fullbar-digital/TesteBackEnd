@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using student.manager.webapi.Models;
 
 namespace student.manager.webapi.Infraestructure
 {
-    public class DatabaseContext: DbContext
+    public class DatabaseContext : DbContext
     {
         public DatabaseContext(DbContextOptions<DatabaseContext> options)
             : base(options)
@@ -18,17 +12,33 @@ namespace student.manager.webapi.Infraestructure
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<Course>()
-                .HasMany(p => p.Grades)
-                .WithOne(p => p.Course)
-                .HasForeignKey(p => p.CourseId)
-                .IsRequired()
-                .OnDelete(DeleteBehavior.Cascade);
-            
+            /* Configura a relação n:n entre curso e matérias. */
+            builder
+                .Entity<Course>()
+                .HasMany(p => p.Subjects)
+                .WithMany(p => p.Courses)
+                .UsingEntity<CourseSubject>(
+                    c => c
+                        .HasOne(n => n.Subject)
+                        .WithMany(n => n.CourseSubjects)
+                        .HasForeignKey(n => n.SubjectId)
+                        .OnDelete(DeleteBehavior.Cascade),
+                    c => c
+                        .HasOne(n => n.Course)
+                        .WithMany(n => n.CourseSubjects)
+                        .HasForeignKey(n => n.CourseId)
+                        .OnDelete(DeleteBehavior.Cascade),
+                    c =>
+                    {
+                        c.Property(p => p.CreateDate).HasDefaultValueSql("CURRENT_TIMESTAMP");
+                        c.HasKey(k => new { k.CourseId, k.SubjectId });
+                    }
+                );
+
             base.OnModelCreating(builder);
         }
 
-        
+
         public DbSet<Student> Students { get; set; }
 
         public DbSet<Course> Courses { get; set; }
@@ -36,5 +46,7 @@ namespace student.manager.webapi.Infraestructure
         public DbSet<Subject> Subjects { get; set; }
 
         public DbSet<Grade> Grades { get; set; }
+
+        public DbSet<CourseSubject> CourseSubjects { get; set; }
     }
 }

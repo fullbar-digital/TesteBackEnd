@@ -16,17 +16,27 @@ namespace student.manager.webapi.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long GradeId { get; set; }
-
+        
+        [Required]
         public long CourseId { get; set; }
         
         [JsonIgnore]
         public Course Course { get; set; }
         
+        [Required]
         [JsonProperty("RA")]
         public string AcademicRecord { get; set; }
 
+        [JsonIgnore]
+        public Student Student { get; set; }
+        
+        [Required]
         public long SubjectId { get; set; }
 
+        [JsonIgnore]
+        public Subject Subject { get; set; }
+        
+        [Required]
         public double Value { get; set; }
     }
 }
