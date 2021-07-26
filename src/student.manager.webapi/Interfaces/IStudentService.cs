@@ -14,5 +14,6 @@ namespace student.manager.webapi.Interfaces
         Task<bool> Update(Student student);
         Task<Student> Find(string academicRecord);
         Task<IEnumerable<Student>> FindAny(string academicRecord = "", string name = "", long courseId = 0, string status = "");
+        Task<string> VerifyInstanceData(Student student);
     }
 }

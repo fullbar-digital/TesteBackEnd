@@ -23,20 +23,11 @@ namespace student.manager.webapi.Services
         {
             if (subject.SubjectId != 0)
                 throw new BadRequestException("Um novo registro não pode conter um ID diferente de zero!");
-            if (subject.Name.IsNullOrEmpty())
-                throw new BadRequestException("O nome da matéria não pode estar em branco!");
-            if (subject.PassingScore < 0)
-                throw new BadRequestException("A nota mínima de aprovação deve ser maior ou igual a zero!");
 
-            bool subjectExists =
-                await _context.Subjects.AsQueryable().AnyAsync(c => c.Name.ToLower() == subject.Name.ToLower());
-
-            if (subjectExists)
-                throw new BadRequestException("Uma matéria com este nome já existe!");
-
+            BadRequestException.ThrowIfNotEmpty(await VerifyInstanceData(subject));
 
             await _context.Subjects.AddAsync(subject);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
 
             return await _context.Subjects.AsQueryable().FirstAsync(c => c.Name.ToLower() == subject.Name.ToLower());
         }
@@ -91,21 +82,33 @@ namespace student.manager.webapi.Services
 
         public async Task<bool> Update(Subject subject)
         {
-            if (subject.PassingScore < 0)
-                throw new BadRequestException("A nota mínima de aprovação deve ser maior ou igual a zero!");
+            BadRequestException.ThrowIfNotEmpty(await VerifyInstanceData(subject));
 
             Subject createdSubject = await Find(subject.SubjectId);
 
-            if (!subject.Name.IsNullOrEmpty())
-                createdSubject.Name = subject.Name;
+            createdSubject.Name = subject.Name;
 
-            if (subject.PassingScore != 0)
-                createdSubject.PassingScore = subject.PassingScore;
+            createdSubject.PassingScore = subject.PassingScore;
 
             _context.Entry(createdSubject).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
             return true;
+        }
+
+        public async Task<string> VerifyInstanceData(Subject subject)
+        {
+            string errorMessage = "";
+
+            if (subject.Name.IsNullOrEmpty())
+                errorMessage += "O nome da matéria não pode estar em branco!\n";
+            if (subject.PassingScore <= 0)
+                errorMessage += "A nota mínima de aprovação deve ser maior que zero!\n";
+
+            if (await _context.Subjects.AnyAsync() && await _context.Subjects.AnyAsync(c => c.Name.ToLower() == subject.Name.ToLower() && c.SubjectId != subject.SubjectId))
+                errorMessage += string.Format("A matéria com nome {0} já está cadastrada!\n", subject.Name);
+
+            return errorMessage;
         }
     }
 }

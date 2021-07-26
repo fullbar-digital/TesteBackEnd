@@ -22,9 +22,17 @@ namespace student.manager.webapi.Models
         public double PassingScore { get; set; }
 
         [JsonIgnore]
-        public List<Course> Courses { get; set; }
+        internal List<Course> Courses { get; set; }
 
         [JsonIgnore]
-        public List<CourseSubject> CourseSubjects { get; set; }
+        internal List<CourseSubject> CourseSubjects { get; set; }
+
+        /// <summary>
+        /// Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+        /// </summary>        
+        public Subject DeepCopy()
+        {
+            return (Subject)MemberwiseClone();
+        }
     }
 }

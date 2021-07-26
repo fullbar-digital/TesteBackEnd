@@ -1,4 +1,5 @@
-﻿using System;
+﻿using student.manager.webapi.Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +13,7 @@ namespace student.manager.webapi.Infraestructure
         {
             return obj == null;
         }
-        
+
         public static bool IsNullOrEmpty(this string str)
         {
             return string.IsNullOrWhiteSpace(str);

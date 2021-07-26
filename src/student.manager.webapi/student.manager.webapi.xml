@@ -102,6 +102,27 @@
             <param name="academicRecord"></param>
             <returns></returns>
         </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.FindByCourse(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="courseId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.FindByStatus(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.FindByName(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
         <member name="M:student.manager.webapi.Controllers.StudentController.FindAny(System.String,System.String,System.Int64,System.String)">
             <summary>
             
@@ -133,6 +154,26 @@
             <param name="academicRecord"></param>
             <param name="student"></param>
             <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Models.Course.DeepCopy">
+            <summary>
+            Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+            </summary>        
+        </member>
+        <member name="M:student.manager.webapi.Models.Grade.DeepCopy">
+            <summary>
+            Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+            </summary>        
+        </member>
+        <member name="M:student.manager.webapi.Models.Student.DeepCopy">
+            <summary>
+            Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+            </summary>        
+        </member>
+        <member name="M:student.manager.webapi.Models.Subject.DeepCopy">
+            <summary>
+            Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+            </summary>        
         </member>
         <member name="T:subject.manager.webapi.Controllers.SubjectController">
             <summary>

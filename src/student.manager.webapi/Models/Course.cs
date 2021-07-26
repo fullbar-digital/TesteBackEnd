@@ -16,14 +16,25 @@ namespace student.manager.webapi.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public long CourseId { get; set; }
-        
+
         [Required]
         public string Name { get; set; }
-        
+
         [Required]
         public List<Subject> Subjects { get; set; }
-                
+
         [JsonIgnore]
-        public List<CourseSubject> CourseSubjects { get; set; }
+        internal List<CourseSubject> CourseSubjects { get; set; }
+
+        [JsonIgnore]
+        internal List<Student> Students { get; set; }
+
+        /// <summary>
+        /// Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+        /// </summary>        
+        public Course DeepCopy()
+        {
+            return (Course)MemberwiseClone();
+        }
     }
 }

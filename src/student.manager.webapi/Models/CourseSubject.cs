@@ -18,10 +18,10 @@ namespace student.manager.webapi.Models
         public long SubjectId { get; set; }
 
         [JsonIgnore]
-        public Course Course { get; set; }
+        internal Course Course { get; set; }
 
         [JsonIgnore]
-        public Subject Subject { get; set; }
+        internal Subject Subject { get; set; }
 
         public DateTime CreateDate { get; set; }
     }

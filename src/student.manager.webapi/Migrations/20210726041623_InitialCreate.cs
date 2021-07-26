@@ -86,9 +86,7 @@ namespace student.manager.webapi.Migrations
                 {
                     GradeId = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    CourseId = table.Column<long>(type: "bigint", nullable: false),
-                    AcademicRecord = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    StudentAcademicRecord = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    AcademicRecord = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     SubjectId = table.Column<long>(type: "bigint", nullable: false),
                     Value = table.Column<double>(type: "float", nullable: false)
                 },
@@ -96,22 +94,10 @@ namespace student.manager.webapi.Migrations
                 {
                     table.PrimaryKey("PK_Grade", x => x.GradeId);
                     table.ForeignKey(
-                        name: "FK_Grade_Course_CourseId",
-                        column: x => x.CourseId,
-                        principalTable: "Course",
-                        principalColumn: "CourseId",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_Grade_Student_StudentAcademicRecord",
-                        column: x => x.StudentAcademicRecord,
+                        name: "FK_Grade_Student_AcademicRecord",
+                        column: x => x.AcademicRecord,
                         principalTable: "Student",
                         principalColumn: "AcademicRecord",
-                        onDelete: ReferentialAction.Restrict);
-                    table.ForeignKey(
-                        name: "FK_Grade_Subject_SubjectId",
-                        column: x => x.SubjectId,
-                        principalTable: "Subject",
-                        principalColumn: "SubjectId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
@@ -121,19 +107,9 @@ namespace student.manager.webapi.Migrations
                 column: "SubjectId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Grade_CourseId",
+                name: "IX_Grade_AcademicRecord",
                 table: "Grade",
-                column: "CourseId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Grade_StudentAcademicRecord",
-                table: "Grade",
-                column: "StudentAcademicRecord");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Grade_SubjectId",
-                table: "Grade",
-                column: "SubjectId");
+                column: "AcademicRecord");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Student_CourseId",
@@ -150,10 +126,10 @@ namespace student.manager.webapi.Migrations
                 name: "Grade");
 
             migrationBuilder.DropTable(
-                name: "Student");
+                name: "Subject");
 
             migrationBuilder.DropTable(
-                name: "Subject");
+                name: "Student");
 
             migrationBuilder.DropTable(
                 name: "Course");

@@ -10,7 +10,7 @@ using student.manager.webapi.Infraestructure;
 namespace student.manager.webapi.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20210725010307_InitialCreate")]
+    [Migration("20210726041623_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -66,12 +66,6 @@ namespace student.manager.webapi.Migrations
 
                     b.Property<string>("AcademicRecord")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<long>("CourseId")
-                        .HasColumnType("bigint");
-
-                    b.Property<string>("StudentAcademicRecord")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<long>("SubjectId")
@@ -82,11 +76,7 @@ namespace student.manager.webapi.Migrations
 
                     b.HasKey("GradeId");
 
-                    b.HasIndex("CourseId");
-
-                    b.HasIndex("StudentAcademicRecord");
-
-                    b.HasIndex("SubjectId");
+                    b.HasIndex("AcademicRecord");
 
                     b.ToTable("Grade");
                 });
@@ -155,33 +145,19 @@ namespace student.manager.webapi.Migrations
 
             modelBuilder.Entity("student.manager.webapi.Models.Grade", b =>
                 {
-                    b.HasOne("student.manager.webapi.Models.Course", "Course")
-                        .WithMany()
-                        .HasForeignKey("CourseId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("student.manager.webapi.Models.Student", "Student")
                         .WithMany("Grades")
-                        .HasForeignKey("StudentAcademicRecord");
-
-                    b.HasOne("student.manager.webapi.Models.Subject", "Subject")
-                        .WithMany()
-                        .HasForeignKey("SubjectId")
+                        .HasForeignKey("AcademicRecord")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Course");
-
                     b.Navigation("Student");
-
-                    b.Navigation("Subject");
                 });
 
             modelBuilder.Entity("student.manager.webapi.Models.Student", b =>
                 {
                     b.HasOne("student.manager.webapi.Models.Course", "Course")
-                        .WithMany()
+                        .WithMany("Students")
                         .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -192,6 +168,8 @@ namespace student.manager.webapi.Migrations
             modelBuilder.Entity("student.manager.webapi.Models.Course", b =>
                 {
                     b.Navigation("CourseSubjects");
+
+                    b.Navigation("Students");
                 });
 
             modelBuilder.Entity("student.manager.webapi.Models.Student", b =>

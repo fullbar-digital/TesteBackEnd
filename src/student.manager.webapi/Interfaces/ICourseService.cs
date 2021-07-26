@@ -13,5 +13,6 @@ namespace course.manager.webapi.Interfaces
         Task<bool> Delete(long courseId);
         Task<bool> Update(Course course);
         Task<Course> Find(long courseId);
+        Task<string> VerifyInstanceData(Course course);
     }
 }

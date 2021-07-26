@@ -1,4 +1,5 @@
-﻿using student.manager.webapi.Exceptions;
+﻿using Microsoft.EntityFrameworkCore.Storage;
+using student.manager.webapi.Exceptions;
 using student.manager.webapi.Infraestructure;
 using student.manager.webapi.Interfaces;
 using student.manager.webapi.Models;
@@ -21,7 +22,7 @@ namespace student.manager.webapi.Services
             _service = service;
         }
 
-        public async Task<bool> Create(long courseId, long subjectId)
+        public async Task<bool> Create(long courseId, long subjectId, IDbContextTransaction transaction = null)
         {
             /* Verifica se a materia existe - Caso não exista, uma exception é lançada */
             await _service.Find(subjectId);
@@ -30,22 +31,28 @@ namespace student.manager.webapi.Services
             if (alreadyExists) return true;
 
             _context.CourseSubjects.Add(new Models.CourseSubject { CourseId = courseId, SubjectId = subjectId });
-            int ret = await _context.SaveChangesAsync();
 
-            if (ret == 0) return false;
+            if (transaction.IsNull())
+            {
+                int ret = await _context.SaveChangesAsync();
+
+                if (ret == 0) return false;
+            }
 
             return true;
         }
 
-        public async Task<bool> Delete(long courseId, long subjectId)
+        public async Task<bool> Delete(long courseId, long subjectId, IDbContextTransaction transaction = null)
         {
             var courseSubject = await Find(courseId, subjectId);
 
-            if(courseSubject.IsNull())
+            if (courseSubject.IsNull())
                 throw new NotFoundException(string.Format("Não foi encontrado um relacionamento entre o Curso {0} e Matéria {1}", courseId, subjectId));
-            
+
             _context.CourseSubjects.Remove(courseSubject);
-            await _context.SaveChangesAsync();
+            
+            if (transaction.IsNull())
+                await _context.SaveChangesAsync();
 
             return true;
         }

@@ -12,6 +12,27 @@ namespace student.manager.webapi.Infraestructure
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder
+                .Entity<Student>()
+                .HasOne(p => p.Course)
+                .WithMany(p => p.Students)
+                .HasForeignKey(s => s.CourseId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            //builder
+            //    .Entity<Student>()
+            //    .HasMany(p => p.Grades)
+            //    .WithOne(p => p.Student)
+            //    .HasForeignKey(s => s.AcademicRecord)
+            //    .OnDelete(DeleteBehavior.Cascade);
+            
+            builder
+                .Entity<Grade>()
+                .HasOne(p => p.Student)
+                .WithMany(p => p.Grades)
+                .HasForeignKey(s => s.AcademicRecord)
+                .OnDelete(DeleteBehavior.Cascade);
+
             /* Configura a relação n:n entre curso e matérias. */
             builder
                 .Entity<Course>()

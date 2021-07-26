@@ -24,28 +24,19 @@ namespace student.manager.webapi.Services
         public async Task<Grade> Create(Grade grade)
         {
             if (grade.GradeId != 0)
-                throw new BadRequestException("Um novo registro não pode conter um ID diferente de zero!");
-            if(grade.AcademicRecord.IsNullOrEmpty() || grade.CourseId <= 0)
-                throw new BadRequestException("Não é possível lançar uma nota sem que o RA e ID do Curso estejam preenchidos!");
-            if(grade.Value < 0)
-                throw new BadRequestException("A nota deve ser maior ou igual a zero!");
+                throw new BadRequestException("Um novo registro não pode conter um ID diferente de zero.");
+
+            BadRequestException.ThrowIfNotEmpty(await VerifyInstanceData(grade));
 
             await _context.Grades.AddAsync(grade);
             _context.SaveChanges();
 
-            return await _context.Grades.LastOrDefaultAsync();
+            return grade;
         }
 
         public async Task<bool> Delete(long gradeId)
-        {
-            if(gradeId <= 0)
-                throw new BadRequestException("Informe um número maior que zero!");
-
-            Grade grade =
-                await _context.Grades.FindAsync(gradeId);
-
-            if (grade.IsNull())
-                throw new NotFoundException("Nota não encontrada!");
+        {            
+            Grade grade = await Find(gradeId);
 
             _context.Grades.Remove(grade);
             await _context.SaveChangesAsync();
@@ -55,7 +46,7 @@ namespace student.manager.webapi.Services
 
         public async Task<Grade> Find(long gradeId)
         {
-            if(gradeId <= 0)
+            if (gradeId <= 0)
                 throw new BadRequestException("Informe um número maior que zero!");
 
             Grade grade =
@@ -69,21 +60,38 @@ namespace student.manager.webapi.Services
 
         public async Task<bool> Update(Grade grade)
         {
-            if(grade.GradeId <= 0)
-                throw new BadRequestException("Informe um número maior que zero!");
-            if(grade.Value < 0)
-                throw new BadRequestException("A nota deve ser maior ou igual a zero!");
+            BadRequestException.ThrowIfNotEmpty(await VerifyInstanceData(grade));
 
-            Grade createdGrade =
-                await _context.Grades.FindAsync(grade.GradeId);
+            Grade createdGrade = await Find(grade.GradeId);
 
-            if (createdGrade.IsNull())
-                throw new NotFoundException("Nota não encontrada, portanto não pode ser atualizada!");
-            
-            _context.Entry(grade).State = EntityState.Modified;
+            createdGrade.AcademicRecord = grade.AcademicRecord;
+            createdGrade.SubjectId = grade.SubjectId;
+            createdGrade.Value = grade.Value;
+
+            _context.Entry(createdGrade).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
             return true;
+        }
+
+        public async Task<string> VerifyInstanceData(Grade grade)
+        {
+            string errorMessage = "";
+
+            if (grade.AcademicRecord.IsNullOrEmpty())
+                errorMessage += "O RA não está preenchido./n";
+            else if (await _context.Students.AnyAsync() && !await _context.Students.AnyAsync(s => s.AcademicRecord.ToLower() == grade.AcademicRecord.ToLower()))
+                errorMessage += string.Format("Não foi possível encontrar um aluno com o RA {0}./n", grade.AcademicRecord);
+
+            if (grade.SubjectId <= 0)
+                errorMessage += "O ID da matéria deve ser maior que zero./n";
+            else if (await _context.Subjects.AnyAsync() && !await _context.Subjects.AnyAsync(s => s.SubjectId == grade.SubjectId))
+                errorMessage += string.Format("Não foi possível encontrar uma matéria com o ID {0}./n", grade.SubjectId);
+
+            if (grade.Value < 0)
+                errorMessage += "O valor da nota deve ser maior ou igual a zero./n";
+
+            return errorMessage;
         }
     }
 }

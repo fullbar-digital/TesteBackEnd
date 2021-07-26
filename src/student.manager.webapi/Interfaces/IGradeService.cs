@@ -13,5 +13,6 @@ namespace grade.manager.webapi.Interfaces
         Task<bool> Delete(long id);
         Task<bool> Update(Grade grade);
         Task<Grade> Find(long id);
+        Task<string> VerifyInstanceData(Grade grade);
     }
 }

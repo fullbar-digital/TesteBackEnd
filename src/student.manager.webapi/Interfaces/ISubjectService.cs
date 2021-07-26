@@ -14,5 +14,6 @@ namespace student.manager.webapi.Interfaces
         Task<bool> Delete(long subjectId);
         Task<bool> Update(Subject subject);
         Task<Subject> Find(long subjectId);
+        Task<string> VerifyInstanceData(Subject subject);
     }
 }

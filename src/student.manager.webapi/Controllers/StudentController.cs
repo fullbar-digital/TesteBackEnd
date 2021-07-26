@@ -62,6 +62,100 @@ namespace student.manager.webapi.Controllers
         /// <summary>
         /// 
         /// </summary>
+        /// <param name="courseId"></param>
+        /// <returns></returns>
+        [HttpGet("FindByCourse/{courseId}")]
+        public async Task<ActionResult<IEnumerable<Student>>> FindByCourse(long courseId)
+        {
+            try
+            {
+                var students = await _service.FindAny(courseId: courseId);
+
+                return students.ToList();
+            }
+            catch (NotFoundException e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return NotFound(e.InnerException?.Message ?? e.Message);
+            }
+            catch (BadRequestException e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return BadRequest(e.InnerException?.Message ?? e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return Problem(e.InnerException?.Message ?? e.Message);
+            }
+        }
+
+        
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="status"></param>
+        /// <returns></returns>
+        [HttpGet("FindByStatus/{status}")]
+        public async Task<ActionResult<IEnumerable<Student>>> FindByStatus(string status)
+        {
+            try
+            {
+                var students = await _service.FindAny(status: status);
+
+                return students.ToList();
+            }
+            catch (NotFoundException e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return NotFound(e.InnerException?.Message ?? e.Message);
+            }
+            catch (BadRequestException e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return BadRequest(e.InnerException?.Message ?? e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return Problem(e.InnerException?.Message ?? e.Message);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        [HttpGet("FindByName/{name}")]
+        public async Task<ActionResult<IEnumerable<Student>>> FindByName(string name)
+        {
+            try
+            {
+                var students = await _service.FindAny(name: name);
+
+                return students.ToList();
+            }
+            catch (NotFoundException e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return NotFound(e.InnerException?.Message ?? e.Message);
+            }
+            catch (BadRequestException e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return BadRequest(e.InnerException?.Message ?? e.Message);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.InnerException?.Message ?? e.Message);
+                return Problem(e.InnerException?.Message ?? e.Message);
+            }
+        }
+
+        /// <summary>
+        /// 
+        /// </summary>
         /// <param name="academicRecord"></param>
         /// <param name="name"></param>
         /// <param name="courseId"></param>

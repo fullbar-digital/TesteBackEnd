@@ -20,7 +20,7 @@ namespace student.manager.webapi.Models
 
         [Required]
         public string Name { get; set; }
-        
+
         [Required]
         public int Period { get; set; }
 
@@ -35,17 +35,22 @@ namespace student.manager.webapi.Models
 
                 if (Course.IsNull() || Course.Subjects.IsNull() || !Course.Subjects.Any())
                     return "";
-                if(Course.Subjects.Count != (Grades?.Count ?? 0))
-                    return "O aluno não possui nota em todas as matérias que está matriculado!";
-
-                foreach (var grade in Grades)
+                if (Grades.IsNull() || !Grades.Any())
+                    _status = "O aluno não possui nota em nenhuma das matérias que está matriculado!";
+                else
                 {
-                    var subject = Course.Subjects.FirstOrDefault(s => s.SubjectId == grade.SubjectId);
+                    foreach (var grade in Grades)
+                    {
+                        var subject = Course.Subjects.FirstOrDefault(s => s.SubjectId == grade.SubjectId);
 
-                    if(grade.Value < subject.PassingScore)
-                        _status += string.Format("Reprovado com nota {0} na matéria {1}!\n", grade.Value, subject.Name);
-                    else
-                        _status += string.Format("Aprovado com nota {0} na matéria {1}!\n", grade.Value, subject.Name);
+                        if (grade.Value < subject.PassingScore)
+                            _status += string.Format("Reprovado em {0}!\n", subject.Name);
+                        else
+                            _status += string.Format("Aprovado em {0}!\n", subject.Name);
+                    }
+
+                    if(Grades.Count != Course.Subjects.Count)
+                    _status += "O aluno não possui nota nas demais matérias que está matriculado!";
                 }
 
                 return _status;
@@ -54,8 +59,17 @@ namespace student.manager.webapi.Models
 
         [Required]
         public long CourseId { get; set; }
+
         public Course Course { get; set; }
-        
-        public List<Grade> Grades { get; set; }
+
+        internal List<Grade> Grades { get; set; }
+
+        /// <summary>
+        /// Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+        /// </summary>        
+        public Student DeepCopy()
+        {
+            return (Student)MemberwiseClone();
+        }
     }
 }
