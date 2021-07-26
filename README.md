@@ -66,3 +66,15 @@ Prazo de Entrega em até 4 dias.
 
 
 Boa Sorte!
+
+
+
+## Anotações Murilo
+- Em nenhum momento é citado como, onde ou quando serão salvas as informações sobre as notas dos alunos.
+- Na disciplina tem uma nota mínima para aprovação, mas nas regras de negócio existe um valor fixo para usar para indicar se o aluno está aprovado ou não.
+
+- Como o ninject não é 100% compatível com .Net Core, decidi usar o Lamar para IoC.
+
+### Setup
+- Para subir o banco de dados, basta navegar até a raiz do projeto e executar o comando `docker-compose up -d`
+- Com a api em execução, pode acessar o swagger com o seguinte link: http://localhost:5000/swagger/index.html

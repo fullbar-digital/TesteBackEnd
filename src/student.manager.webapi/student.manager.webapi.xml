@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>student.manager.webapi</name>
+    </assembly>
+    <members>
+        <member name="T:course.manager.webapi.Controllers.CourseController">
+            <summary>
+            Controller de cursos
+            </summary>
+        </member>
+        <member name="M:course.manager.webapi.Controllers.CourseController.#ctor(course.manager.webapi.Interfaces.ICourseService)">
+            <summary>
+            Controller de cursos
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:course.manager.webapi.Controllers.CourseController.Find(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:course.manager.webapi.Controllers.CourseController.Create(student.manager.webapi.Models.Course)">
+            <summary>
+            
+            </summary>
+            <param name="course"></param>
+            <returns></returns>
+        </member>
+        <member name="M:course.manager.webapi.Controllers.CourseController.Delete(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:course.manager.webapi.Controllers.CourseController.Update(System.Int64,student.manager.webapi.Models.Course)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="course"></param>
+            <returns></returns>
+        </member>
+        <member name="T:grade.manager.webapi.Controllers.GradeController">
+            <summary>
+            Controller de Notas (boletim) dos estudantes
+            </summary>
+        </member>
+        <member name="M:grade.manager.webapi.Controllers.GradeController.#ctor(grade.manager.webapi.Interfaces.IGradeService)">
+            <summary>
+            Controller de Notas (boletim) dos estudantes
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:grade.manager.webapi.Controllers.GradeController.Find(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:grade.manager.webapi.Controllers.GradeController.Create(student.manager.webapi.Models.Grade)">
+            <summary>
+            
+            </summary>
+            <param name="grade"></param>
+            <returns></returns>
+        </member>
+        <member name="M:grade.manager.webapi.Controllers.GradeController.Delete(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:grade.manager.webapi.Controllers.GradeController.Update(System.Int64,student.manager.webapi.Models.Grade)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="grade"></param>
+            <returns></returns>
+        </member>
+        <member name="T:student.manager.webapi.Controllers.StudentController">
+            <summary>
+            Ações dos estudantes
+            </summary>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.#ctor(student.manager.webapi.Interfaces.IStudentService)">
+            <summary>
+            Ações do estudantes
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.Find(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="academicRecord"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.FindByCourse(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="courseId"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.FindByStatus(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.FindByName(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.FindAny(System.String,System.String,System.Int64,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="academicRecord"></param>
+            <param name="name"></param>
+            <param name="courseId"></param>
+            <param name="status"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.Create(student.manager.webapi.Models.Student)">
+            <summary>
+            
+            </summary>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.Delete(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="academicRecord"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Controllers.StudentController.Update(System.String,student.manager.webapi.Models.Student)">
+            <summary>
+            
+            </summary>
+            <param name="academicRecord"></param>
+            <param name="student"></param>
+            <returns></returns>
+        </member>
+        <member name="M:student.manager.webapi.Models.Course.DeepCopy">
+            <summary>
+            Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+            </summary>        
+        </member>
+        <member name="M:student.manager.webapi.Models.Grade.DeepCopy">
+            <summary>
+            Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+            </summary>        
+        </member>
+        <member name="M:student.manager.webapi.Models.Student.DeepCopy">
+            <summary>
+            Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+            </summary>        
+        </member>
+        <member name="M:student.manager.webapi.Models.Subject.DeepCopy">
+            <summary>
+            Cria uma cópia que evita que as alterações feitas no objeto sejam refletidas direto no banco de dados
+            </summary>        
+        </member>
+        <member name="T:subject.manager.webapi.Controllers.SubjectController">
+            <summary>
+            Controller de cursos
+            </summary>
+        </member>
+        <member name="M:subject.manager.webapi.Controllers.SubjectController.#ctor(student.manager.webapi.Interfaces.ISubjectService)">
+            <summary>
+            Controller de cursos
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:subject.manager.webapi.Controllers.SubjectController.Find(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:subject.manager.webapi.Controllers.SubjectController.Create(student.manager.webapi.Models.Subject)">
+            <summary>
+            
+            </summary>
+            <param name="subject"></param>
+            <returns></returns>
+        </member>
+        <member name="M:subject.manager.webapi.Controllers.SubjectController.CreateMany(System.Collections.Generic.List{student.manager.webapi.Models.Subject})">
+            <summary>
+            
+            </summary>
+            <param name="subjects"></param>
+            <returns></returns>
+        </member>
+        <member name="M:subject.manager.webapi.Controllers.SubjectController.Delete(System.Int64)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:subject.manager.webapi.Controllers.SubjectController.Update(System.Int64,student.manager.webapi.Models.Subject)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <param name="subject"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
