@@ -40,7 +40,7 @@ namespace student.manager.webapi.Controllers
             {
                 var student = await _service.Find(academicRecord);
 
-                return student.IsNull() ? NotFound() : student;
+                return Ok(student.IsNull() ? NotFound() : student);
             }
             catch (NotFoundException e)
             {
@@ -71,7 +71,7 @@ namespace student.manager.webapi.Controllers
             {
                 var students = await _service.FindAny(courseId: courseId);
 
-                return students.ToList();
+                return Ok(students.ToList());
             }
             catch (NotFoundException e)
             {
@@ -103,7 +103,7 @@ namespace student.manager.webapi.Controllers
             {
                 var students = await _service.FindAny(status: status);
 
-                return students.ToList();
+                return Ok(students.ToList());
             }
             catch (NotFoundException e)
             {
@@ -134,7 +134,7 @@ namespace student.manager.webapi.Controllers
             {
                 var students = await _service.FindAny(name: name);
 
-                return students.ToList();
+                return Ok(students.ToList());
             }
             catch (NotFoundException e)
             {
@@ -168,7 +168,7 @@ namespace student.manager.webapi.Controllers
             {
                 var students = await _service.FindAny(academicRecord, name, courseId, status);
 
-                return students.ToList();
+                return Ok(students.ToList());
             }
             catch (NotFoundException e)
             {
@@ -199,7 +199,7 @@ namespace student.manager.webapi.Controllers
             {
                 var createdStudent = await _service.Create(student);
 
-                return createdStudent;
+                return Ok(createdStudent);
             }
             catch (NotFoundException e)
             {

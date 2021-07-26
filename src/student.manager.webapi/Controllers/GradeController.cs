@@ -38,7 +38,7 @@ namespace grade.manager.webapi.Controllers
             {
                 var grade = await _service.Find(id);
 
-                return grade.IsNull() ? NotFound() : grade;
+                return Ok(grade);
             }
             catch (NotFoundException e)
             {
@@ -69,7 +69,7 @@ namespace grade.manager.webapi.Controllers
             {
                 var createdGrade = await _service.Create(grade);
 
-                return createdGrade;
+                return Ok(createdGrade);
             }
             catch (NotFoundException e)
             {

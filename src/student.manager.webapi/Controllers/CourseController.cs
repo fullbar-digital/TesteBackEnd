@@ -38,7 +38,7 @@ namespace course.manager.webapi.Controllers
             {
                 var course = await _service.Find(id);
 
-                return course.IsNull() ? NotFound() : course;
+                return Ok(course);
             }
             catch (NotFoundException e)
             {
@@ -69,7 +69,7 @@ namespace course.manager.webapi.Controllers
             {
                 var createdCourse = await _service.Create(course);
 
-                return createdCourse;
+                return Ok(createdCourse);
             }
             catch (NotFoundException e)
             {

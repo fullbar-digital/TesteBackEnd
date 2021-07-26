@@ -39,7 +39,7 @@ namespace subject.manager.webapi.Controllers
             {
                 var subject = await _service.Find(id);
 
-                return subject.IsNull() ? NotFound() : subject;
+                return Ok(subject);
             }
             catch (NotFoundException e)
             {
@@ -70,7 +70,7 @@ namespace subject.manager.webapi.Controllers
             {
                 var createdSubject = await _service.Create(subject);
 
-                return createdSubject;
+                return Ok(createdSubject);
             }
             catch (NotFoundException e)
             {
@@ -101,7 +101,7 @@ namespace subject.manager.webapi.Controllers
             {
                 var createdSubjects = await _service.CreateMany(subjects);
 
-                return createdSubjects;
+                return Ok(createdSubjects);
             }
             catch (NotFoundException e)
             {
