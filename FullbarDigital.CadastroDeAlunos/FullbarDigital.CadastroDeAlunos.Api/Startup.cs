@@ -1,4 +1,6 @@
 using FullbarDigital.CadastroDeAlunos.Dados;
+using FullbarDigital.CadastroDeAlunos.Dominio;
+using FullbarDigital.CadastroDeAlunos.Dominio.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -29,6 +31,8 @@ namespace FullbarDigital.CadastroDeAlunos.Api
         {
             services.AddControllers();
             services.AddDbContext<CadastroContext>(_ => _.UseSqlServer(Configuration.GetConnectionString("DefoultConection")));
+            services.AddScoped<IAlunoRepository, AlunoRepository>();
+            services.AddScoped<IAlunoService, AlunoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

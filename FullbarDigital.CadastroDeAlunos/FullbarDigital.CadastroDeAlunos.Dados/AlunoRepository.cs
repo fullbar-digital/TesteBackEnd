@@ -2,6 +2,7 @@
 using FullbarDigital.CadastroDeAlunos.Dominio.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace FullbarDigital.CadastroDeAlunos.Dados
@@ -17,7 +18,8 @@ namespace FullbarDigital.CadastroDeAlunos.Dados
 
         public void DeleteAluno(long id)
         {
-            throw new NotImplementedException();
+            var delete = _cadastroContext.Alunos.Find(id);
+            _cadastroContext.Alunos.Remove(delete);
         }
 
         public List<Aluno> GetAlunos(string nome, string ra, string curso, string status)
@@ -27,32 +29,32 @@ namespace FullbarDigital.CadastroDeAlunos.Dados
 
         public List<Diciplina> GetDiciplinas(long idCurso)
         {
-            throw new NotImplementedException();
+            return _cadastroContext.Diciplinas.Where(_ => _.IdCurso == idCurso).ToList();
         }
 
         public long InsertAluno(Aluno aluno)
         {
-            throw new NotImplementedException();
+            return _cadastroContext.Add(aluno).Entity.Id;
         }
 
         public long InsertCurso(Curso curso)
         {
-            throw new NotImplementedException();
+            return _cadastroContext.Add(curso).Entity.Id;
         }
 
         public long InsertDiciplina(Diciplina diciplina)
         {
-            throw new NotImplementedException();
+            return _cadastroContext.Add(diciplina).Entity.Id;
         }
 
         public void UpdateAluno(Aluno aluno)
         {
-            throw new NotImplementedException();
+            _cadastroContext.Update(aluno);
         }
 
         public void UpdateHistorico(Historico historico)
         {
-            throw new NotImplementedException();
+            _cadastroContext.Update(historico);
         }
     }
 }

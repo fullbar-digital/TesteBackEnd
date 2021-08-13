@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nmtkSkdT/tvd83gkzpSb7eBOgTmsrAhnGSw5ztbP345gZsqZvtKoOsANQ4tSv3eF8XU6HIBTsqeyfb4kC4Ciiw==",
+  "dgSpecHash": "BV9aH7D8e4kg68+P8gtlMuYxx/E6JSZHEGRaMn2bPwziPsKCAJGQVIROgWDolrT1cE/qcDst1xgzs2x4GY56FA==",
   "success": true,
-  "projectFilePath": "C:\\EstudosProjetos\\fullbar\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dominio\\FullbarDigital.CadastroDeAlunos.Dominio.csproj",
+  "projectFilePath": "C:\\EstudosProjetos\\FullbarDigital\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dominio\\FullbarDigital.CadastroDeAlunos.Dominio.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

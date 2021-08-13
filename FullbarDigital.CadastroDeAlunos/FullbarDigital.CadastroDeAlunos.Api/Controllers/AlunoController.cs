@@ -1,4 +1,5 @@
 ﻿using FullbarDigital.CadastroDeAlunos.Dominio.Interfaces;
+using FullbarDigital.CadastroDeAlunos.Dominio.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -17,6 +18,12 @@ namespace FullbarDigital.CadastroDeAlunos.Api.Controllers
         public AlunoController(IAlunoService alunoService)
         {
             _alunoService = alunoService;
+        }
+
+        [HttpPost("curso")]
+        public ActionResult<long> AddCurso(Curso curso)
+        {
+            return _alunoService.InsertCurso(curso);
         }
     }
 }

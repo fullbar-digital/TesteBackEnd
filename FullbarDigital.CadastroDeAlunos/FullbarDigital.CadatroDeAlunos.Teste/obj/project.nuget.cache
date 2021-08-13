@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rZve/DIqPt7yy/qMFaZFNJ/HRxW8VnUYAz5hl7BrTkosIm6MIgggtNziWD2hYfIgRunqrV2eIoEiDS0/GaaHaQ==",
+  "dgSpecHash": "ULZm8IQ8jkrsqs4TLGaB6cf/dqMbhXMk6l9CP/TLpuN0klKA5er69G7RYJ75XOfCR14XE4fn+9bYhzukLYzrLw==",
   "success": true,
-  "projectFilePath": "C:\\EstudosProjetos\\fullbar\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadatroDeAlunos.Teste\\FullbarDigital.CadatroDeAlunos.Teste.csproj",
+  "projectFilePath": "C:\\EstudosProjetos\\FullbarDigital\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadatroDeAlunos.Teste\\FullbarDigital.CadatroDeAlunos.Teste.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilh\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\guilh\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\EstudosProjetos\\fullbar\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dominio\\FullbarDigital.CadastroDeAlunos.Dominio.csproj",
+      "projectUniqueName": "C:\\EstudosProjetos\\FullbarDigital\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dominio\\FullbarDigital.CadastroDeAlunos.Dominio.csproj",
       "projectName": "FullbarDigital.CadastroDeAlunos.Dominio",
-      "projectPath": "C:\\EstudosProjetos\\fullbar\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dominio\\FullbarDigital.CadastroDeAlunos.Dominio.csproj",
+      "projectPath": "C:\\EstudosProjetos\\FullbarDigital\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dominio\\FullbarDigital.CadastroDeAlunos.Dominio.csproj",
       "packagesPath": "C:\\Users\\guilh\\.nuget\\packages\\",
-      "outputPath": "C:\\EstudosProjetos\\fullbar\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dominio\\obj\\",
+      "outputPath": "C:\\EstudosProjetos\\FullbarDigital\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\guilh\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "szaFtvWUh+NhzKcmKwkKplVSTRp4+3qktZVtc/PiDh70/e7eolwzRYuaPDZFk+O7Qm1HPkdC5SKxFlg8j8CkWg==",
+  "dgSpecHash": "P6++pEtfsxX8p/D99bAden3fpqe0yu0+w9ySdd9krUeqk5nruwme19w2jbuSGhdE210KUAbv4JiaJ7AQS/VKWw==",
   "success": true,
-  "projectFilePath": "C:\\EstudosProjetos\\fullbar\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dados\\FullbarDigital.CadastroDeAlunos.Dados.csproj",
+  "projectFilePath": "C:\\EstudosProjetos\\FullbarDigital\\TesteBackEnd\\FullbarDigital.CadastroDeAlunos\\FullbarDigital.CadastroDeAlunos.Dados\\FullbarDigital.CadastroDeAlunos.Dados.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\guilh\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\guilh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
