@@ -18,5 +18,6 @@ namespace FullbarDigital.CadastroDeAlunos.Dominio.Interfaces
         List<Diciplina> GetDiciplinas(long idCurso);
         Diciplina GetDiciplina(long idDiciplina);
         List<Historico> GetHistorico(long idAluno);
+        Aluno GetAluno(long idAluno);
     }
 }

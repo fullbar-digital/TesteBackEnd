@@ -68,7 +68,7 @@ namespace FullbarDigital.CadastroDeAlunos.Dominio
         {
             var diciplina = _alunoRepository.GetDiciplina(historico.DiciplinaId);
             
-            if (historico.Nota >= diciplina.NotaMinima)
+            if (historico.Nota >= diciplina.NotaMinima && historico.Nota >= 7)
             {
                 historico.Status = "Aprovado";
             }
@@ -78,6 +78,22 @@ namespace FullbarDigital.CadastroDeAlunos.Dominio
             }
 
             _alunoRepository.UpdateHistorico(historico);
+
+            var historicos = _alunoRepository.GetHistorico(historico.AlunoId);
+            if (!historicos.Any(_ => _.Status == null))
+            {
+                var aluno = _alunoRepository.GetAluno(historico.AlunoId);
+                if (historicos.Any(_ => _.Nota >= 7))
+                {
+                    aluno.Status = "Aprovado";
+                }
+                else
+                {
+                    aluno.Status = "Reprovado";
+                }
+
+                _alunoRepository.UpdateAluno(aluno);
+            }
         }
     }
 }

@@ -51,5 +51,37 @@ namespace FullbarDigital.CadatroDeAlunos.Teste.Dominio
 
             _alunoRepositoryMock.Verify(_ => _.UpdateHistorico(It.Is<Historico>(x => x.Status == "Reprovado")), Times.Once);
         }
+
+        [Fact]
+        public void UpdateHistorico_DeveReceberUmHistorico_AtualizarStatusDoAlunoParaReprovado_SeTodasAsNotasForemMaiorIgualASete_TodatasMateriaTiveremStatus()
+        {
+            var request = new Historico();
+            request.Nota = 8;
+            request.Status = "Aprovado";
+
+            var response = new Aluno();
+
+            _alunoRepositoryMock.Setup(_ => _.GetAluno(It.IsAny<long>())).Returns(response);
+
+            _alunoService.UpdateHistorico(request);
+
+            _alunoRepositoryMock.Verify(_ => _.UpdateAluno(It.Is<Aluno>(x => x.Status == "Aprovado")), Times.Once);
+        }
+
+        [Fact]
+        public void UpdateHistorico_DeveReceberUmHistorico_AtualizarStatusDoAlunoParaReprovado_SeTodasAsNotasForemMenorIgualASete_TodatasMateriaTiveremStatus()
+        {
+            var request = new Historico();
+            request.Nota = 5;
+            request.Status = "Reprovado";
+
+            var response = new Aluno();
+
+            _alunoRepositoryMock.Setup(_ => _.GetAluno(It.IsAny<long>())).Returns(response);
+
+            _alunoService.UpdateHistorico(request);
+
+            _alunoRepositoryMock.Verify(_ => _.UpdateAluno(It.Is<Aluno>(x => x.Status == "Reprovado")), Times.Once);
+        }
     }
 }

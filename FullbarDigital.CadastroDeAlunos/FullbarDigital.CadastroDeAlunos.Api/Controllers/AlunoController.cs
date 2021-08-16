@@ -23,8 +23,7 @@ namespace FullbarDigital.CadastroDeAlunos.Api.Controllers
         [HttpGet("alunos")]
         public ActionResult<List<Aluno>> GetAlunos(string nome, string ra, string curso, string status)
         {
-            var result = _alunoService.GetAlunos(nome, ra, curso, status);
-            return result;
+            return Ok(_alunoService.GetAlunos(nome, ra, curso, status));
         } 
         
         [HttpPut("aluno")]

@@ -42,6 +42,11 @@ namespace FullbarDigital.CadastroDeAlunos.Dados
             return alunos.ToList();
         }
 
+        public Aluno GetAluno(long idAluno)
+        {
+            return _cadastroContext.Alunos.Find(idAluno);
+        }
+
         public List<Diciplina> GetDiciplinas(long idCurso)
         {
             return _cadastroContext.Diciplinas.Where(_ => _.CursoId == idCurso).ToList();
