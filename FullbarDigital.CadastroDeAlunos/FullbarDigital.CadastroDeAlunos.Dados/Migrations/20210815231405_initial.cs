@@ -25,24 +25,23 @@ namespace FullbarDigital.CadastroDeAlunos.Dados.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdCurso = table.Column<long>(type: "bigint", nullable: false),
+                    CursoId = table.Column<long>(type: "bigint", nullable: false),
                     Nome = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Ra = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Periodo = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Curso = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Status = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Foto = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    AlunoCursoId = table.Column<long>(type: "bigint", nullable: true)
+                    Foto = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Alunos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Alunos_Cursos_AlunoCursoId",
-                        column: x => x.AlunoCursoId,
+                        name: "FK_Alunos_Cursos_CursoId",
+                        column: x => x.CursoId,
                         principalTable: "Cursos",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -51,10 +50,9 @@ namespace FullbarDigital.CadastroDeAlunos.Dados.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdCurso = table.Column<long>(type: "bigint", nullable: false),
+                    CursoId = table.Column<long>(type: "bigint", nullable: false),
                     NomeDiciplina = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    NotaMinima = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    CursoId = table.Column<long>(type: "bigint", nullable: true)
+                    NotaMinima = table.Column<decimal>(type: "decimal(18,2)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -64,7 +62,7 @@ namespace FullbarDigital.CadastroDeAlunos.Dados.Migrations
                         column: x => x.CursoId,
                         principalTable: "Cursos",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -73,12 +71,10 @@ namespace FullbarDigital.CadastroDeAlunos.Dados.Migrations
                 {
                     Id = table.Column<long>(type: "bigint", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    IdAluno = table.Column<long>(type: "bigint", nullable: false),
-                    IdDiciplina = table.Column<long>(type: "bigint", nullable: false),
+                    AlunoId = table.Column<long>(type: "bigint", nullable: false),
+                    DiciplinaId = table.Column<long>(type: "bigint", nullable: false),
                     Nota = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    Status = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    AlunoId = table.Column<long>(type: "bigint", nullable: true),
-                    DiciplinaId = table.Column<long>(type: "bigint", nullable: true)
+                    Status = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -88,7 +84,7 @@ namespace FullbarDigital.CadastroDeAlunos.Dados.Migrations
                         column: x => x.AlunoId,
                         principalTable: "Alunos",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_Historicos_Diciplinas_DiciplinaId",
                         column: x => x.DiciplinaId,
@@ -98,9 +94,9 @@ namespace FullbarDigital.CadastroDeAlunos.Dados.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Alunos_AlunoCursoId",
+                name: "IX_Alunos_CursoId",
                 table: "Alunos",
-                column: "AlunoCursoId");
+                column: "CursoId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Diciplinas_CursoId",

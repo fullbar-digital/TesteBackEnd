@@ -33,6 +33,7 @@ namespace FullbarDigital.CadastroDeAlunos.Api
             services.AddDbContext<CadastroContext>(_ => _.UseSqlServer(Configuration.GetConnectionString("DefoultConection")));
             services.AddScoped<IAlunoRepository, AlunoRepository>();
             services.AddScoped<IAlunoService, AlunoService>();
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -48,6 +49,16 @@ namespace FullbarDigital.CadastroDeAlunos.Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseSwagger(c => 
+            {
+                c.SerializeAsV2 = true;
+            });
+
+            app.UseSwaggerUI(c => 
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+            });
 
             app.UseEndpoints(endpoints =>
             {

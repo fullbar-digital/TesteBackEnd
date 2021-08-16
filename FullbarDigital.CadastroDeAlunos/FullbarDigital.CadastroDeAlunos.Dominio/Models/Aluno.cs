@@ -6,7 +6,7 @@ namespace FullbarDigital.CadastroDeAlunos.Dominio.Models
 {
     public class Aluno : Model
     {
-        public long IdCurso { get; set; }
+        public long CursoId { get; set; }
         public string Nome { get; set; }
         public string Ra { get; set; }
         public string Periodo { get; set; }

@@ -20,10 +20,38 @@ namespace FullbarDigital.CadastroDeAlunos.Api.Controllers
             _alunoService = alunoService;
         }
 
-        [HttpPost("curso")]
-        public ActionResult<long> AddCurso(Curso curso)
+        [HttpGet("alunos")]
+        public ActionResult<List<Aluno>> GetAlunos(string nome, string ra, string curso, string status)
         {
-            return _alunoService.InsertCurso(curso);
+            var result = _alunoService.GetAlunos(nome, ra, curso, status);
+            return result;
+        } 
+        
+        [HttpPut("aluno")]
+        public ActionResult<long> UpdateAluno(Aluno aluno)
+        {
+            _alunoService.UpdateAluno(aluno);
+            return Ok();
+        }
+
+        [HttpPut("historico")]
+        public ActionResult<long> UpdateHistorico(Historico historico)
+        {
+            _alunoService.UpdateHistorico(historico);
+            return Ok();
+        }
+
+        [HttpGet("historico/{idAluno}")]
+        public ActionResult<List<Historico>> GetHistorico(long idAluno)
+        {
+            return Ok(_alunoService.GetHistorico(idAluno));
+        }
+
+        [HttpDelete("deletar/{id}")]
+        public ActionResult DeleteAluno(long id)
+        {
+            _alunoService.DeleteAluno(id);
+            return Ok();
         }
     }
 }

@@ -15,5 +15,6 @@ namespace FullbarDigital.CadastroDeAlunos.Dominio.Interfaces
         void UpdateAluno(Aluno aluno);
         void DeleteAluno(long id);
         void UpdateHistorico(Historico historico);
+        List<Historico> GetHistorico(long idAluno);
     }
 }

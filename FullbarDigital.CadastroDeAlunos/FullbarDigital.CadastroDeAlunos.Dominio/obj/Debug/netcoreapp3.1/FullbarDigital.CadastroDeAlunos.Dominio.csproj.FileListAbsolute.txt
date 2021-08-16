@@ -7,3 +7,12 @@ C:\EstudosProjetos\fullbar\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarD
 C:\EstudosProjetos\fullbar\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.csproj.CoreCompileInputs.cache
 C:\EstudosProjetos\fullbar\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.dll
 C:\EstudosProjetos\fullbar\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.pdb
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\bin\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.deps.json
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\bin\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.dll
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\bin\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.pdb
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.csproj.AssemblyReference.cache
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.AssemblyInfoInputs.cache
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.AssemblyInfo.cs
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.csproj.CoreCompileInputs.cache
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.dll
+C:\EstudosProjetos\FullbarDigital\TesteBackEnd\FullbarDigital.CadastroDeAlunos\FullbarDigital.CadastroDeAlunos.Dominio\obj\Debug\netcoreapp3.1\FullbarDigital.CadastroDeAlunos.Dominio.pdb
