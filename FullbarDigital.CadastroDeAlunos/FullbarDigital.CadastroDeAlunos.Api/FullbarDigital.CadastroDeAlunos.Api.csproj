@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FullbarDigital.CadastroDeAlunos.Dados\FullbarDigital.CadastroDeAlunos.Dados.csproj" />
+    <ProjectReference Include="..\FullbarDigital.CadastroDeAlunos.Dominio\FullbarDigital.CadastroDeAlunos.Dominio.csproj" />
+  </ItemGroup>
+
+
+</Project>
