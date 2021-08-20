@@ -6,5 +6,6 @@ namespace Fullbar.Entities.Models.Courses
 {
 	public class Course
 	{
+		public long CourseID { get; set; }
 	}
 }
