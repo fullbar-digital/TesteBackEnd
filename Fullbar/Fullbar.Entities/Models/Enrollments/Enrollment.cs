@@ -3,33 +3,21 @@ using Fullbar.Entities.Models.Disciplines;
 using Fullbar.Entities.Models.Students;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Fullbar.Entities.Models.Enrollments
 {
-	static class StudentStatus
-	{
-		public const string Approved = "Approved";
-		public const string Reproved = "Reproved";
-	}
-
 	public class Enrollment
 	{
         public int EnrollmentID { get; set; }
         public int CourseID { get; set; }
-        public int StudentID { get; set; }
         public int DisciplineID { get; set; }
 
-        public string Status
-        {
-            get
-            {
-                return StudentStatus.Approved;
-            }
-        }
-
+        [NotMapped]
         public Course Course { get; set; }
-        public Student Student { get; set; }
+
+        [NotMapped]
         public Discipline Discipline { get; set; }
     }
 }

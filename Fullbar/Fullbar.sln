@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fullbar", "Fullbar\Fullbar.csproj", "{402E03B5-53E9-453F-B609-1F8863967A08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fullbar", "Fullbar\Fullbar.csproj", "{402E03B5-53E9-453F-B609-1F8863967A08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fullbar.Entities", "Fullbar.Entities\Fullbar.Entities.csproj", "{3D9F8F77-6293-48F3-A59B-695FC08E055A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fullbar.Repositories", "Fullbar.Repositories\Fullbar.Repositories\Fullbar.Repositories.csproj", "{29DD2F3B-D9C2-41EF-B624-3213A0E5BB34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{402E03B5-53E9-453F-B609-1F8863967A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{402E03B5-53E9-453F-B609-1F8863967A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{402E03B5-53E9-453F-B609-1F8863967A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D9F8F77-6293-48F3-A59B-695FC08E055A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D9F8F77-6293-48F3-A59B-695FC08E055A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D9F8F77-6293-48F3-A59B-695FC08E055A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D9F8F77-6293-48F3-A59B-695FC08E055A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29DD2F3B-D9C2-41EF-B624-3213A0E5BB34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29DD2F3B-D9C2-41EF-B624-3213A0E5BB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29DD2F3B-D9C2-41EF-B624-3213A0E5BB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29DD2F3B-D9C2-41EF-B624-3213A0E5BB34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

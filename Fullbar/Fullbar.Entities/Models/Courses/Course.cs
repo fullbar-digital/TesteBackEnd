@@ -1,4 +1,4 @@
-﻿using Fullbar.Entities.Models.Enrollments;
+﻿using Fullbar.Entities.Models.Disciplines;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -13,6 +13,6 @@ namespace Fullbar.Entities.Models.Courses
 
 		public string Name { get; set; }
 
-		public ICollection<Enrollment> Enrollments { get; set; }
+		public IList<Discipline> Disciplines { get; set; }
 	}
 }

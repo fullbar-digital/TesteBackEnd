@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Course\**" />
+    <Compile Remove="Grade\**" />
+    <EmbeddedResource Remove="Course\**" />
+    <EmbeddedResource Remove="Grade\**" />
+    <None Remove="Course\**" />
+    <None Remove="Grade\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Disciplines\Grade.cs" />
+    <Compile Remove="GradeRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Fullbar.Entities\Fullbar.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

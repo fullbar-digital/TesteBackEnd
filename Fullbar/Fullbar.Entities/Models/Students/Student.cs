@@ -1,6 +1,8 @@
-﻿using Fullbar.Entities.Models.Enrollments;
+﻿using Fullbar.Entities.Models.Courses;
+using Fullbar.Entities.Models.Disciplines;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Fullbar.Entities.Models.Students
@@ -15,12 +17,9 @@ namespace Fullbar.Entities.Models.Students
 
 		public string Period { get; set; }
 
-		public string Status { get; set; }
-
 		public string Picture { get; set; }
 
-		public long CurrentCourseId { get; set; }
-
-		public ICollection<Enrollment> Enrollments { get; set; }
+		public long CourseId { get; set; }
+		public Course Course { get; set; }
 	}
 }

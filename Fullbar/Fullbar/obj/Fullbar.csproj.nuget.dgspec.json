@@ -4,14 +4,14 @@
     "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\Fullbar.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\Fullbar.csproj": {
+    "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Entities\\Fullbar.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\Fullbar.csproj",
-        "projectName": "Fullbar",
-        "projectPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\Fullbar.csproj",
+        "projectUniqueName": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Entities\\Fullbar.Entities.csproj",
+        "projectName": "Fullbar.Entities",
+        "projectPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Entities\\Fullbar.Entities.csproj",
         "packagesPath": "C:\\Users\\Irineu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\obj\\",
+        "outputPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Irineu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,169 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Repositories\\Fullbar.Repositories\\Fullbar.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Repositories\\Fullbar.Repositories\\Fullbar.Repositories.csproj",
+        "projectName": "Fullbar.Repositories",
+        "projectPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Repositories\\Fullbar.Repositories\\Fullbar.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Irineu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Repositories\\Fullbar.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Irineu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Entities\\Fullbar.Entities.csproj": {
+                "projectPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Entities\\Fullbar.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\Fullbar.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\Fullbar.csproj",
+        "projectName": "Fullbar",
+        "projectPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\Fullbar.csproj",
+        "packagesPath": "C:\\Users\\Irineu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Irineu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Entities\\Fullbar.Entities.csproj": {
+                "projectPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Entities\\Fullbar.Entities.csproj"
+              },
+              "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Repositories\\Fullbar.Repositories\\Fullbar.Repositories.csproj": {
+                "projectPath": "C:\\Users\\Irineu\\Documents\\Pessoal\\TesteBackEnd\\Fullbar\\Fullbar.Repositories\\Fullbar.Repositories\\Fullbar.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.18, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

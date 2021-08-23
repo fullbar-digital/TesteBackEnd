@@ -1,68 +1,50 @@
-# Teste Prático Backend
+# Fullbar
+Teste de processo seletivo
 
-## Teste 01 - Questionario
-- Levando em consideração duas aplicações X e Y que não se conversam, sendo a aplicação X receptora de informações do cliente final. A aplicação Y terá que apresentar algumas dessas informações, para isso será necessario que essas informações sejam armazenadas em seu banco de dados. Descreva qual a solução você daria para esse tipo de problema:
-- Obs: Enviar a resposta por e-mail
+## Como Usar
+Faça o clone deste projeto em seu computador.
 
-## Teste 02 - Desenvolvimento 
+Pelo terminal, entre na pasta /Fullbar/Fullbar e de o seguinte comando.
+```terminal
+dotnet ef database update
+```
+após terminar a execução, abra o postman e acesse a seguinte url:
 
-Criar uma aplicação web para cadastrar e gerenciar alunos.
+*Estudantes: 
+  * Listar todos: api/student -> Http Get
+  * Listar um estudante: api/student/{id} -> Http Get
+  * Filtrar um estudante: api/student/search?name=nome&course=computação&ra=ra -> Http Get
+  * deletar: api/student/{id} -> Http Delete
+  * Atualizar: api/student/{id} -> Http Update
+  * Criar: api/student -> Http Post
 
-## Cadastro de Alunos
+Para criar ou atualizar um estudante, no body da requisição envie um objeto json como no exemplo a seguir:
+```json
+{
+    "name": "nome_estudante",
+    "RA": "ra",
+    "Period": "periodo",
+    "Picture": "pic.png",
+    "CourseId": id_do_curso:long
+}
+```
 
-### Criar um cadastro de alunos com os seguintes campos:
-- Nome
-- RA (Registro acadêmico)
-- Período
-- Curso
-- Status
-- Foto
+*Nota do estudante em determinada disciplina: 
+  * Criar: api/grade -> Http Post
+  * Atualizar: api/grade -> Http Update
 
-### Criar um cadastro do Curso com os seguintes campos:
-- Nome do Curso
-- Diciplinas do Curso
-
-### Criar um cadastro de Diciplinas com os seguintes campos:
-- Nome do Diciplinas
-- Nota Minima Aporvação
-
-#### Regra de Negocio 
-- Um curso pode ter varias diciplinas
-- O Aluno precisa ter notas em cada diciplina que o curso contempla
-- Ao listar os alunos o status do Aluno deverá ser aprovado ou reprovado na diciplina X, o que irá determinar seu status será a nota sendo maior que 7.0.
-- O status não poderá ser editavel 
-
-#### Listar alunos: 
-- Trazer todas as informação relacionada ao aluno.
-
-#### Filtrar alunos: 
-- Criar filtro com Nome, RA,Curso e Status.
-
-#### Alterar dados do aluno: 
-- Somente o campo Status não será editavel os demais sim.
-
-#### Excluir aluno:
-- Excluir o aluno selecionado
-
-#### Requisitos:
-- Microsoft .Net c#
-- ORM EntityFramework e banco SQL server
-- No caso de escolher arquitetura API, não é necessario criar o frontend da aplicação, iremos testar via Postman
-
-#### O nivel de conhecimento será avalido com a utilização das seguintes tecnologias:
-- Teste Unitario 
-- Ioc Container - Ninject
-- WebAPi .NetCore 
-- ORM
-
-### O que esperamos de você ?
-- Crie uma aplicação testável
-- Crie um código organizado
-- Crie um código de fácil manutenção
-
-#### Submissão
-Criar um fork desse projeto e entregar via pull request.
-Prazo de Entrega em até 4 dias.
+Para criar a nota do estudante em uma disciplina, no body da requisição envie um objeto json como no exemplo a seguir:
+```json
+{
+    "StudentID": id_do_estudante:long,
+    "DisciplineID" : id_da_disciplina:long,
+    "StudantGrade": nota:double
+}
+```
 
 
-Boa Sorte!
+## Contribuição
+Marco Bagdal
+
+## Licença
+[MIT](https://choosealicense.com/licenses/mit/)
