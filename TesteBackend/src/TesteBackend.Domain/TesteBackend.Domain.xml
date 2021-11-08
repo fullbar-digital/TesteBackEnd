@@ -1,0 +1,310 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TesteBackend.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:TesteBackend.Domain.Models.Aluno">
+            <summary>
+            Entidade para cadastro do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Aluno.Ra">
+            <summary>
+            Registro Acadêmico (RA) do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Aluno.Nome">
+            <summary>
+            Nome do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Aluno.Periodo">
+            <summary>
+            Período do aluno no curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Aluno.CursoId">
+            <summary>
+            Código do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Aluno.Curso">
+            <summary>
+            Curso do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Aluno.Matricula">
+            <summary>
+            Lista de matrículas em disciplinas do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Aluno.Status">
+            <summary>
+            Status do aluno no curso (Aprovado/Reprovado)
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Aluno.Foto">
+            <summary>
+            URL da foto do aluno
+            </summary>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Aluno.#ctor">
+            <summary>
+            Construtor da entidade aluno
+            </summary>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Aluno.#ctor(System.String,System.Int32,TesteBackend.Domain.Models.Curso,System.String,System.Collections.Generic.ICollection{TesteBackend.Domain.Models.Matricula})">
+            <summary>
+            Construtor da entidade aluno
+            </summary>
+            <param name="nome">Nome do aluno</param>
+            <param name="periodo">Período do aluno no curso</param>
+            <param name="curso">Curso do aluno</param>
+            <param name="foto">URL da foto do aluno</param>
+            <param name="matriculas">Lista de matrículas em disciplinas</param>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Aluno.AlterarStatus(TesteBackend.Domain.Models.StatusResult)">
+            <summary>
+            Altera o status do aluno
+            </summary>
+            <param name="statusResult">Novo status do aluno</param>
+        </member>
+        <member name="T:TesteBackend.Domain.Models.Curso">
+            <summary>
+            Entidade para cadastro do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Curso.Id">
+            <summary>
+            Identificador do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Curso.Nome">
+            <summary>
+            Nome do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Curso.Disciplinas">
+            <summary>
+            Lista de disciplinas do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Curso.Alunos">
+            <summary>
+            Lista de alunos matriculados no curso
+            </summary>
+        </member>
+        <member name="T:TesteBackend.Domain.Models.Disciplina">
+            <summary>
+            Entidade para cadastro da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Disciplina.Id">
+            <summary>
+            Identificação da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Disciplina.Nome">
+            <summary>
+            Nome da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Disciplina.NotaMinimaAprovacao">
+            <summary>
+            Nota mínima para aprovação do aluno na disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Disciplina.CursoId">
+            <summary>
+            Identificador do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Disciplina.Curso">
+            <summary>
+            Curso da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Disciplina.DisciplinasMatricula">
+            <summary>
+            Lista de alunos matriculados na disciplina
+            </summary>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Disciplina.#ctor">
+            <summary>
+            Construtor utilizado pelo Entity Framework Core Migration
+            </summary>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Disciplina.#ctor(System.String,TesteBackend.Domain.Models.Curso)">
+            <summary>
+            Construtor da entidade disciplina
+            </summary>
+            <param name="nome">Nome da disciplina</param>
+            <param name="curso">Curso que a disciplina será vinculada</param>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Disciplina.ConfigDefault">
+            <summary>
+            Configura a nota mínima para aprovação nas disciplinas
+            </summary>
+        </member>
+        <member name="T:TesteBackend.Domain.Models.Matricula">
+            <summary>
+            Entidade para cadastrar a matrícula do aluno na disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Matricula.AlunoRa">
+            <summary>
+            RA (Registro Acadêmico) do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Matricula.Aluno">
+            <summary>
+            Entidade aluno para cadastro
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Matricula.DisciplinaId">
+            <summary>
+            Código da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Matricula.Disciplina">
+            <summary>
+            Entidade disciplina para cadastro
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Matricula.Nota">
+            <summary>
+            Nota do aluno na disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.Domain.Models.Matricula.Status">
+            <summary>
+            Status do aluno na disciplina
+            </summary>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Matricula.#ctor">
+            <summary>
+            Construtor padrão da matrícula
+            </summary>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Matricula.#ctor(TesteBackend.Domain.Models.Aluno,TesteBackend.Domain.Models.Disciplina,System.Decimal)">
+            <summary>
+            Construtor padrão da matrícula
+            </summary>
+            <param name="aluno">Aluno para matricular</param>
+            <param name="disciplina">Disciplina para matricular</param>
+            <param name="nota">Nota do aluno</param>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Matricula.AtualizaNota(System.Decimal)">
+            <summary>
+            Atualizar a nota do aluno e status
+            </summary>
+            <param name="notaNova"></param>
+        </member>
+        <member name="M:TesteBackend.Domain.Models.Matricula.AtualizaStatus">
+            <summary>
+            Alterar status na disciplina
+            </summary>
+        </member>
+        <member name="T:TesteBackend.Domain.Models.StatusResult">
+            <summary>
+            Status (Aprovado/Reprovado)
+            </summary>
+        </member>
+        <member name="F:TesteBackend.Domain.Models.StatusResult.Reprovado">
+            <summary>
+            Status Reprovado
+            </summary>
+        </member>
+        <member name="F:TesteBackend.Domain.Models.StatusResult.Aprovado">
+            <summary>
+            Status Aprovado
+            </summary>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.AlunoRepository.Add(TesteBackend.Domain.Models.Aluno)">
+            <summary>
+            Adicionar aluno ao repositório
+            </summary>
+            <param name="alunoModel">Aluno para cadastro</param>
+            <returns>Retorna aluno cadastrado</returns>
+            <exception cref="T:TesteBackend.Domain.Exceptions.NotFoundException">Item não localizado</exception>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.AlunoRepository.Get(System.Int32)">
+            <summary>
+            Consulta de aluno
+            </summary>
+            <param name="ra">Registro Acadêmico (RA) do aluno</param>
+            <returns>Retorna aluno</returns>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.AlunoRepository.GetAluno(System.Func{TesteBackend.Domain.Models.Aluno,System.Boolean})">
+            <summary>
+            Consulta lista de alunos
+            </summary>
+            <param name="filtro">Filtro para pesquisa de alunos</param>
+            <returns>Retorna lista de alunos</returns>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.AlunoRepository.Edit(TesteBackend.Domain.Models.Aluno)">
+            <summary>
+            Edita os dados do aluno
+            </summary>
+            <param name="alunoEdit">Modelo de aluno para alteração</param>
+            <returns>Retorna aluno após alteração dos dados</returns>
+            <exception cref="T:TesteBackend.Domain.Exceptions.NotFoundException">Item não localizado</exception>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.AlunoRepository.Remove(System.Int32)">
+            <summary>
+            Exclusão de aluno
+            </summary>
+            <param name="ra">Registro Acadêmico (RA) do aluno</param>
+            <exception cref="T:System.Collections.Generic.KeyNotFoundException">Item não localizado para exclusão</exception>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.CursoRepository.Add(TesteBackend.Domain.Models.Curso)">
+            <summary>
+            Adicionar curso
+            </summary>
+            <param name="curso">Curso para cadastro</param>
+            <returns>Retorna curso cadastrado</returns>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.CursoRepository.Get(System.Int32)">
+            <summary>
+            Consultar curso
+            </summary>
+            <param name="cursoId">Identificador do curso</param>
+            <returns>Retorna curso</returns>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.CursoRepository.Edit(TesteBackend.Domain.Models.Curso)">
+            <summary>
+            Editar os dados do curso
+            </summary>
+            <param name="curso">Curso para alteração</param>
+            <returns>Retorna curso</returns>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.CursoRepository.Delete(System.Int32)">
+            <summary>
+            Excluir curso
+            </summary>
+            <param name="cursoId">Identificador do curso</param>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.DisciplinaRepository.Add(TesteBackend.Domain.Models.Disciplina)">
+            <summary>
+            Adicionar disciplina
+            </summary>
+            <param name="disciplina">Disciplina para cadastro</param>
+            <returns>Retorna disciplina cadastrada</returns>
+            <exception cref="T:System.OperationCanceledException">Não é possível cadastrar disciplina para cursos com alunos matriculados</exception>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.DisciplinaRepository.Get(System.Int32)">
+            <summary>
+            Consulta disciplina
+            </summary>
+            <param name="disciplinaId">Identificador da disciplina</param>
+            <returns>Retorna disciplina</returns>
+        </member>
+        <member name="M:TesteBackend.Domain.Repositories.DisciplinaRepository.Delete(System.Int32)">
+            <summary>
+            Excluir disciplina
+            </summary>
+            <param name="disciplinaId">Identificador da disciplina</param>
+        </member>
+    </members>
+</doc>
