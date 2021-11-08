@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TesteBackend.WebApi</name>
+    </assembly>
+    <members>
+        <member name="M:TesteBackend.WebApi.Controllers.AlunoController.AddAluno(TesteBackend.WebApi.Dtos.AlunoDtos.AlunoCreateDto)">
+            <summary>
+            Cadastrar aluno, matricular no curso e lançar nota nas disciplinas
+            </summary>
+            <param name="alunoCreateDto">Modelo do aluno para cadastro</param>
+            <remarks>
+            Exemplo:
+            
+                {
+                    "nome": "Nome do aluno",
+                	"periodo": 1,
+                	"cursoid": 2,
+                	"matricula": [
+                		{
+                			"disciplinaid": 2,
+                			"nota": 7.0
+                        }
+                	],
+                	"foto": "http://meusite/fotodoaluno.jpg"
+                }
+                
+            </remarks>
+            <returns>Novo aluno cadastrado</returns>
+            <response code="201">Retorna o novo aluno cadastrado</response>
+            <response code="404">Curso e/ou nota de disciplina não encontrada</response>
+            <response code="400">Falha ao tentar cadastrar item</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.AlunoController.GetAluno(System.Int32)">
+            <summary>
+            Lista os dados do aluno
+            </summary>
+            <param name="ra">Registro Acadêmico (RA) do aluno</param>
+            <returns>Dados do aluno</returns>
+            <response code="200">Retorna dados do aluno</response>
+            <response code="404">Aluno não localizado</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.AlunoController.GetAluno(System.Nullable{System.Int32},System.String,System.Nullable{System.Int32},System.Nullable{TesteBackend.Domain.Models.StatusResult})">
+            <summary>
+            Lista os dados dos alunos consultados
+            </summary>
+            <param name="ra">Registro Acadêmico (RA) do aluno</param>
+            <param name="nome">Nome do aluno</param>
+            <param name="cursoId">Identificador do curso</param>
+            <param name="status">Status do aluno</param>
+            <returns>Lista de aluno consultados</returns>
+            <response code="200">Retorna lista de alunos consultados</response>
+            <response code="404">Dados não localizados</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.AlunoController.EditAluno(TesteBackend.WebApi.Dtos.AlunoDtos.AlunoEditDto)">
+            <summary>
+            Altera os dados do aluno
+            </summary>
+            <param name="alunoEditDto">Modelo do aluno para alteração</param>
+            <remarks>
+            Exemplo:
+            
+                {
+                    "ra": 1,
+                    "nome": "Novo nome do aluno",
+                	"periodo": 1,
+                	"matricula": [
+                		{
+                			"disciplinaid": 1,
+                			"nota": 7
+                        }
+                	],
+                	"foto": "http://google.com/foto/joelma.jpg"
+                }
+                
+            </remarks>
+            <returns>Retorna aluno com os dados alterados</returns>
+            <response code="200">Retorna o aluno alterado</response>
+            <response code="404">Aluno não encontrado</response>
+            <response code="400">Falha ao tentar alterar item</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.AlunoController.RemoveAluno(System.Int32)">
+            <summary>
+            Remove aluno
+            </summary>
+            <param name="ra">Registro Acadêmico (RA) do aluno</param>
+            <response code="200">Aluno removido com sucesso</response>
+            <response code="404">Aluno não encontrado</response>
+            <response code="400">Falha ao tentar remover item</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.CursoController.AddCurso(TesteBackend.WebApi.Dtos.CursoDtos.CursoCreateDto)">
+            <summary>
+            Cadastrar curso
+            </summary>
+            <param name="cursoCreateDto">Modelo de curso para cadastro</param>
+            <returns>Retorna curso cadastrado</returns>
+            <remarks>
+            
+            Exemplo:
+            
+                {
+                	"nome": "Nome da disciplina"
+                }
+                
+            </remarks>
+            <response code="201">Retorna o novo curso cadastrado</response>
+            <response code="400">Falha ao tentar cadastrar item</response>
+            <response code="500">Falha do servidor</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.CursoController.EditCurso(TesteBackend.WebApi.Dtos.CursoDtos.CursoEditDto)">
+            <summary>
+            Editar curso
+            </summary>
+            <param name="cursoEditDto">Modelo para alteração do curso</param>
+            <remarks>
+            Exemplo:
+            
+                {
+                    "id": 3,
+                    "nome": "Novo nome do curso"
+                }
+                
+            </remarks>
+            <returns>Retorna o curso após alteração</returns>
+            <response code="200">Retorna curso</response>
+            <response code="404">Curso não encontrado</response>
+            <response code="400">Falha ao tentar alterar o item</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.CursoController.GetCursoByid(System.Int32)">
+            <summary>
+            Retornar curso
+            </summary>
+            <param name="cursoId">Identificador do curso</param>
+            <returns>Retorna os dados do curso</returns>
+            <response code="200">Retorna curso</response>
+            <response code="404">Curso não encontrado</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.CursoController.DeleteCurso(System.Int32)">
+            <summary>
+            Remover curso
+            </summary>
+            <param name="cursoId">Identificador do curso</param>
+            <response code="200">Curso removido</response>
+            <response code="404">Curso não encontrado</response>
+            <response code="400">Falha ao tentar remover</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.DisciplinaController.AdicionarDisciplina(TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaCreateDto)">
+            <summary>
+            Cadastrar disciplina
+            </summary>
+            <param name="disciplinaCreateDto">Modelo da disciplina para cadastro</param>
+            <remarks>
+            Exemplo:
+            
+                {
+                    "nome": "Nome da disciplina",
+                    "cursoid": 1
+                }
+                
+            </remarks>
+            
+            <returns>Retorna disciplina cadastrada</returns>
+            <response code="201">Retorna a nova disciplina cadastrada</response>
+            <response code="404">Curso e/ou nota de disciplina não encontrada</response>
+            <response code="400">Falha ao tentar cadastrar item</response>
+            <response code="500">Falha do servidor</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.DisciplinaController.GetDisciplinaById(System.Int32)">
+            <summary>
+            Lista disciplina consultada
+            </summary>
+            <param name="disciplinaId">Identificador da disciplina</param>
+            <returns>Retorna disciplina</returns>
+            <response code="200">Retorna dados da disciplina</response>
+            <response code="404">Disciplina não localizada</response>
+        </member>
+        <member name="M:TesteBackend.WebApi.Controllers.DisciplinaController.DeleteDisciplina(System.Int32)">
+            <summary>
+            Excluir disciplina
+            </summary>
+            <param name="disciplinaId">Identificador da disciplina</param>
+            <response code="200">Disciplina excluída</response>
+            <response code="404">Disciplina não localizada</response>
+            <response code="400">Operação não permitida</response>
+            <response code="500">Problema interno</response>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoCreateDto">
+            <summary>
+            Entidade modelo para cadastrar novo aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoCreateDto.Nome">
+            <summary>
+            Nome do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoCreateDto.Periodo">
+            <summary>
+            Período do aluno no curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoCreateDto.CursoId">
+            <summary>
+            Código do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoCreateDto.Matricula">
+            <summary>
+            Lista de matrículas em disciplinas
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoDto">
+            <summary>
+            Modelo do cadastro do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoDto.Ra">
+            <summary>
+            Registro Acadêmico (RA) do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoDto.Nome">
+            <summary>
+            Nome do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoDto.Periodo">
+            <summary>
+            Período do aluno no curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoDto.Status">
+            <summary>
+            Status do aluno no curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoDto.Curso">
+            <summary>
+            Curso do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoDto.Matricula">
+            <summary>
+            Lista de matrículas do aluno em disciplinas
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoDto.Foto">
+            <summary>
+            URL da foto do aluno
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoEditDto">
+            <summary>
+            Modelo para edição do cadastro do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoEditDto.Ra">
+            <summary>
+            Registro Acadêmico (RA) do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoEditDto.Nome">
+            <summary>
+            Nome do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoEditDto.Periodo">
+            <summary>
+            Período do aluno no curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoEditDto.Matricula">
+            <summary>
+            Lista de matriculas do aluno em disciplinas
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.AlunoDtos.AlunoEditDto.Foto">
+            <summary>
+            URL da foto do aluno
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.CursoDtos.CursoCreateDto">
+            <summary>
+            Entidade para cadastro do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.CursoDtos.CursoCreateDto.Nome">
+            <summary>
+            Nome do curso
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.CursoDtos.CursoDto">
+            <summary>
+            Modelo com os dados do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.CursoDtos.CursoDto.Id">
+            <summary>
+            Identificador do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.CursoDtos.CursoDto.Nome">
+            <summary>
+            Nome do curso
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.CursoDtos.CursoEditDto">
+            <summary>
+            Modelo para edição do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.CursoDtos.CursoEditDto.Id">
+            <summary>
+            Identificador do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.CursoDtos.CursoEditDto.Nome">
+            <summary>
+            Nome do curso
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.CursoFullDto">
+            <summary>
+            Modelo com dados do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.CursoFullDto.Id">
+            <summary>
+            Identificador do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.CursoFullDto.Nome">
+            <summary>
+            Nome do curso
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.CursoFullDto.Disciplinas">
+            <summary>
+            Relação de disciplinas do curso
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaCreateDto">
+            <summary>
+            Modelo para cadastro da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaCreateDto.Nome">
+            <summary>
+            Nome da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaCreateDto.CursoId">
+            <summary>
+            Identificador do curso
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaDto">
+            <summary>
+            Modelo dos dados da disciplina para exibição
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaDto.Id">
+            <summary>
+            Identificador da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaDto.Nome">
+            <summary>
+            Nome da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaDto.NotaMinimaAprovacao">
+            <summary>
+            Nota mínima para aprovação
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaFullDto">
+            <summary>
+            Modelo para exibição dos dados da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaFullDto.Id">
+            <summary>
+            Identificador da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaFullDto.Nome">
+            <summary>
+            Nome da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaFullDto.NotaMinimaAprovacao">
+            <summary>
+            Nota mínima para aprovação
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.DisciplinaFullDto.Curso">
+            <summary>
+            Curso que a disciplina está vinculada
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaCreateDto">
+            <summary>
+            Modelo para cadastro da matrícula em disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaCreateDto.DisciplinaId">
+            <summary>
+            Identificador da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaCreateDto.Nota">
+            <summary>
+            Nota do aluno na disciplina
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaDto">
+            <summary>
+            Modelo para exibição dos dados de matrícula
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaDto.Disciplina">
+            <summary>
+            Disciplina da matrícula
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaDto.Nota">
+            <summary>
+            Nota do aluno
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaDto.Status">
+            <summary>
+            Status na matrícula na disciplina
+            </summary>
+        </member>
+        <member name="T:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaEditDto">
+            <summary>
+            Modelo para alteração dos dados de matrícula
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaEditDto.DisciplinaId">
+            <summary>
+            Identificador da disciplina
+            </summary>
+        </member>
+        <member name="P:TesteBackend.WebApi.Dtos.DisciplinaDtos.MatriculaEditDto.Nota">
+            <summary>
+            Nota do aluno
+            </summary>
+        </member>
+        <member name="M:TesteBackend.WebApi.Dtos.ProfileAutoMapper.#ctor">
+            <summary>
+            Configuração de mapeamento das entidades para objetos de representação
+            </summary>
+        </member>
+    </members>
+</doc>
