@@ -1,0 +1,83 @@
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\appsettings.json
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Teste Prático Backend.exe
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Teste Prático Backend.deps.json
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Teste Prático Backend.runtimeconfig.json
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Teste Prático Backend.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\ref\Teste Prático Backend.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Teste Prático Backend.pdb
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Abp.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Antlr3.Runtime.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Castle.Core.AsyncInterceptor.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Castle.Facilities.Logging.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Castle.Windsor.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\EntityFramework.SqlServer.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\EntityFramework.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\FluentNHibernate.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Iesi.Collections.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\NHibernate.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Ninject.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Ninject.Web.Common.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Ninject.WebApi.DependencyResolver.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Nito.AsyncEx.Context.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Nito.AsyncEx.Coordination.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Nito.AsyncEx.Tasks.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Nito.Collections.Deque.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Nito.Disposables.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Remotion.Linq.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Remotion.Linq.EagerFetching.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Linq.Dynamic.Core.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\TimeZoneConverter.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Data.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Domain.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Data.pdb
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\bin\Debug\net6.0\Domain.pdb
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.csproj.AssemblyReference.cache
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.AssemblyInfoInputs.cache
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.AssemblyInfo.cs
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.csproj.CoreCompileInputs.cache
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\scopedcss\bundle\Teste Prático Backend.styles.css
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.csproj.CopyComplete
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\ref\Teste Prático Backend.dll
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.pdb
+C:\Users\SQUADRA\source\repos\Teste Prático Backend\Teste Prático Backend\obj\Debug\net6.0\Teste Prático Backend.genruntimeconfig.cache
