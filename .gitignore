@@ -1,0 +1,16 @@
+*.dll
+*.cache
+*.pdb
+**/bin
+**/obj
+**/node_modules
+**/.vs
+.config
+Config/
+bin/
+obj/
+web/properties/PublishProfiles/
+web/wwwroot/js
+TempFileFolder/
+TempImagesFolder/
+Database/
