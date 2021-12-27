@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BJDHz2W39Uln+mSviDt7G2OyDe3Nvr52IM6exi52zRDByRC8v/agIkKov06/C+dbZWyPaqmgrWnLJTOE+9/VMw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mathe\\Desktop\\teste_vaga\\TesteCRUD\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+  ],
+  "logs": []
+}
