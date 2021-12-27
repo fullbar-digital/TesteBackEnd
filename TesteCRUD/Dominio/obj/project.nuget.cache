@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6vO/BTpKHv4mZM1TWzn44OiI+3aoX2itl5DiJl6u9+RLH2qhDWCd2qdvho69Yxq197rNJ8ORw+HW703vNonr2w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mathe\\Desktop\\matheus\\TesteCRUD\\Dominio\\Dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mathe\\.nuget\\packages\\fluentvalidation\\9.3.0\\fluentvalidation.9.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}

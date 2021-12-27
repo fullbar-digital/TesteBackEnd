@@ -1,0 +1,10 @@
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\obj\Debug\netcoreapp3.1\Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfoInputs.cache
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\obj\Debug\netcoreapp3.1\Dominio.AssemblyInfo.cs
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\bin\Debug\netcoreapp3.1\Dominio.deps.json
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\bin\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\bin\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\obj\Debug\netcoreapp3.1\Dominio.dll
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\obj\Debug\netcoreapp3.1\Dominio.pdb
+C:\Users\mathe\Desktop\teste_vaga\TesteCRUD\Dominio\obj\Debug\netcoreapp3.1\Dominio.csproj.AssemblyReference.cache
