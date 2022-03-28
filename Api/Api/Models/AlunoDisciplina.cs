@@ -2,6 +2,7 @@
 {
     public class AlunoDisciplina
     {
+        public int Id { get; set; }
         public int AlunoID { get; set; }
         public Aluno Aluno { get; set; }
         public int DisciplinaID { get; set; }

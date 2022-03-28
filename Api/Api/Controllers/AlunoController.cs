@@ -9,9 +9,9 @@ namespace SuperHeroAPI.Controllers
     [ApiController]
     public class AlunoController : ControllerBase
     {
-        private readonly AlunoContext _context;
+        private readonly AlunosContext _context;
 
-        public AlunoController(AlunoContext context)
+        public AlunoController(AlunosContext context)
         {
             _context = context;
         }
