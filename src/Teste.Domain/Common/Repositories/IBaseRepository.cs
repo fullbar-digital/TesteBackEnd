@@ -2,9 +2,9 @@
 {
     public interface IBaseRepository<T>
     {
-        Task Add(T entity);
-        Task Remove(Guid id);
-        Task Update(T entity);
+        Guid Add(T entity);
+        void Remove(Guid id);
+        void Update(T entity);
         Task<List<T>> GetAll(bool trackChanges = false);
     }
 }

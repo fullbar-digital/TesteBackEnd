@@ -53,9 +53,8 @@ namespace Teste.Infra.Data.Migrations
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("REGISTRO_ACADEMICO");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
+                    b.Property<int>("Status")
+                        .HasColumnType("int")
                         .HasColumnName("STATUS");
 
                     b.HasKey("Id");
@@ -92,7 +91,7 @@ namespace Teste.Infra.Data.Migrations
 
                     b.Property<Guid>("CursoId")
                         .HasColumnType("uniqueidentifier")
-                        .HasColumnName("ID_CURSO");
+                        .HasColumnName("CURSO_ID");
 
                     b.Property<string>("Nome")
                         .IsRequired()

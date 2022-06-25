@@ -10,3 +10,5 @@
 /src/Teste.Infra.Data/obj
 /src/Teste.WebAPI/bin/Debug/net6.0
 /src/Teste.WebAPI/obj
+/src/obj
+/src/Teste.Application/bin/Debug/net6.0

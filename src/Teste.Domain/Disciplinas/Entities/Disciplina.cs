@@ -8,6 +8,6 @@ namespace Teste.Domain.Disciplinas.Entities
         public string Nome { get; set; } = default!;
         public decimal NotaMinimaAprovacao { get; set; }
         public Guid CursoId { get; set; }
-        public virtual Curso Curso { get; set; } = default!;
+        public Curso Curso { get; set; } = default!;
     }
 }

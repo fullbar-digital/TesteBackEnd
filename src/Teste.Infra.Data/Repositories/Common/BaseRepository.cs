@@ -16,34 +16,41 @@ namespace Teste.Infra.Data.Repositories.Common
             DbSet = dbContext.Set<T>();
         }
 
-        public async Task Add(T entity)
+        public Guid Add(T entity)
         {
-            await DbContext.AddAsync(entity);
+            DbContext.AddAsync(entity);
+            return entity.Id;
         }
 
-        public async Task<List<T>> GetAll(bool trackChanges = false)
+        public Task<List<T>> GetAll(bool trackChanges = false)
         {
-            return await (trackChanges ? DbSet.ToListAsync() : DbSet.AsNoTracking().ToListAsync());
+            return trackChanges ? DbSet.ToListAsync() : DbSet.AsNoTracking().ToListAsync();
         }
 
-        public async Task Remove(Guid id)
+        public void Remove(Guid id)
         {
-            var objectRemove = await DbSet.FirstAsync(x => x.Id == id);
+            var objectRemove = DbSet.First(x => x.Id == id);
 
             if(objectRemove != null)
             {
                 DbSet.Remove(objectRemove);
-            }            
+                return;
+            }
+
+            throw new ArgumentException($"Erro ao remover {typeof(T).Name}: Não encontrado! ");
         }
 
-        public async Task Update(T entity)
+        public void Update(T entity)
         {
-            var objectUpdate = await DbSet.FirstAsync(x => x.Id == entity.Id);
+            var objectUpdate = DbSet.AsNoTracking().First(x => x.Id == entity.Id);
 
             if(objectUpdate != null)
             {
                 DbSet.Update(entity);
-            }           
+                return;
+            }
+
+            throw new ArgumentException($"Erro ao alterar {typeof(T).Name}: Não encontrado! ");
         }
     }
 }

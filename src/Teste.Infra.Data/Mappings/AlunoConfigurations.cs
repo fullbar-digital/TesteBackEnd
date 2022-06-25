@@ -15,7 +15,7 @@ namespace Teste.Infra.Data.Mappings
             _ = builder.Property(x => x.Nome).HasMaxLength(200).HasColumnName("NOME");
             _ = builder.Property(x => x.RA).HasMaxLength(100).HasColumnName("REGISTRO_ACADEMICO");
             _ = builder.Property(x => x.Periodo).HasColumnName("PERIODO");
-            _ = builder.HasOne(x => x.Curso).WithMany(x => x.Alunos).HasForeignKey(x => x.CursoId).HasConstraintName("FK_ALUNO_CURSO");
+            _ = builder.HasOne(x => x.Curso).WithMany(x => x.Alunos).HasConstraintName("FK_ALUNO_CURSO");
             _ = builder.Property(x => x.Status).HasColumnName("STATUS");
             _ = builder.Property(x => x.Foto).HasColumnName("FOTO");
         }

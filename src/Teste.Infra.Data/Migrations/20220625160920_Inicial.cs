@@ -30,7 +30,7 @@ namespace Teste.Infra.Data.Migrations
                     REGISTRO_ACADEMICO = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
                     PERIODO = table.Column<int>(type: "int", nullable: false),
                     CursoId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    STATUS = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    STATUS = table.Column<int>(type: "int", nullable: false),
                     FOTO = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
@@ -51,14 +51,14 @@ namespace Teste.Infra.Data.Migrations
                     ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     NOME = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
                     NOTA_MINIMA_APROVACAO = table.Column<decimal>(type: "decimal(10,2)", nullable: false),
-                    ID_CURSO = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                    CURSO_ID = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_TB_DISCIPLINA", x => x.ID);
                     table.ForeignKey(
                         name: "FK_CURSO_DISCIPLINA",
-                        column: x => x.ID_CURSO,
+                        column: x => x.CURSO_ID,
                         principalTable: "TB_CURSO",
                         principalColumn: "ID",
                         onDelete: ReferentialAction.Cascade);
@@ -70,9 +70,9 @@ namespace Teste.Infra.Data.Migrations
                 column: "CursoId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_TB_DISCIPLINA_ID_CURSO",
+                name: "IX_TB_DISCIPLINA_CURSO_ID",
                 table: "TB_DISCIPLINA",
-                column: "ID_CURSO");
+                column: "CURSO_ID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

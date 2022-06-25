@@ -12,7 +12,7 @@ using Teste.Infra.Data.Contexts;
 namespace Teste.Infra.Data.Migrations
 {
     [DbContext(typeof(TesteContexto))]
-    [Migration("20220624213148_Inicial")]
+    [Migration("20220625160920_Inicial")]
     partial class Inicial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -55,9 +55,8 @@ namespace Teste.Infra.Data.Migrations
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("REGISTRO_ACADEMICO");
 
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)")
+                    b.Property<int>("Status")
+                        .HasColumnType("int")
                         .HasColumnName("STATUS");
 
                     b.HasKey("Id");
@@ -94,7 +93,7 @@ namespace Teste.Infra.Data.Migrations
 
                     b.Property<Guid>("CursoId")
                         .HasColumnType("uniqueidentifier")
-                        .HasColumnName("ID_CURSO");
+                        .HasColumnName("CURSO_ID");
 
                     b.Property<string>("Nome")
                         .IsRequired()

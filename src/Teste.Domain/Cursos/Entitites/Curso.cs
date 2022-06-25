@@ -9,7 +9,7 @@ namespace Teste.Domain.Cursos.Entitites
     {
         public string Nome { get; set; } = default!;
 
-        public List<Disciplina> Disciplinas { get; set; } = new();
         public List<Aluno> Alunos { get; set; } = new();
+        public List<Disciplina> Disciplinas { get; set; } = new();        
     }
 }

@@ -13,8 +13,8 @@ namespace Teste.Infra.Data.Mappings
 
             _ = builder.ToTable("TB_DISCIPLINA");
             _ = builder.Property(x => x.Nome).HasMaxLength(200).HasColumnName("NOME");
-            _ = builder.Property(x => x.CursoId).HasColumnName("ID_CURSO");
             _ = builder.Property(x => x.NotaMinimaAprovacao).HasColumnType("decimal(10,2)").HasColumnName("NOTA_MINIMA_APROVACAO");
+            _ = builder.Property(x => x.CursoId).HasColumnName("CURSO_ID");
 
         }
     }

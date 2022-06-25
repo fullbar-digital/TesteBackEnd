@@ -10,5 +10,24 @@ namespace Teste.Infra.Data.Repositories
         public CursoRepository(TesteContexto dbContexto) : base(dbContexto)
         {
         }
+        public void Alterar(Curso entity)
+        {
+            Update(entity);
+        }
+
+        public Guid Inserir(Curso entity)
+        {
+            return Add(entity);
+        }
+
+        public Task<List<Curso>> ObterTodos()
+        {
+            return GetAll();
+        }
+
+        public void Remover(Guid id)
+        {
+            Remove(id);
+        }
     }
 }

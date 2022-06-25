@@ -9,6 +9,26 @@ namespace Teste.Infra.Data.Repositories
     {
         public DisciplinaRepository(TesteContexto dbContexto) : base(dbContexto)
         {
-        }        
+        }
+
+        public void Alterar(Disciplina entity)
+        {
+            Update(entity);
+        }
+
+        public Guid Inserir(Disciplina entity)
+        {
+            return Add(entity);         
+        }
+
+        public Task<List<Disciplina>> ObterTodos()
+        {
+            return GetAll();
+        }
+
+        public void Remover(Guid id)
+        {
+            Remove(id);
+        }
     }
 }

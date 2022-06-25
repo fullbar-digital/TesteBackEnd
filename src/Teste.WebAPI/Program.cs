@@ -1,4 +1,6 @@
+using Teste.Application;
 using Teste.Infra.Data;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +13,8 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.ConfigureDataBase(builder.Configuration);
 builder.Services.ConfigureRepositoriesDependencyInjection();
+builder.Services.ConfigureMediator();
+builder.Services.ConfigureMapper();
 
 var app = builder.Build();
 
