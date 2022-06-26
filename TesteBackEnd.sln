@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Domain", "src\Teste.D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Infra.Data", "src\Teste.Infra.Data\Teste.Infra.Data.csproj", "{E2FE3164-6268-4253-9682-B7303646F780}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.Application", "src\Teste.Application\Teste.Application.csproj", "{6D1E2CFF-3986-42AC-832F-D573DB72FB1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Application", "src\Teste.Application\Teste.Application.csproj", "{6D1E2CFF-3986-42AC-832F-D573DB72FB1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.UnitTests", "test\Teste.UnitTests\Teste.UnitTests.csproj", "{5F9773B4-CE05-41E3-8DBD-FC62B2F8C26B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{6D1E2CFF-3986-42AC-832F-D573DB72FB1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D1E2CFF-3986-42AC-832F-D573DB72FB1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D1E2CFF-3986-42AC-832F-D573DB72FB1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9773B4-CE05-41E3-8DBD-FC62B2F8C26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9773B4-CE05-41E3-8DBD-FC62B2F8C26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9773B4-CE05-41E3-8DBD-FC62B2F8C26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9773B4-CE05-41E3-8DBD-FC62B2F8C26B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{BE55867F-C3FA-478F-97D2-3BDEF8A59C58} = {5D23D70A-51FA-41FD-8587-19CC72986D64}
 		{E2FE3164-6268-4253-9682-B7303646F780} = {32FA0768-5724-426C-8B1F-2A863E7288BA}
 		{6D1E2CFF-3986-42AC-832F-D573DB72FB1F} = {5D23D70A-51FA-41FD-8587-19CC72986D64}
+		{5F9773B4-CE05-41E3-8DBD-FC62B2F8C26B} = {292A98D2-FE89-4FFB-992E-5E6348DB9A0E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {70F8220F-2851-4E35-94B3-A6D7B836224B}

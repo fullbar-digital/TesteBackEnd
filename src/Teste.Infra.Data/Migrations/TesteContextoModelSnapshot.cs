@@ -30,7 +30,8 @@ namespace Teste.Infra.Data.Migrations
                         .HasColumnName("ID");
 
                     b.Property<Guid>("CursoId")
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uniqueidentifier")
+                        .HasColumnName("CURSO_ID");
 
                     b.Property<string>("Foto")
                         .IsRequired()
@@ -53,8 +54,8 @@ namespace Teste.Infra.Data.Migrations
                         .HasColumnType("nvarchar(100)")
                         .HasColumnName("REGISTRO_ACADEMICO");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int")
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)")
                         .HasColumnName("STATUS");
 
                     b.HasKey("Id");
@@ -62,6 +63,26 @@ namespace Teste.Infra.Data.Migrations
                     b.HasIndex("CursoId");
 
                     b.ToTable("TB_ALUNO", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("88046518-38ac-48cf-a621-8bdf0dab8978"),
+                            CursoId = new Guid("47638e27-2992-4021-bd4c-9d3ddbbab597"),
+                            Foto = "https://i1.wp.com/dailychessmusings.com/wp-content/uploads/2020/04/bcf95-20130904_kasparov_0111_edit_1363-2.jpg?ssl=1",
+                            Nome = "Garry Kasparov",
+                            Periodo = 8,
+                            RA = "000101"
+                        },
+                        new
+                        {
+                            Id = new Guid("7ad63a53-6571-4d0f-a293-8d5330c73765"),
+                            CursoId = new Guid("36f5ec76-d5a5-4eff-949b-2fe44dad5a0e"),
+                            Foto = "https://norwaytoday.info/wp-content/uploads/2020/10/Magnus-Carlsen-Heiko-Junge-NTB-1.jpg",
+                            Nome = "Magnus Carlsen",
+                            Periodo = 5,
+                            RA = "000102"
+                        });
                 });
 
             modelBuilder.Entity("Teste.Domain.Cursos.Entitites.Curso", b =>
@@ -80,6 +101,18 @@ namespace Teste.Infra.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TB_CURSO", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("47638e27-2992-4021-bd4c-9d3ddbbab597"),
+                            Nome = "CURSO 001"
+                        },
+                        new
+                        {
+                            Id = new Guid("36f5ec76-d5a5-4eff-949b-2fe44dad5a0e"),
+                            Nome = "CURSO 002"
+                        });
                 });
 
             modelBuilder.Entity("Teste.Domain.Disciplinas.Entities.Disciplina", b =>
@@ -108,6 +141,50 @@ namespace Teste.Infra.Data.Migrations
                     b.HasIndex("CursoId");
 
                     b.ToTable("TB_DISCIPLINA", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("776b9fd4-4414-4989-bffd-ee14db822d16"),
+                            CursoId = new Guid("47638e27-2992-4021-bd4c-9d3ddbbab597"),
+                            Nome = "DISCIPLINA 001",
+                            NotaMinimaAprovacao = 7.00m
+                        },
+                        new
+                        {
+                            Id = new Guid("6b9bc30a-2e90-43fb-8a98-3da2c8912e9a"),
+                            CursoId = new Guid("47638e27-2992-4021-bd4c-9d3ddbbab597"),
+                            Nome = "DISCIPLINA 002",
+                            NotaMinimaAprovacao = 6.00m
+                        },
+                        new
+                        {
+                            Id = new Guid("cc14e9f5-e7e7-4a43-a1a0-7974007e0cb6"),
+                            CursoId = new Guid("47638e27-2992-4021-bd4c-9d3ddbbab597"),
+                            Nome = "DISCIPLINA 003",
+                            NotaMinimaAprovacao = 8.00m
+                        },
+                        new
+                        {
+                            Id = new Guid("e7653c09-8df8-4bc7-a2db-4b07c6cf708b"),
+                            CursoId = new Guid("36f5ec76-d5a5-4eff-949b-2fe44dad5a0e"),
+                            Nome = "DISCIPLINA 004",
+                            NotaMinimaAprovacao = 5.00m
+                        },
+                        new
+                        {
+                            Id = new Guid("1a37f0c1-f186-4963-bb44-bb83e8c76187"),
+                            CursoId = new Guid("36f5ec76-d5a5-4eff-949b-2fe44dad5a0e"),
+                            Nome = "DISCIPLINA 005",
+                            NotaMinimaAprovacao = 9.00m
+                        },
+                        new
+                        {
+                            Id = new Guid("b3528f60-bac1-442b-aa77-8ca4de5be350"),
+                            CursoId = new Guid("36f5ec76-d5a5-4eff-949b-2fe44dad5a0e"),
+                            Nome = "DISCIPLINA 006",
+                            NotaMinimaAprovacao = 10.00m
+                        });
                 });
 
             modelBuilder.Entity("Teste.Domain.Alunos.Entities.Aluno", b =>

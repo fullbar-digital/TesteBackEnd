@@ -42,9 +42,9 @@ namespace Teste.Infra.Data.Repositories.Common
 
         public void Update(T entity)
         {
-            var objectUpdate = DbSet.AsNoTracking().First(x => x.Id == entity.Id);
+            var exists = DbSet.Any(x => x.Id == entity.Id);
 
-            if(objectUpdate != null)
+            if(exists)
             {
                 DbSet.Update(entity);
                 return;

@@ -15,7 +15,7 @@ namespace Teste.Infra.Data
     {
         public static void ConfigureDataBase(this IServiceCollection service, IConfiguration configuration)
         {
-            _ = service.AddDbContext<TesteContexto>(options => options.UseSqlServer(configuration.GetConnectionString("Default")), ServiceLifetime.Singleton);
+            _ = service.AddDbContext<TesteContexto>(options => options.UseSqlServer(configuration.GetConnectionString("Default")));
         }
 
         public static void ConfigureRepositoriesDependencyInjection(this IServiceCollection service)

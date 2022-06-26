@@ -20,7 +20,7 @@ namespace Teste.Application.Cursos.Alteracao
         {
             var curso = _mapper.Map<Curso>(request);
 
-            _repositoryManager.DisciplinaRepository.Alterar(disciplina);
+            _repositoryManager.CursoRepository.Alterar(curso);
             await _repositoryManager.SaveAsync(cancellationToken);
 
             return new AlterarCursoResponse();

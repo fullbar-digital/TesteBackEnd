@@ -12,3 +12,5 @@
 /src/Teste.WebAPI/obj
 /src/obj
 /src/Teste.Application/bin/Debug/net6.0
+/test/Teste.UnitTests/obj/Debug/net6.0
+/test/Teste.UnitTests/obj

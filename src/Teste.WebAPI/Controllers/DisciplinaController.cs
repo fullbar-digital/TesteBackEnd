@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Teste.Application.Cursos.Alteracao;
 using Teste.Application.Disciplinas.Alteracao;
 using Teste.Application.Disciplinas.Cadastro;
 using Teste.Application.Disciplinas.ObterTodas;
@@ -29,7 +30,7 @@ namespace Teste.WebAPI.Controllers
 
         [HttpPut]
         [Route("alterar")]
-        public Task<ActionResult<AlterarCursoResponse>> Alterar(AlterarCursoCommand command, CancellationToken cancellationToken)
+        public Task<ActionResult<AlterarDisciplinaResponse>> Alterar(AlterarDisciplinaCommand command, CancellationToken cancellationToken)
         {
             var result = _mediator.Send(command, cancellationToken);
             return Task.FromResult(CreateResponse(result));
