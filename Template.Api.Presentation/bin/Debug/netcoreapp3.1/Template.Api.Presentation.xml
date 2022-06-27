@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Template.Api.Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:Template.Api.Presentation.Controllers.AuthenticationController.AuthenticateAsync">
+            <summary>
+            Authenticate an user
+            </summary>
+        </member>
+        <member name="M:Template.Api.Presentation.Controllers.StudentController.GetStudentsAsync(Template.Api.ApplicationCore.Dto.StudentFilterDto)">
+            <summary>
+            Get a list of students
+            </summary>
+            <param name="studentFilter"></param>
+        </member>
+        <member name="M:Template.Api.Presentation.Controllers.StudentController.GetByIdAsync(System.Int32)">
+            <summary>
+            Get a specific student by id
+            </summary>
+            <param name="id">Student Id</param>
+        </member>
+        <member name="M:Template.Api.Presentation.Controllers.StudentController.UpdateStudentAsync(System.Int32,Template.Api.ApplicationCore.Entities.StudentBase)">
+            <summary>
+            Update a specific student
+            </summary>
+            <param name="id">Student Id</param>
+            <param name="body">Student's data to update</param>
+        </member>
+        <member name="M:Template.Api.Presentation.Controllers.StudentController.DeleteStudentAsync(System.Int32)">
+            <summary>
+            Delete an specific student
+            </summary>
+            <param name="id">Student id</param>
+        </member>
+    </members>
+</doc>
