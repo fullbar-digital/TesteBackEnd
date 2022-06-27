@@ -1,0 +1,51 @@
+CREATE DATABASE [TemplateDb];
+
+Use [TemplateDb];
+
+DROP TABLE [dbo].[course_subject_student]
+DROP TABLE [dbo].[student]
+DROP TABLE [dbo].[course_subject]
+DROP TABLE [dbo].[course]
+
+CREATE TABLE [dbo].[course]
+(
+	course_id int not null constraint PK_course primary key identity (1,1),
+	[name] varchar(100)
+)
+
+CREATE TABLE [dbo].[course_subject]
+(
+	course_subject_id int not null constraint PK_course_subject primary key identity (1,1),
+	[name] varchar(100),
+	minimum_grade decimal(10,2),
+	course_id int constraint FK_course_subject_couse foreign key references [dbo].[course] (course_id) ON DELETE CASCADE
+)
+
+CREATE TABLE [dbo].[student]
+(
+	student_id int not null constraint PK_student primary key identity (1,1),
+	[name] varchar(100),
+	ra varchar(10),
+	[period] int,
+	[status] bit,
+	photo varchar(200)
+)
+
+CREATE TABLE [dbo].[course_subject_student]
+(
+	course_subject_student_id int not null constraint PK_course_subject_student primary key identity (1,1),
+	course_subject_id int not null constraint FK_course_subject_student_course_subject foreign key references [dbo].[course_subject] (course_subject_id) ON DELETE CASCADE,
+	student_id int not null constraint FK_course_subject_student_student foreign key references [dbo].[student] (student_id) ON DELETE CASCADE,
+	grade decimal(10,2)
+)
+
+select * from [dbo].[student]
+select * from [dbo].[course_subject_student]
+select * from [dbo].[course_subject]
+select * from [dbo].[course]
+
+insert into [dbo].[course] values ('System Development')
+insert into [dbo].[student] values ('Luiz', '123', 2, 1, ''), ('Gustavo', '124', 3, 1, '')
+insert into [dbo].[course_subject] values ('Banco de dados', 7, 1)
+insert into [dbo].[course_subject] values ('Programação', 7, 1)
+insert into [dbo].[course_subject_student] values (1, 1, 8.5), (1, 2, 9.2), (2, 1, 6.5), (2, 2, 6.1)

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "664ef6ab-501e-4420-a594-6f6e8f864551": {
+      "ProjectGuid": "664ef6ab-501e-4420-a594-6f6e8f864551",
+      "DisplayName": "Template.Api.Presentation",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
