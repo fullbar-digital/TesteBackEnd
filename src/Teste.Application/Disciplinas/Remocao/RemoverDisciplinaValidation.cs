@@ -7,7 +7,7 @@ namespace Teste.Application.Disciplinas.Remocao
     {
         public RemoverDisciplinaValidation()
         {
-            _ = RuleFor(x => x.DisciplinaId).Must(x => x.IsValidGuid()).WithMessage("Id da disciplina inválido!");
+            _ = RuleFor(x => x.Id).Must(x => x.IsValidGuid()).WithMessage("Id da disciplina inválido!");
         }
     }
 }

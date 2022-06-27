@@ -1,5 +1,4 @@
 ﻿using FluentValidation;
-using Teste.Domain.Utils;
 
 namespace Teste.Application.Cursos.Cadastro
 {

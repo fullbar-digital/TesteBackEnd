@@ -21,29 +21,43 @@ namespace Teste.Application.MappingProfiles
         public ApplicationMappingProfile()
         {
             //Disciplina
-            CreateMap<CadastrarDisciplinaCommand, Disciplina>();
+            CreateMap<CadastrarDisciplinaCommand, Disciplina>()
+                .ForMember(p => p.Curso, opt => opt.Ignore())
+                .ForMember(p => p.Id, opt => opt.Ignore());
+
             CreateMap<AlterarDisciplinaCommand, Disciplina>()
+                .ForMember(p => p.Curso, opt => opt.Ignore())
                 .ForMember(p => p.CursoId, opt => opt.MapFrom(src => new Guid(src.CursoId)))
                 .ForMember(p => p.Id, opt => opt.MapFrom(src => new Guid(src.Id)));
             CreateMap<Disciplina, DisciplinaDto>()
                 .ForMember(p => p.Curso, opt => opt.MapFrom(src => src.Curso.Nome));
 
             //Curso
-            CreateMap<CadastrarCursoCommand, Curso>();
+            CreateMap<CadastrarCursoCommand, Curso>()
+                .ForMember(p => p.Alunos, opt => opt.Ignore())
+                .ForMember(p => p.Disciplinas, opt => opt.Ignore())
+                .ForMember(p => p.Id, opt => opt.Ignore());
             CreateMap<AlterarCursoCommand, Curso>()
+                .ForMember(p => p.Alunos, opt => opt.Ignore())
+                .ForMember(p => p.Disciplinas, opt => opt.Ignore())
                 .ForMember(p => p.Id, opt => opt.MapFrom(src => new Guid(src.CursoId)));
             CreateMap<Curso, CursoDto>();
 
             //Aluno
             CreateMap<CadastrarAlunoCommand, Aluno>()
+                .ForMember(p => p.Curso, opt => opt.Ignore())
+                .ForMember(p => p.Id, opt => opt.Ignore())
                 .ForMember(p => p.RA, opt => opt.MapFrom(src => src.RegistroAcademico))
                 .ForMember(p => p.Status, opt => opt.MapFrom(src => string.Empty))
                 .ForMember(p => p.CursoId, opt => opt.MapFrom(src => new Guid(src.CursoId)));
             CreateMap<AlterarAlunoCommand, Aluno>()
+                .ForMember(p => p.Curso, opt => opt.Ignore())
+                .ForMember(p => p.Status, opt => opt.Ignore())
                 .ForMember(p => p.Id, opt => opt.MapFrom(src => new Guid(src.Id)))
                 .ForMember(p => p.RA, opt => opt.MapFrom(src => src.RegistroAcademico))
                 .ForMember(p => p.CursoId, opt => opt.MapFrom(src => new Guid(src.CursoId)));
             CreateMap<Aluno, AlunoDto>()
+               .ForMember(p => p.RegistroAcademico, opt => opt.Ignore())
                .ForMember(p => p.Curso, opt => opt.MapFrom(src => src.Curso.Nome));
 
             CreateMap<FiltrarAlunoCommand, FilterAlunoDto>()

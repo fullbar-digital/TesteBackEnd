@@ -3,11 +3,11 @@ using Teste.Domain.Common.Repositories;
 
 namespace Teste.Application.Alunos.Remocao
 {
-    public class ObterTodasDisciplinasCommandHandler : IRequestHandler<RemoverAlunoCommand, RemoverAlunoResponse>
+    public class RemoverAlunoCommandHandler : IRequestHandler<RemoverAlunoCommand, RemoverAlunoResponse>
     {
         private readonly IRepositoryManager _repositoryManager;
 
-        public ObterTodasDisciplinasCommandHandler(IRepositoryManager repositoryManager)
+        public RemoverAlunoCommandHandler(IRepositoryManager repositoryManager)
         {
             _repositoryManager = repositoryManager;            
         }
