@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "u4gy68Zz1CR2lgpYV/S3Nmn0X33sRKa5rpNU4A744RGz0gWebtzCzbO1ZTk6pjNv13hG3S16iPyOubwDXXsIDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.API\\Cadastro.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ab1429124\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}
