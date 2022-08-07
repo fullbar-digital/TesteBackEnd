@@ -9,31 +9,33 @@ namespace Teste_BackEnd.Repositories
 {
     public class AlunoRepository : BaseRepository<Aluno>, IAlunoRepository
     {
-        CursoRepository cursoRepository;
-        DisciplinaRepository disciplinaRepository;
+        ICursoRepository _cursoRepository;
+        IDisciplinaRepository _disciplinaRepository;
 
 
-        public AlunoRepository(ApplicationContext context) : base(context)
+        public AlunoRepository(ApplicationContext context,
+                                ICursoRepository cursoRepository,
+                                IDisciplinaRepository disciplinaRepository) : base(context)
         {
-            cursoRepository = new CursoRepository(context);
-            disciplinaRepository = new DisciplinaRepository(context);
+            _cursoRepository = cursoRepository;
+            _disciplinaRepository = disciplinaRepository;
 
         }
 
         public void Add(Aluno obj)
         {
-            Curso curso = cursoRepository.GetByNome(obj.Curso.Nome);
+            Curso curso = _cursoRepository.GetByNome(obj.Curso.Nome);
 
             // Caso curso já exista, verifica se todas as disciplinas já existem. Caso não, insere
             if (curso != null)
             {
                 foreach (Disciplina d in obj.Curso.Disciplinas)
                 {
-                    var disciplina = disciplinaRepository.GetByNome(d.Nome, curso.Id);
+                    var disciplina = _disciplinaRepository.GetByNome(d.Nome, curso.Id);
                     if (disciplina == null)
                     {
                         d.CursoId = curso.Id;
-                        disciplinaRepository.Add(d);
+                        _disciplinaRepository.Add(d);
                     }
                 }
 

@@ -31,8 +31,12 @@ namespace Teste_BackEnd
                 options.UseSqlServer(connectionString)
                 );
 
+            #region IoC
             services.AddTransient<IDataService, DataService>();
             services.AddTransient<IAlunoRepository, AlunoRepository>();
+            services.AddTransient<ICursoRepository, CursoRepository>();
+            services.AddTransient<IDisciplinaRepository, DisciplinaRepository>();
+            #endregion
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
