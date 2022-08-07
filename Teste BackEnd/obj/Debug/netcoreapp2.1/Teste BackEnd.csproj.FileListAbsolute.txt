@@ -1,0 +1,36 @@
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.csproj.AssemblyReference.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.AssemblyInfoInputs.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.AssemblyInfo.cs
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.csproj.CoreCompileInputs.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.RazorAssemblyInfo.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.RazorAssemblyInfo.cs
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.deps.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.runtimeconfig.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.runtimeconfig.dev.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.dll
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.pdb
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.RazorTargetAssemblyInfo.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.dll
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.pdb
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.genruntimeconfig.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.deps.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.runtimeconfig.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.runtimeconfig.dev.json
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.dll
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\bin\Debug\netcoreapp2.1\Teste BackEnd.pdb
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.csproj.AssemblyReference.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.AssemblyInfoInputs.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.AssemblyInfo.cs
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.csproj.CoreCompileInputs.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.RazorAssemblyInfo.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.RazorAssemblyInfo.cs
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.RazorTargetAssemblyInfo.cache
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.dll
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.pdb
+D:\Projetos\Web\Desafio BanckEnd - Git\Teste BackEnd\obj\Debug\netcoreapp2.1\Teste BackEnd.genruntimeconfig.cache
