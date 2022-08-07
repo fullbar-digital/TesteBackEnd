@@ -8,6 +8,6 @@ namespace Teste_BackEnd.Interfaces
 {
     public interface IController<T>
     {
-        void Add([FromBody] T value);
+        void Add([FromBody] T obj);
     }
 }
