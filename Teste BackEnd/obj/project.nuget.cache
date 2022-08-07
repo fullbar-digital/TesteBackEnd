@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oZ9W5n9/6NW6ufgvy+9uznMXPVFDL5cB9lJjax1dgnplkpWWLvVvqaZuJMUYjNxngmoGpBbTmtF439Ui8ubf+w==",
+  "dgSpecHash": "a2p0AMr5My49CB0LUSH7FRF6wHjfP0MtudPxveFcoAgv7ubr+S3E2bnXHuqTYDBaDgtnsuqED9UsrxDM4cHYsw==",
   "success": true,
-  "projectFilePath": "D:\\Projetos\\Web\\Desafio BanckEnd - Git\\Teste BackEnd\\Teste BackEnd\\Teste BackEnd.csproj",
+  "projectFilePath": "D:\\Projetos\\Web\\Desafio BanckEnd - Git\\Teste BackEnd\\Teste BackEnd.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\giova\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

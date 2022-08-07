@@ -11885,11 +11885,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projetos\\Web\\Desafio BanckEnd - Git\\Teste BackEnd\\Teste BackEnd\\Teste BackEnd.csproj",
+      "projectUniqueName": "D:\\Projetos\\Web\\Desafio BanckEnd - Git\\Teste BackEnd\\Teste BackEnd.csproj",
       "projectName": "Teste BackEnd",
-      "projectPath": "D:\\Projetos\\Web\\Desafio BanckEnd - Git\\Teste BackEnd\\Teste BackEnd\\Teste BackEnd.csproj",
+      "projectPath": "D:\\Projetos\\Web\\Desafio BanckEnd - Git\\Teste BackEnd\\Teste BackEnd.csproj",
       "packagesPath": "C:\\Users\\giova\\.nuget\\packages\\",
-      "outputPath": "D:\\Projetos\\Web\\Desafio BanckEnd - Git\\Teste BackEnd\\Teste BackEnd\\obj\\",
+      "outputPath": "D:\\Projetos\\Web\\Desafio BanckEnd - Git\\Teste BackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\giova\\AppData\\Roaming\\NuGet\\NuGet.Config",
