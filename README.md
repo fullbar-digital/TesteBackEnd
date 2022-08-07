@@ -2,7 +2,10 @@
 
 ## Teste 01 - Questionario
 - Levando em consideração duas aplicações X e Y que não se conversam, sendo a aplicação X receptora de informações do cliente final. A aplicação Y terá que apresentar algumas dessas informações, para isso será necessario que essas informações sejam armazenadas em seu banco de dados. Descreva qual a solução você daria para esse tipo de problema:
-- Obs: Enviar a resposta por e-mail
+
+Resposta: 
+Faria uma API que conversaria com as outras duas aplicações, sendo capaz de obter as informações pela aplicação X e exibi-las pela aplicação Y.
+Dependendo das necessidades, poderia ter algum serviço de mensageria para não ficar dependendo das respostas das outras aplicações.
 
 ## Teste 02 - Desenvolvimento 
 
