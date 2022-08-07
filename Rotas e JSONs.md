@@ -28,6 +28,12 @@
 ###### Deletar Aluno ->  DELETE /api/aluno/{id}
 
 ###### Atualizar Aluno ->  PUT /api/aluno/{id}
+{
+    "nome": "Update Nome",
+    "ra": "Update RA",
+    "periodo": "Update Perioro",
+    "foto": "update_foto.png"
+}
 
 ###### Buscar Todos os Aluno -> GET /api/aluno/all
 
