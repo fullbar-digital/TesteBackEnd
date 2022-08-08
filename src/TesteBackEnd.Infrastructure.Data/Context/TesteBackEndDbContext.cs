@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using TesteBackEnd.Domain.Entities;
+using TesteBackEnd.Infrastructure.Data.Mappings;
 
 namespace TesteBackEnd.Infrastructure.Data.Context
 {
@@ -14,19 +15,12 @@ namespace TesteBackEnd.Infrastructure.Data.Context
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
-		{
-			foreach (var property in modelBuilder.Model.GetEntityTypes()
-				.SelectMany(e => e.GetProperties())
-				.Where(p => p.ClrType == typeof(string)))
-			{
-				property.SetColumnType("varchar(100)");
-			}
-			foreach (var relations in modelBuilder.Model.GetEntityTypes().SelectMany(r => r.GetForeignKeys()))
-			{
-				relations.DeleteBehavior = DeleteBehavior.ClientSetNull;
-			}
-			modelBuilder.ApplyConfigurationsFromAssembly(typeof(TesteBackEndDbContext).Assembly);
-			base.OnModelCreating(modelBuilder);
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<StudentEntity>(new StudentMapping().Configure);
+            modelBuilder.Entity<CourseEntity>(new CourseMapping().Configure);
+            modelBuilder.Entity<DisciplineEntity>(new DisciplineMapping().Configure);
+            modelBuilder.Entity<ScoreEntity>(new ScoreMapping().Configure);
         }
 
     }

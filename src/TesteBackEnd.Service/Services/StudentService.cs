@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using AutoMapper;
 using TesteBackEnd.Domain.Dtos.Student;
 using TesteBackEnd.Domain.Entities;
@@ -8,14 +9,14 @@ namespace TesteBackEnd.Service.Services
 {
     public class StudentService : BaseService, IStudentService
     {
-        private IRepository<StudentEntity> _repository;
+        private IStudentRepository _repository;
         protected readonly IMapper _mapper;
-        public StudentService(IRepository<StudentEntity> repository, IMapper mapper, INotifier notifier) : base(notifier)
+        public StudentService(IStudentRepository repository, IMapper mapper, INotifier notifier) : base(notifier)
         {
             _repository = repository;
             _mapper = mapper;
         }
-    
+
         public async Task<StudentDto> SelectAsync(Guid id)
         {
             var entity = await _repository.SelectAsync(id);
@@ -53,5 +54,11 @@ namespace TesteBackEnd.Service.Services
         {
             return await _repository.DeleteAsync(id);
         }
+
+        public async Task<IEnumerable<StudentDto>> SelectAsync(Expression<Func<StudentDto, bool>> predicado)
+        {
+            return _mapper.Map<IEnumerable<StudentDto>>(await _repository.Find(predicado));
+        }
+
     }
 }

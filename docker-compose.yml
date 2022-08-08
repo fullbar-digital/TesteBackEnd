@@ -1,0 +1,27 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  testebackendapplication:
+    image: testebackendapplication
+    container_name: "testebackend-api"
+    build:
+      context: .
+      dockerfile: src/TesteBackEnd.Application/Dockerfile
+    ports:
+      - 5008:5008
+    depends_on:
+      - mssql-server
+    environment:
+      SqlServer: "Persist Security Info=False;User ID=sa;Port=1433; Password=L30&t4t4; Initial Catalog=TesteBackEnd;Data Source=mssql-server;"
+  mssql-server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: "testebackend-db"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "L30&t4t4"
+    ports:
+      - "1433:1433"
+    volumes:
+      - "./data-mssql:/var/opt/mssql/data"

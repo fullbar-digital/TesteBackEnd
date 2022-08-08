@@ -13,7 +13,5 @@ namespace TesteBackEnd.Domain.Entities
             get { return _createdAt; }
             set { _createdAt = (value == null ? DateTime.UtcNow : value); }
         }
-        public DateTime? UpdatedAt { get; set; }
-
     }
 }

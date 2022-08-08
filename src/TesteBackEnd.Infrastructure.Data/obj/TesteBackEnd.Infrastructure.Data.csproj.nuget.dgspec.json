@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj": {}
+    "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Data\\TesteBackEnd.Infrastructure.Data.csproj": {}
   },
   "projects": {
-    "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj": {
+    "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj",
+        "projectUniqueName": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj",
         "projectName": "TesteBackEnd.Domain",
-        "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj",
-        "packagesPath": "/Users/leocirqueira/.nuget/packages/",
-        "outputPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/",
+        "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj",
+        "packagesPath": "C:\\Users\\1760968\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/leocirqueira/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\1760968\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -44,10 +41,6 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.1.1, )"
-            },
-            "Ninject": {
-              "target": "Package",
-              "version": "[3.3.6, )"
             }
           },
           "imports": [
@@ -65,24 +58,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj": {
+    "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Data\\TesteBackEnd.Infrastructure.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj",
+        "projectUniqueName": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Data\\TesteBackEnd.Infrastructure.Data.csproj",
         "projectName": "TesteBackEnd.Infrastructure.Data",
-        "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj",
-        "packagesPath": "/Users/leocirqueira/.nuget/packages/",
-        "outputPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/",
+        "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Data\\TesteBackEnd.Infrastructure.Data.csproj",
+        "packagesPath": "C:\\Users\\1760968\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/leocirqueira/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\1760968\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -94,8 +84,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj": {
-                "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj"
+              "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj": {
+                "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj"
               }
             }
           }
@@ -150,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

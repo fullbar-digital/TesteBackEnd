@@ -8,13 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-    <PackageReference Include="Ninject" Version="3.3.6" />
-    <PackageReference Include="Microsoft.AspNet.WebApi.Owin" Version="5.2.9" />
-    <PackageReference Include="Ninject.WebApi.DependencyResolver" Version="0.1.4758.24814" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TesteBackEnd.Domain\TesteBackEnd.Domain.csproj" />
+    <ProjectReference Include="..\TesteBackEnd.Service\TesteBackEnd.Service.csproj" />
     <ProjectReference Include="..\TesteBackEnd.Infrastructure.CrossCutting\TesteBackEnd.Infrastructure.CrossCutting.csproj" />
   </ItemGroup>
 
