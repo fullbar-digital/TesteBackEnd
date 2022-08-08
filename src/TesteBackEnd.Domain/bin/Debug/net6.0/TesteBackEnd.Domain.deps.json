@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TesteBackEnd.Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.1.1"
+        },
+        "runtime": {
+          "TesteBackEnd.Domain.dll": {}
+        }
+      },
+      "FluentValidation/11.1.1": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TesteBackEnd.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/11.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0rviOsKbNzoQUQsagwt1WVVYKSDfaZboKIvdfL4T8xSsX2ZUzJ5sIm1pdV2uLpZysgdpBsOAAnGMabewTMQhzg==",
+      "path": "fluentvalidation/11.1.1",
+      "hashPath": "fluentvalidation.11.1.1.nupkg.sha512"
+    }
+  }
+}

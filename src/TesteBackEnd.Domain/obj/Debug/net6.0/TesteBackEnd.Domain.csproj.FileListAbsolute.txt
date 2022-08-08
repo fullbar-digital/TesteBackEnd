@@ -1,0 +1,12 @@
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/bin/Debug/net6.0/TesteBackEnd.Domain.deps.json
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/bin/Debug/net6.0/TesteBackEnd.Domain.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/bin/Debug/net6.0/TesteBackEnd.Domain.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/TesteBackEnd.Domain.csproj.AssemblyReference.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/TesteBackEnd.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/TesteBackEnd.Domain.AssemblyInfoInputs.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/TesteBackEnd.Domain.AssemblyInfo.cs
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/TesteBackEnd.Domain.csproj.CoreCompileInputs.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/TesteBackEnd.Domain.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/refint/TesteBackEnd.Domain.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/TesteBackEnd.Domain.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/Debug/net6.0/ref/TesteBackEnd.Domain.dll

@@ -1,0 +1,17 @@
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/bin/Debug/net6.0/TesteBackEnd.Infrastructure.Data.deps.json
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/bin/Debug/net6.0/TesteBackEnd.Infrastructure.Data.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/bin/Debug/net6.0/TesteBackEnd.Infrastructure.Data.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.csproj.AssemblyReference.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.AssemblyInfoInputs.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.AssemblyInfo.cs
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.csproj.CoreCompileInputs.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/refint/TesteBackEnd.Infrastructure.Data.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/ref/TesteBackEnd.Infrastructure.Data.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/bin/Debug/net6.0/TesteBackEnd.Infrastructure.Data.runtimeconfig.json
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/bin/Debug/net6.0/TesteBackEnd.Domain.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/bin/Debug/net6.0/TesteBackEnd.Domain.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.csproj.CopyComplete
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/Debug/net6.0/TesteBackEnd.Infrastructure.Data.genruntimeconfig.cache

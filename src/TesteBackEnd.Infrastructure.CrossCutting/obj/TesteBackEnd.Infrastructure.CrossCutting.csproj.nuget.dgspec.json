@@ -1,0 +1,305 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/TesteBackEnd.Infrastructure.CrossCutting.csproj": {}
+  },
+  "projects": {
+    "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj",
+        "projectName": "TesteBackEnd.Domain",
+        "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj",
+        "packagesPath": "/Users/leocirqueira/.nuget/packages/",
+        "outputPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/leocirqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.1.1, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/TesteBackEnd.Infrastructure.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/TesteBackEnd.Infrastructure.CrossCutting.csproj",
+        "projectName": "TesteBackEnd.Infrastructure.CrossCutting",
+        "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/TesteBackEnd.Infrastructure.CrossCutting.csproj",
+        "packagesPath": "/Users/leocirqueira/.nuget/packages/",
+        "outputPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/leocirqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj": {
+                "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj"
+              },
+              "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj": {
+                "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj"
+              },
+              "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/TesteBackEnd.Service.csproj": {
+                "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/TesteBackEnd.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Ninject": {
+              "target": "Package",
+              "version": "[3.3.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj",
+        "projectName": "TesteBackEnd.Infrastructure.Data",
+        "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj",
+        "packagesPath": "/Users/leocirqueira/.nuget/packages/",
+        "outputPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/leocirqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj": {
+                "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/TesteBackEnd.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/TesteBackEnd.Service.csproj",
+        "projectName": "TesteBackEnd.Service",
+        "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/TesteBackEnd.Service.csproj",
+        "packagesPath": "/Users/leocirqueira/.nuget/packages/",
+        "outputPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/leocirqueira/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj": {
+                "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Domain/TesteBackEnd.Domain.csproj"
+              },
+              "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj": {
+                "projectPath": "/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.Data/TesteBackEnd.Infrastructure.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

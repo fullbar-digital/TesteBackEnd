@@ -1,0 +1,12 @@
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/bin/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.deps.json
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/bin/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/bin/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.csproj.AssemblyReference.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.AssemblyInfoInputs.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.AssemblyInfo.cs
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.csproj.CoreCompileInputs.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/refint/TesteBackEnd.Infrastructure.CrossCutting.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/TesteBackEnd.Infrastructure.CrossCutting.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Infrastructure.CrossCutting/obj/Debug/net6.0/ref/TesteBackEnd.Infrastructure.CrossCutting.dll

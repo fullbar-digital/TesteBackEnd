@@ -1,0 +1,17 @@
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/bin/Debug/net6.0/TesteBackEnd.Service.deps.json
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/bin/Debug/net6.0/TesteBackEnd.Service.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/bin/Debug/net6.0/TesteBackEnd.Service.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/TesteBackEnd.Service.csproj.AssemblyReference.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/TesteBackEnd.Service.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/TesteBackEnd.Service.AssemblyInfoInputs.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/TesteBackEnd.Service.AssemblyInfo.cs
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/TesteBackEnd.Service.csproj.CoreCompileInputs.cache
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/TesteBackEnd.Service.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/refint/TesteBackEnd.Service.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/TesteBackEnd.Service.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/ref/TesteBackEnd.Service.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/bin/Debug/net6.0/TesteBackEnd.Domain.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/bin/Debug/net6.0/TesteBackEnd.Domain.pdb
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/obj/Debug/net6.0/TesteBackEnd.Service.csproj.CopyComplete
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/bin/Debug/net6.0/TesteBackEnd.Infrastructure.Data.dll
+/Users/leocirqueira/Teste API/TesteBackEnd/src/TesteBackEnd.Service/bin/Debug/net6.0/TesteBackEnd.Infrastructure.Data.pdb
