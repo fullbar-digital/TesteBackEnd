@@ -1,3 +1,4 @@
+using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
 using TesteBackEnd.Domain.Entities;
 using TesteBackEnd.Domain.Interfaces;
@@ -24,6 +25,8 @@ namespace TesteBackEnd.Infrastructure.Data.Repository
             return await _dataSet.AnyAsync(p => p.Id.Equals(id));
         }
 
+
+
         public async Task<T> SelectAsync(Guid id)
         {
             return await _dataSet.SingleOrDefaultAsync(p => p.Id.Equals(id));
@@ -44,7 +47,7 @@ namespace TesteBackEnd.Infrastructure.Data.Repository
 
                 _dataSet.Remove(result);
                 await _context.SaveChangesAsync();
-                
+
                 return true;
             }
             catch (Exception)
@@ -82,12 +85,11 @@ namespace TesteBackEnd.Infrastructure.Data.Repository
                 if (result == null)
                     return null;
 
-                entity.UpdatedAt = DateTime.UtcNow;
                 entity.CreatedAt = result.CreatedAt;
 
                 _context.Entry(result).CurrentValues.SetValues(entity);
                 await _context.SaveChangesAsync();
-               
+
             }
             catch (Exception)
             {
