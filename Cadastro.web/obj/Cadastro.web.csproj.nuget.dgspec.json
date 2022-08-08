@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.web\\Cadastro.web.csproj": {}
+    "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.web\\Cadastro.web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.web\\Cadastro.web.csproj": {
+    "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.web\\Cadastro.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.web\\Cadastro.web.csproj",
+        "projectUniqueName": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.web\\Cadastro.web.csproj",
         "projectName": "Cadastro.web",
-        "projectPath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.web\\Cadastro.web.csproj",
+        "projectPath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.web\\Cadastro.web.csproj",
         "packagesPath": "C:\\Users\\ab1429124\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.web\\obj\\",
+        "outputPath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ab1429124\\AppData\\Roaming\\NuGet\\NuGet.Config",

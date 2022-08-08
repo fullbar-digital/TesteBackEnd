@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RCBvXZmZ/Zy5aJeb24E81ocWUdeNvjQQzrooXjeGsDpjvEtM84mEaWrqDMMATRY5rzSJ4BybOxTcahO2HD6mRw==",
+  "dgSpecHash": "i27mTxJEgZ0M6YMert9moawkiEpk/nf+CFKgrhEGRXwLApNSSbSBi64hQVZyNAuYswTjNXs865tvcahSjFUDWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.AlunosAPI\\Cadastro.AlunosAPI.csproj",
+  "projectFilePath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.AlunosAPI\\Cadastro.AlunosAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ab1429124\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\ab1429124\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

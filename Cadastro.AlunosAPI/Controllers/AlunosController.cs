@@ -11,7 +11,7 @@ namespace Cadastro.AlunosAPI.Controllers
 {
     [Route("api/v1/[controller]")]
     [ApiController]
-    class AlunosController : ControllerBase
+    public class AlunosController : ControllerBase
     {
         private readonly IAlunosRepository _repository;
 
@@ -32,6 +32,32 @@ namespace Cadastro.AlunosAPI.Controllers
             var aluno = await _repository.FindById(id);
             if (aluno == null) return NotFound();
             return Ok(aluno);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<AlunoVO>> Create(AlunoVO vo)
+        {
+            
+            if (vo == null) return BadRequest();
+            var aluno = await _repository.Create(vo);
+            return Ok(aluno);
+        }
+
+        [HttpPut]
+        public async Task<ActionResult<AlunoVO>> Update(AlunoVO vo)
+        {
+
+            if (vo == null) return BadRequest();
+            var aluno = await _repository.Update(vo);
+            return Ok(aluno);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(long id)
+        {
+            var status = await _repository.Delete(id);
+            if (!status) return BadRequest();
+            return Ok(status);
         }
     }
 }

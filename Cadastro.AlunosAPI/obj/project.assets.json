@@ -6697,11 +6697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.AlunosAPI\\Cadastro.AlunosAPI.csproj",
+      "projectUniqueName": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.AlunosAPI\\Cadastro.AlunosAPI.csproj",
       "projectName": "Cadastro.AlunosAPI",
-      "projectPath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.AlunosAPI\\Cadastro.AlunosAPI.csproj",
+      "projectPath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.AlunosAPI\\Cadastro.AlunosAPI.csproj",
       "packagesPath": "C:\\Users\\ab1429124\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteCadastro\\Cadastro.AlunosAPI\\obj\\",
+      "outputPath": "C:\\Users\\ab1429124\\Desktop\\teste\\TesteBackEnd\\Cadastro.AlunosAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ab1429124\\AppData\\Roaming\\NuGet\\NuGet.Config",

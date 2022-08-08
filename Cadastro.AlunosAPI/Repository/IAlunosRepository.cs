@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cadastro.AlunosAPI.Repository
 {
-    interface IAlunosRepository
+    public interface IAlunosRepository
     {
         Task<IEnumerable<AlunoVO>> FindAll();
         Task<AlunoVO> FindById(long id);

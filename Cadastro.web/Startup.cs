@@ -1,3 +1,5 @@
+using Cadastro.web.Services;
+using Cadastro.web.Services.IServices;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +24,9 @@ namespace Cadastro.web
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpClient<IAlunoService, AlunoService>(c =>
+                c.BaseAddress = new Uri(Configuration["ServicesUrls:AlunoAPI"])
+                );
             services.AddControllersWithViews();
         }
 
