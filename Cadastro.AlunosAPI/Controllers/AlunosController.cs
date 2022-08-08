@@ -35,7 +35,7 @@ namespace Cadastro.AlunosAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<AlunoVO>> Create(AlunoVO vo)
+        public async Task<ActionResult<AlunoVO>> Create([FromBody]AlunoVO vo)
         {
             
             if (vo == null) return BadRequest();
@@ -44,7 +44,7 @@ namespace Cadastro.AlunosAPI.Controllers
         }
 
         [HttpPut]
-        public async Task<ActionResult<AlunoVO>> Update(AlunoVO vo)
+        public async Task<ActionResult<AlunoVO>> Update([FromBody]AlunoVO vo)
         {
 
             if (vo == null) return BadRequest();
