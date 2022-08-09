@@ -1,6 +1,7 @@
 using AutoMapper;
 using TesteBackEnd.Domain.Dtos.Score;
 using TesteBackEnd.Domain.Entities;
+using TesteBackEnd.Domain.Enums;
 using TesteBackEnd.Domain.Interfaces;
 using TesteBackEnd.Domain.Models;
 
@@ -9,11 +10,13 @@ namespace TesteBackEnd.Service.Services
     public class ScoreService : BaseService, IScoreService
     {
         private IScoreRepository _repository;
+        private IStudentRepository _studentRepository;
         protected readonly IMapper _mapper;
-        public ScoreService(IScoreRepository repository, IMapper mapper, INotifier notifier) : base(notifier)
+        public ScoreService(IScoreRepository repository, IMapper mapper, INotifier notifier, IStudentRepository studentRepository) : base(notifier)
         {
             _repository = repository;
             _mapper = mapper;
+            _studentRepository = studentRepository;
         }
 
         public async Task<ScoreDto> SelectAsync(Guid id)
@@ -38,7 +41,12 @@ namespace TesteBackEnd.Service.Services
         {
             var model = _mapper.Map<ScoreModel>(item);
             var entity = _mapper.Map<ScoreEntity>(model);
+            entity.Discipline = null;
             var result = await _repository.InsertAsync(entity);
+            var _student = await _studentRepository.SelectAsync(item.StudentId);
+            _student.Status = item.Score < 7 ? Status.DISAPPROVED : Status.APPROVED;
+
+            await _studentRepository.UpdateAsync(_student);
             return _mapper.Map<ScoreDtoCreateResult>(result);
         }
 

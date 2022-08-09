@@ -32,7 +32,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 8, 16, 26, 38, 96, DateTimeKind.Local).AddTicks(9971));
+                        .HasDefaultValue(new DateTime(2022, 8, 9, 8, 18, 39, 476, DateTimeKind.Local).AddTicks(989));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -57,7 +57,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 8, 16, 26, 38, 97, DateTimeKind.Local).AddTicks(835));
+                        .HasDefaultValue(new DateTime(2022, 8, 9, 8, 18, 39, 476, DateTimeKind.Local).AddTicks(1673));
 
                     b.Property<decimal>("MinimalScore")
                         .HasColumnType("decimal(18,2)");
@@ -84,16 +84,13 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 8, 16, 26, 38, 97, DateTimeKind.Local).AddTicks(1905));
+                        .HasDefaultValue(new DateTime(2022, 8, 9, 8, 18, 39, 476, DateTimeKind.Local).AddTicks(2456));
 
                     b.Property<Guid>("DisciplineId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<decimal>("Score")
                         .HasColumnType("decimal(18,2)");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
 
                     b.Property<Guid>("StudentId")
                         .HasColumnType("uniqueidentifier");
@@ -125,7 +122,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 8, 16, 26, 38, 96, DateTimeKind.Local).AddTicks(9008));
+                        .HasDefaultValue(new DateTime(2022, 8, 9, 8, 18, 39, 476, DateTimeKind.Local).AddTicks(231));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -141,6 +138,9 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .HasMaxLength(500)
                         .HasColumnType("varchar(500)");
+
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 

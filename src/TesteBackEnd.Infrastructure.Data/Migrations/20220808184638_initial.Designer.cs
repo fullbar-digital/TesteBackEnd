@@ -167,13 +167,13 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                     b.HasOne("TesteBackEnd.Domain.Entities.DisciplineEntity", "Discipline")
                         .WithMany()
                         .HasForeignKey("DisciplineId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("TesteBackEnd.Domain.Entities.StudentEntity", "Student")
                         .WithMany("Scores")
                         .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("Discipline");

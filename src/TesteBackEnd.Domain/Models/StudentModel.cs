@@ -4,6 +4,12 @@ namespace TesteBackEnd.Domain.Models
 {
     public class StudentModel
     {
+        private Guid _id;
+        public Guid Id
+        {
+            get { return _id; }
+            set { _id = value; }
+        }
         private string _name;
         public string Name
         {
@@ -31,18 +37,48 @@ namespace TesteBackEnd.Domain.Models
             get { return _courseId; }
             set { _courseId = value; }
         }
-        private Status _status;
-        public Status Status
-        {
-            get { return _status; }
-            set { _status = value; }
-        }
-        
+
+
         private string _photo;
         public string Photo
         {
             get { return _photo; }
             set { _photo = value; }
         }
+
+        private string _statusDetail;
+        public string StatusDetail
+        {
+            get { return _statusDetail; }
+            set { _statusDetail = value; }
+        }
+        public ICollection<ScoreModel> Scores { get; set; }
+        private Status _status;
+        public Status Status
+        {
+            get { return _status; }
+            set
+            {
+                if (Scores.Any())
+                {
+                    var score = Scores.Where(s => s.Score < 7).FirstOrDefault();
+                    StatusDetail = (score != null) ? $"Reprovado na disciplina {score.Discipline.Name}" : "Aprovado";
+                    _status = (score != null) ? Status.DISAPPROVED : value;
+                }
+                else
+                {
+                    StatusDetail = "Aluno sem nota nas disciplinas";
+                    _status = Status.SCORELESS;
+                }
+
+            }
+        }
+        private DateTime _createAt;
+        public DateTime CreateAt
+        {
+            get { return _createAt; }
+            set { _createAt = value; }
+        }
+
     }
 }

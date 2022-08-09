@@ -8,7 +8,6 @@ namespace TesteBackEnd.Domain.Entities
         public StudentEntity Student { get; set; }
         public Guid StudentId { get; set; }
         public DisciplineEntity Discipline { get; set; }
-        public Status Status { get; set; }
         public Guid DisciplineId { get; set; }
     }
 }

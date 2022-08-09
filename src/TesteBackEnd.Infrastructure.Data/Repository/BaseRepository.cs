@@ -27,12 +27,12 @@ namespace TesteBackEnd.Infrastructure.Data.Repository
 
 
 
-        public async Task<T> SelectAsync(Guid id)
+        public virtual async Task<T> SelectAsync(Guid id)
         {
             return await _dataSet.SingleOrDefaultAsync(p => p.Id.Equals(id));
         }
 
-        public async Task<IEnumerable<T>> SelectAsync()
+        public virtual async Task<IEnumerable<T>> SelectAsync()
         {
             return await _dataSet.ToListAsync();
         }

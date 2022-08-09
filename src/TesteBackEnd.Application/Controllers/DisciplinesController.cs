@@ -16,7 +16,7 @@ namespace TesteBackEnd.Application.Controllers
         }
 
         /// <summary>
-        /// Select all users
+        /// Select all disciplines
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -39,7 +39,7 @@ namespace TesteBackEnd.Application.Controllers
             }
         }
         /// <summary>
-        /// Select a single user
+        /// Select a single discipline
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -99,10 +99,10 @@ namespace TesteBackEnd.Application.Controllers
         }
 
         /// <summary>
-        /// Updates a single user
+        /// Updates a single discipline
         /// </summary>
         /// <param name="id"></param>
-        /// <param name="user"></param>
+        /// <param name="dto"></param>
         /// <returns></returns>
         [HttpPut]
         [Route("{id}")]
@@ -134,7 +134,7 @@ namespace TesteBackEnd.Application.Controllers
         }
 
         /// <summary>
-        /// Removes a single user
+        /// Removes a single discipline
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -153,9 +153,7 @@ namespace TesteBackEnd.Application.Controllers
                 var entityToDelete = await _service.SelectAsync(id);
                 if (entityToDelete == null)
                     return NotFound();
-
-                await _service.DeleteAsync(id);
-                return CustomResponse();
+                return CustomResponse(await _service.DeleteAsync(id));
             }
             catch (Exception ex)
             {

@@ -8,11 +8,19 @@ namespace TesteBackEnd.Domain.Models
         public decimal Score { get; set; }
         public Guid StudentId { get; set; }
         public Guid DisciplineId { get; set; }
-        private Status _status;
-        public Status Status
+        public DisciplineModel Discipline { get; set; }
+        private string _disciplineName;
+        public string DisciplineName
         {
-            get { return Score >= 7 ? Status.APPROVED : Status.DISAPPROVED; }
+            get { return _disciplineName; }
+            set { _disciplineName = Discipline.Name; }
         }
 
+        private DateTime _createAt;
+        public DateTime CreateAt
+        {
+            get { return _createAt; }
+            set { _createAt = value; }
+        }
     }
 }

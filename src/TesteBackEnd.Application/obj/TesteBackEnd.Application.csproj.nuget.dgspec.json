@@ -29,8 +29,8 @@
               "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj": {
                 "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj"
               },
-              "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj": {
-                "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj"
+              "c:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj": {
+                "projectPath": "c:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj"
               },
               "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Service\\TesteBackEnd.Service.csproj": {
                 "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Service\\TesteBackEnd.Service.csproj"
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj": {
+    "c:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj",
+        "projectUniqueName": "c:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj",
         "projectName": "TesteBackEnd.Infrastructure.CrossCutting",
-        "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj",
+        "projectPath": "c:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\1760968\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\obj\\",
+        "outputPath": "c:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\1760968\\AppData\\Roaming\\NuGet\\NuGet.Config"

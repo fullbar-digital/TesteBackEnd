@@ -9,11 +9,15 @@ namespace TesteBackEnd.Service.Services
     public class CourseService : BaseService, ICourseService
     {
         private ICourseRepository _repository;
+        private IDisciplineRepository _disciplineRepository;
+        private IStudentRepository _studentRepository;
         protected readonly IMapper _mapper;
-        public CourseService(ICourseRepository repository, IMapper mapper, INotifier notifier) : base(notifier)
+        public CourseService(ICourseRepository repository, IMapper mapper, INotifier notifier, IDisciplineRepository disciplineRepository, IStudentRepository studentRepository) : base(notifier)
         {
             _repository = repository;
             _mapper = mapper;
+            _disciplineRepository = disciplineRepository;
+            _studentRepository = studentRepository;
         }
 
         public async Task<CourseDto> SelectAsync(Guid id)
@@ -51,7 +55,20 @@ namespace TesteBackEnd.Service.Services
 
         public async Task<bool> DeleteAsync(Guid id)
         {
-            return await _repository.DeleteAsync(id);
+            var entity = await _repository.SelectAsync(id);
+            if (!_studentRepository.SelectAsync().Result.Where(s => s.CourseId == id).Any())
+            {
+                if (entity.Disciplines.Any())
+                {
+                    foreach (var discipline in entity.Disciplines)
+                        await _disciplineRepository.DeleteAsync(discipline.Id);
+                }
+                return await _repository.DeleteAsync(id);
+            }
+            else
+            {
+                return false;
+            }
         }
     }
 }

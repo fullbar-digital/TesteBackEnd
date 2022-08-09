@@ -156,9 +156,7 @@ namespace TesteBackEnd.Application.Controllers
                 var entityToDelete = await _service.SelectAsync(id);
                 if (entityToDelete == null)
                     return NotFound();
-
-                await _service.DeleteAsync(id);
-                return CustomResponse();
+                return CustomResponse(await _service.DeleteAsync(id));
             }
             catch (Exception ex)
             {

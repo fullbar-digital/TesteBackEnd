@@ -19,17 +19,25 @@ namespace TesteBackEnd.Infrastructure.CrossCutting.Mappings
                 .ReverseMap();
             CreateMap<StudentModel, StudentDtoCreate>()
                 .ReverseMap();
+            CreateMap<StudentModel, StudentDtoUpdate>()
+                .ReverseMap();
             CreateMap<CourseModel, CourseDto>()
                 .ReverseMap();
             CreateMap<CourseModel, CourseDtoCreate>()
                 .ReverseMap();
+            CreateMap<CourseModel, CourseDtoUpdate>()
+               .ReverseMap();
             CreateMap<DisciplineModel, DisciplineDto>()
                 .ReverseMap();
             CreateMap<DisciplineModel, DisciplineDtoCreate>()
                 .ReverseMap();
+            CreateMap<DisciplineModel, DisciplineDtoUpdate>()
+               .ReverseMap();
             CreateMap<ScoreModel, ScoreDto>()
                 .ReverseMap();
             CreateMap<ScoreModel, ScoreDtoCreate>()
+                .ReverseMap();
+            CreateMap<ScoreModel, ScoreDtoUpdate>()
                 .ReverseMap();
 
         }

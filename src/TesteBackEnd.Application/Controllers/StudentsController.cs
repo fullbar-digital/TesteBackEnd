@@ -18,27 +18,35 @@ namespace TesteBackEnd.Application.Controllers
             _scoreService = scoreService;
         }
 
-        [HttpGet("{filter}")]
-        public async Task<ActionResult<IEnumerable<StudentDto>>> Find(string filter)
+        /// <summary>
+        /// Select a list of students
+        /// </summary>
+        /// <param name="filter"></param>
+        /// <returns></returns>
+        [HttpPost("Filter")]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        public async Task<ActionResult<IEnumerable<StudentDto>>> Filter([FromBody] StudentDtoFilter filter)
         {
             try
             {
-                var modelSearch = await _service.SelectAsync(r =>
-                    (string.IsNullOrEmpty(filter) ||
-                    (!string.IsNullOrEmpty(filter) && r.Name.ToLower().Contains(filter.ToLower()))) &&
+                var result = await _service.FilterAsync(r =>
+                    (string.IsNullOrEmpty(filter.Name) ||
+                    (!string.IsNullOrEmpty(filter.Name) && r.Name.ToLower().Contains(filter.Name.ToLower()))) &&
 
-                     (string.IsNullOrEmpty(filter) ||
-                    (!string.IsNullOrEmpty(filter) && r.AcademicRecord.ToLower().Contains(filter.ToLower()))) &&
+                    (string.IsNullOrEmpty(filter.CourseName) ||
+                    (!string.IsNullOrEmpty(filter.CourseName) && r.Course.Name.ToLower().Contains(filter.CourseName.ToLower()))) &&
 
-                     (string.IsNullOrEmpty(filter) ||
-                    (!string.IsNullOrEmpty(filter) && r.CouserId.ToLower().Contains(filter.ToLower()))) &&
+                    (string.IsNullOrEmpty(filter.AcademicRecord) ||
+                    (!string.IsNullOrEmpty(filter.AcademicRecord) && r.AcademicRecord.ToLower().Contains(filter.AcademicRecord.ToLower())))
 
-                     (string.IsNullOrEmpty(filter) ||
-                    (!string.IsNullOrEmpty(filter) && r.Status.ToString().ToLower().Contains(filter.ToLower())))
+                    && (r.Status == filter.Status)
                 );
 
-
-                return CustomResponse(modelSearch);
+                if (result != null && result.Count() > 0)
+                    return CustomResponse(result);
+                return NoContent();
             }
             catch (Exception ex)
             {
@@ -47,9 +55,8 @@ namespace TesteBackEnd.Application.Controllers
             }
         }
 
-
         /// <summary>
-        /// Select all users
+        /// Select all students
         /// </summary>
         /// <returns></returns>
         [HttpGet]
@@ -164,10 +171,10 @@ namespace TesteBackEnd.Application.Controllers
         }
 
         /// <summary>
-        /// Updates a single user
+        /// Updates a single student
         /// </summary>
         /// <param name="id"></param>
-        /// <param name="user"></param>
+        /// <param name="dto"></param>
         /// <returns></returns>
         [HttpPut]
         [Route("{id}")]
@@ -182,13 +189,12 @@ namespace TesteBackEnd.Application.Controllers
                 return BadRequest(ModelState);
             try
             {
-                var entityToUpdate = await _service.SelectAsync(id);
-                if (entityToUpdate == null)
+                var exists = await _service.ExistAsync(id);
+                if (!exists)
                     return NotFound();
 
 
-                dto.Id = entityToUpdate.Id;
-                await _service.UpdateAsync(dto);
+                await _service.UpdateAsync(id, dto);
                 return Accepted();
             }
             catch (Exception ex)
@@ -199,7 +205,7 @@ namespace TesteBackEnd.Application.Controllers
         }
 
         /// <summary>
-        /// Removes a single user
+        /// Removes a single student
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -215,12 +221,10 @@ namespace TesteBackEnd.Application.Controllers
                 return BadRequest(ModelState);
             try
             {
-                var entityToDelete = await _service.SelectAsync(id);
-                if (entityToDelete == null)
+                var exists = await _service.ExistAsync(id);
+                if (!exists)
                     return NotFound();
-
-                await _service.DeleteAsync(id);
-                return CustomResponse();
+                return CustomResponse(await _service.DeleteAsync(id));
             }
             catch (Exception ex)
             {

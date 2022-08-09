@@ -14,7 +14,7 @@ services:
     depends_on:
       - mssql-server
     environment:
-      SqlServer: "Persist Security Info=False;User ID=sa;Port=1433; Password=L30&t4t4; Initial Catalog=TesteBackEnd;Data Source=mssql-server;"
+      SqlServer: "Persist Security Info=False;User ID=sa; Password=L30&t4t4; Initial Catalog=TesteBackEnd;Data Source=mssql-server;"
   mssql-server:
     image: mcr.microsoft.com/mssql/server:2019-latest
     container_name: "testebackend-db"

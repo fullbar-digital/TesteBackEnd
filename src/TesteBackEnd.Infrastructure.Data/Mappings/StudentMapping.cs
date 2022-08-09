@@ -23,6 +23,9 @@ namespace TesteBackEnd.Infrastructure.Data.Mappings
                 .HasColumnType("varchar(20)")
                 .HasMaxLength(20)
                 .IsRequired();
+            builder.Property(p => p.Status)
+                .HasColumnType("int")
+                .IsRequired();
             builder.Property(s => s.Photo)
                .HasColumnType("varchar(500)")
                .HasMaxLength(500);

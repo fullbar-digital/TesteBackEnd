@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PBUddLbyTEbIAk5AFCV/MLvpxt2L2UUnY02fia3CCYEPTt567Q0MTwWh+l+BnFJNd74groE34hreryWWmYL/Kw==",
+  "dgSpecHash": "CuJf/zzIji6Y4kvNqeGZFB5w4C/80fEv5OyFkz5DxnE4t/LR2FfLrp1p0hpwsr9p0Mf3aBRkhi4xltwADmCjmQ==",
   "success": true,
-  "projectFilePath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj",
+  "projectFilePath": "c:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1760968\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\1760968\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

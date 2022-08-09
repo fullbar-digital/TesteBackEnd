@@ -15,15 +15,25 @@ namespace TesteBackEnd.Infrastructure.Data.Mappings
               .IsRequired();
             builder.Property(p => p.DisciplineId)
              .IsRequired();
-            builder.Property(p => p.Status)
-            .HasColumnType("int")
-            .IsRequired();
+
             builder.Property(s => s.Score)
                 .HasColumnType("decimal(18,2)")
                 .IsRequired();
             builder.Property(p => p.CreatedAt)
                .HasDefaultValue(DateTime.Now)
                .IsRequired();
+
+            builder.HasOne("TesteBackEnd.Domain.Entities.DisciplineEntity", "Discipline")
+                        .WithMany()
+                        .HasForeignKey("DisciplineId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+            builder.HasOne("TesteBackEnd.Domain.Entities.StudentEntity", "Student")
+                        .WithMany("Scores")
+                        .HasForeignKey("StudentId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
         }
     }
 }

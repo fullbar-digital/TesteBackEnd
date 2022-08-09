@@ -13,6 +13,7 @@ namespace TesteBackEnd.Domain.Entities
         public CourseEntity Course { get; set; }
         public Guid CourseId { get; set; }
         public string Photo { get; set; }
+        public Status Status { get; set; }
         public ICollection<ScoreEntity> Scores { get; set; }
     }
 }
