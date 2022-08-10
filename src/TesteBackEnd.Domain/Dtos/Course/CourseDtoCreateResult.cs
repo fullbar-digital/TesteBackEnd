@@ -10,6 +10,6 @@ namespace TesteBackEnd.Domain.Dtos.Course
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
-        public DateTime CreateAt { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }

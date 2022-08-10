@@ -1,7 +1,9 @@
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 using TesteBackEnd.Infrastructure.CrossCutting.DependencyInjection;
 using TesteBackEnd.Infrastructure.CrossCutting.Mappings;
+using TesteBackEnd.Infrastructure.Data.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -57,6 +59,14 @@ app.UseAuthorization();
 
 app.MapControllers();
 
+
+if (Environment.GetEnvironmentVariable("MIGRATE").ToLower().Equals("true".ToLower()))
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        scope.ServiceProvider.GetRequiredService<TesteBackEndDbContext>().Database.Migrate();
+    }
+}
 
 
 app.Run();

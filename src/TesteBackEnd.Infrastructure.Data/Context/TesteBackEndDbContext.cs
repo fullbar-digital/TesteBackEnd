@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using TesteBackEnd.Domain.Entities;
 using TesteBackEnd.Infrastructure.Data.Mappings;
 
@@ -23,5 +24,16 @@ namespace TesteBackEnd.Infrastructure.Data.Context
             modelBuilder.Entity<ScoreEntity>(new ScoreMapping().Configure);
         }
 
+    }
+
+    public class CdsIIContextFactory : IDesignTimeDbContextFactory<TesteBackEndDbContext>
+    {
+        public TesteBackEndDbContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<TesteBackEndDbContext>();
+            optionsBuilder.UseSqlServer("Persist Security Info=False;User ID=sa; Password=1234&Abcd; Initial Catalog=TesteBackEnd;Data Source=localhost;");
+
+            return new TesteBackEndDbContext(optionsBuilder.Options);
+        }
     }
 }

@@ -8,8 +8,6 @@ namespace TesteBackEnd.Domain.Dtos.Course
 {
     public class CourseDtoUpdate
     {
-        public Guid Id { get; set; }
         public string Name { get; set; }
-
     }
 }

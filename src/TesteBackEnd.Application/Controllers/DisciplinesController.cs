@@ -110,21 +110,21 @@ namespace TesteBackEnd.Application.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-
         public async Task<ActionResult<DisciplineDtoUpdateResult>> Put([FromRoute] Guid id, [FromBody] DisciplineDtoUpdate dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
             try
             {
-                var entityToUpdate = await _service.SelectAsync(id);
-                if (entityToUpdate == null)
+                var exists = await _service.ExistAsync(id);
+                if (!exists)
                     return NotFound();
 
+                if (await _service.UpdateAsync(id, dto) != null)
+                    return Accepted();
+                else
+                    return CustomResponse();
 
-                dto.Id = entityToUpdate.Id;
-                await _service.UpdateAsync(dto);
-                return Accepted();
             }
             catch (Exception ex)
             {
@@ -142,7 +142,7 @@ namespace TesteBackEnd.Application.Controllers
         [Route("{id}")]
         [ProducesDefaultResponseType]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> Delete([FromRoute] Guid id)
         {
@@ -153,7 +153,8 @@ namespace TesteBackEnd.Application.Controllers
                 var entityToDelete = await _service.SelectAsync(id);
                 if (entityToDelete == null)
                     return NotFound();
-                return CustomResponse(await _service.DeleteAsync(id));
+                await _service.DeleteAsync(id);
+                return Accepted();
             }
             catch (Exception ex)
             {

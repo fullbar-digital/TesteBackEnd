@@ -23,10 +23,10 @@ namespace TesteBackEnd.Service.Test.Course
             Assert.Equal(Name, result.Name);
 
             _serviceMock = new Mock<ICourseService>();
-            _serviceMock.Setup(m => m.UpdateAsync(courseDtoUpdate)).ReturnsAsync(courseDtoUpdateResult);
+            _serviceMock.Setup(m => m.UpdateAsync(CourseId, courseDtoUpdate)).ReturnsAsync(courseDtoUpdateResult);
             _service = _serviceMock.Object;
 
-            var resultUpdate = await _service.UpdateAsync(courseDtoUpdate);
+            var resultUpdate = await _service.UpdateAsync(CourseId, courseDtoUpdate);
             Assert.NotNull(resultUpdate);
             Assert.Equal(AlteredName, resultUpdate.Name);
         }

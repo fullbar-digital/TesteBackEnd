@@ -32,7 +32,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 9, 8, 18, 39, 476, DateTimeKind.Local).AddTicks(989));
+                        .HasDefaultValue(new DateTime(2022, 8, 10, 9, 56, 0, 651, DateTimeKind.Local).AddTicks(8266));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -57,7 +57,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 9, 8, 18, 39, 476, DateTimeKind.Local).AddTicks(1673));
+                        .HasDefaultValue(new DateTime(2022, 8, 10, 9, 56, 0, 651, DateTimeKind.Local).AddTicks(8786));
 
                     b.Property<decimal>("MinimalScore")
                         .HasColumnType("decimal(18,2)");
@@ -84,7 +84,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 9, 8, 18, 39, 476, DateTimeKind.Local).AddTicks(2456));
+                        .HasDefaultValue(new DateTime(2022, 8, 10, 9, 56, 0, 651, DateTimeKind.Local).AddTicks(9278));
 
                     b.Property<Guid>("DisciplineId")
                         .HasColumnType("uniqueidentifier");
@@ -122,7 +122,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 9, 8, 18, 39, 476, DateTimeKind.Local).AddTicks(231));
+                        .HasDefaultValue(new DateTime(2022, 8, 10, 9, 56, 0, 651, DateTimeKind.Local).AddTicks(7701));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -165,13 +165,13 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                     b.HasOne("TesteBackEnd.Domain.Entities.DisciplineEntity", "Discipline")
                         .WithMany()
                         .HasForeignKey("DisciplineId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.HasOne("TesteBackEnd.Domain.Entities.StudentEntity", "Student")
                         .WithMany("Scores")
                         .HasForeignKey("StudentId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.NoAction)
                         .IsRequired();
 
                     b.Navigation("Discipline");

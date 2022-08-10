@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using TesteBackEnd.Domain.Dtos.Score;
 using TesteBackEnd.Domain.Dtos.Student;
+using TesteBackEnd.Domain.Enums;
 using TesteBackEnd.Domain.Interfaces;
 
 namespace TesteBackEnd.Application.Controllers
@@ -39,9 +40,10 @@ namespace TesteBackEnd.Application.Controllers
                     (!string.IsNullOrEmpty(filter.CourseName) && r.Course.Name.ToLower().Contains(filter.CourseName.ToLower()))) &&
 
                     (string.IsNullOrEmpty(filter.AcademicRecord) ||
-                    (!string.IsNullOrEmpty(filter.AcademicRecord) && r.AcademicRecord.ToLower().Contains(filter.AcademicRecord.ToLower())))
+                    (!string.IsNullOrEmpty(filter.AcademicRecord) && r.AcademicRecord.ToLower().Contains(filter.AcademicRecord.ToLower()))) &&
 
-                    && (r.Status == filter.Status)
+                    (string.IsNullOrEmpty(filter.Status) ||
+                    IsNumericValue(filter.Status) && (!string.IsNullOrEmpty(filter.Status) && r.Status.Equals((Status)Convert.ToInt16(filter.Status))))
                 );
 
                 if (result != null && result.Count() > 0)
@@ -52,6 +54,19 @@ namespace TesteBackEnd.Application.Controllers
             {
                 ErrorNotifier(ex.Message);
                 return CustomResponse();
+            }
+        }
+
+        private bool IsNumericValue(string status)
+        {
+            try
+            {
+                var number = Convert.ToInt16(status);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
             }
         }
 
@@ -79,7 +94,7 @@ namespace TesteBackEnd.Application.Controllers
             }
         }
         /// <summary>
-        /// Select a single user
+        /// Select a single Student
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
@@ -193,9 +208,10 @@ namespace TesteBackEnd.Application.Controllers
                 if (!exists)
                     return NotFound();
 
-
-                await _service.UpdateAsync(id, dto);
-                return Accepted();
+                if (await _service.UpdateAsync(id, dto) != null)
+                    return Accepted();
+                else
+                    return CustomResponse();
             }
             catch (Exception ex)
             {
@@ -213,7 +229,7 @@ namespace TesteBackEnd.Application.Controllers
         [Route("{id}")]
         [ProducesDefaultResponseType]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> Delete([FromRoute] Guid id)
         {
@@ -224,7 +240,9 @@ namespace TesteBackEnd.Application.Controllers
                 var exists = await _service.ExistAsync(id);
                 if (!exists)
                     return NotFound();
-                return CustomResponse(await _service.DeleteAsync(id));
+
+                await _service.DeleteAsync(id);
+                return Accepted();
             }
             catch (Exception ex)
             {
@@ -232,6 +250,5 @@ namespace TesteBackEnd.Application.Controllers
                 return CustomResponse();
             }
         }
-
     }
 }

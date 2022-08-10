@@ -67,7 +67,6 @@ namespace TesteBackEnd.Service.Test.Score
 
             scoreDtoUpdate = new ScoreDtoUpdate
             {
-                Id = ScoreId,
                 StudentId = AlteredStudentId,
                 DisciplineId = AlteredDisciplineId,
                 Score = AlteredScore

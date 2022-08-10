@@ -11,12 +11,14 @@ namespace TesteBackEnd.Service.Services
     {
         private IStudentRepository _repository;
         private IScoreRepository _scoreRepository;
+        private ICourseRepository _courseRepository;
         protected readonly IMapper _mapper;
-        public StudentService(IStudentRepository repository, IMapper mapper, INotifier notifier, IScoreRepository scoreRepository) : base(notifier)
+        public StudentService(IStudentRepository repository, IMapper mapper, INotifier notifier, IScoreRepository scoreRepository, ICourseRepository courseRepository) : base(notifier)
         {
             _repository = repository;
             _mapper = mapper;
             _scoreRepository = scoreRepository;
+            _courseRepository = courseRepository;
         }
 
         public async Task<StudentDto> SelectAsync(Guid id)
@@ -40,6 +42,12 @@ namespace TesteBackEnd.Service.Services
 
         public async Task<StudentDtoCreateResult> InsertAsync(StudentDtoCreate item)
         {
+            if (!await _courseRepository.ExistAsync(item.CourseId))
+            {
+                Notify("Curso inválido.");
+                return null;
+            }
+
             var model = _mapper.Map<StudentModel>(item);
             var entity = _mapper.Map<StudentEntity>(model);
             entity.Status = Domain.Enums.Status.SCORELESS;
@@ -49,6 +57,11 @@ namespace TesteBackEnd.Service.Services
 
         public async Task<StudentDtoUpdateResult> UpdateAsync(Guid id, StudentDtoUpdate item)
         {
+            if (!await _courseRepository.ExistAsync(item.CourseId))
+            {
+                Notify("Curso inválido.");
+                return null;
+            }
             var model = _mapper.Map<StudentModel>(item);
             model.Id = id;
             var entity = _mapper.Map<StudentEntity>(model);

@@ -120,13 +120,11 @@ namespace TesteBackEnd.Application.Controllers
                 return BadRequest(ModelState);
             try
             {
-                var entityToUpdate = await _service.SelectAsync(id);
-                if (entityToUpdate == null)
+                var exists = await _service.ExistAsync(id);
+                if (!exists)
                     return NotFound();
 
-
-                dto.Id = entityToUpdate.Id;
-                await _service.UpdateAsync(dto);
+                await _service.UpdateAsync(id, dto);
                 return Accepted();
             }
             catch (Exception ex)
@@ -145,7 +143,7 @@ namespace TesteBackEnd.Application.Controllers
         [Route("{id}")]
         [ProducesDefaultResponseType]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
-        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult> Delete([FromRoute] Guid id)
         {
@@ -156,7 +154,9 @@ namespace TesteBackEnd.Application.Controllers
                 var entityToDelete = await _service.SelectAsync(id);
                 if (entityToDelete == null)
                     return NotFound();
-                return CustomResponse(await _service.DeleteAsync(id));
+
+                await _service.DeleteAsync(id);
+                return Accepted();
             }
             catch (Exception ex)
             {

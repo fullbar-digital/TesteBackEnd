@@ -8,6 +8,6 @@ namespace TesteBackEnd.Domain.Dtos.Student
         public string Name { get; set; }
         public string AcademicRecord { get; set; }
         public string CourseName { get; set; }
-        public Status Status { get; set; }
+        public string Status { get; set; } = "0";
     }
 }

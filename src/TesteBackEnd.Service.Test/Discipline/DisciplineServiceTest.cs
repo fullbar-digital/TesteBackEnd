@@ -70,7 +70,6 @@ namespace TesteBackEnd.Service.Test.Discipline
 
             disciplineDtoUpdate = new DisciplineDtoUpdate
             {
-                Id = DisciplineId,
                 Name = AlteredName,
                 MinimalScore = AlteredMinimalScore,
                 CourseId = AlteredCourseId

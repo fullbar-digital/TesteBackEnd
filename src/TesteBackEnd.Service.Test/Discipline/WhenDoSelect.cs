@@ -18,7 +18,6 @@ namespace TesteBackEnd.Service.Test.Discipline
 
             var result = await _service.SelectAsync(DisciplineId);
             Assert.NotNull(result);
-            Assert.True(result.Id == DisciplineId);
             Assert.Equal(Name, result.Name);
             Assert.Equal(CourseId, result.CourseId);
             Assert.Equal(MinimalScore, result.MinimalScore);

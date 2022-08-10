@@ -16,7 +16,8 @@
             },
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
-                "SqlServer": "Persist Security Info=False;User ID=sa; Password=L30&t4t4; Initial Catalog=TesteBackEnd;Data Source=localhost;"
+                "SqlServer": "Persist Security Info=False;User ID=sa; Password=1234&Abcd; Initial Catalog=TesteBackEnd;Data Source=localhost;",
+                "MIGRATE": "false"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"

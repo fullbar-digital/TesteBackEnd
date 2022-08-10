@@ -12,11 +12,11 @@ namespace TesteBackEnd.Domain.Models
         public string? Name { get; set; }
         public decimal MinimalScore { get; set; }
 
-        private DateTime _createAt;
-        public DateTime CreateAt
+        private DateTime _createdAt;
+        public DateTime CreatedAt
         {
-            get { return _createAt; }
-            set { _createAt = value; }
+            get { return _createdAt; }
+            set { _createdAt = value; }
         }
 
     }

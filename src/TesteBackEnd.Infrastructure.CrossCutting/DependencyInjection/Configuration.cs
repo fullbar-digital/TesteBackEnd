@@ -28,5 +28,11 @@ namespace TesteBackEnd.Infrastructure.CrossCutting.DependencyInjection
             _serviceCollection = new RepositoriesIoCConfigurations().Configure(_serviceCollection);
             return this;
         }
+
+        public Configuration ConfigureMigration()
+        {
+            _serviceCollection = new RepositoriesIoCConfigurations().Configure(_serviceCollection);
+            return this;
+        }
     }
 }

@@ -54,7 +54,6 @@ namespace TesteBackEnd.Service.Test.Course
 
             courseDtoUpdate = new CourseDtoUpdate
             {
-                Id = CourseId,
                 Name = AlteredName
             };
 

@@ -45,9 +45,10 @@ namespace TesteBackEnd.Service.Services
             return _mapper.Map<CourseDtoCreateResult>(result);
         }
 
-        public async Task<CourseDtoUpdateResult> UpdateAsync(CourseDtoUpdate item)
+        public async Task<CourseDtoUpdateResult> UpdateAsync(Guid id, CourseDtoUpdate item)
         {
             var model = _mapper.Map<CourseModel>(item);
+            model.Id = id;
             var entity = _mapper.Map<CourseEntity>(model);
             var result = await _repository.UpdateAsync(entity);
             return _mapper.Map<CourseDtoUpdateResult>(result);

@@ -8,7 +8,7 @@ namespace TesteBackEnd.Domain.Interfaces
         Task<IEnumerable<CourseDto>> SelectAsync();
         Task<bool> ExistAsync(Guid id);
         Task<CourseDtoCreateResult> InsertAsync(CourseDtoCreate item);
-        Task<CourseDtoUpdateResult> UpdateAsync(CourseDtoUpdate item);
+        Task<CourseDtoUpdateResult> UpdateAsync(Guid id, CourseDtoUpdate item);
         Task<bool> DeleteAsync(Guid id);
     }
 }

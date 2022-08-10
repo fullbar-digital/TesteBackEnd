@@ -25,10 +25,10 @@ namespace TesteBackEnd.Service.Test.Discipline
             Assert.Equal(MinimalScore, result.MinimalScore);
 
             _serviceMock = new Mock<IDisciplineService>();
-            _serviceMock.Setup(m => m.UpdateAsync(disciplineDtoUpdate)).ReturnsAsync(disciplineDtoUpdateResult);
+            _serviceMock.Setup(m => m.UpdateAsync(DisciplineId, disciplineDtoUpdate)).ReturnsAsync(disciplineDtoUpdateResult);
             _service = _serviceMock.Object;
 
-            var resultUpdate = await _service.UpdateAsync(disciplineDtoUpdate);
+            var resultUpdate = await _service.UpdateAsync(DisciplineId, disciplineDtoUpdate);
             Assert.NotNull(resultUpdate);
             Assert.Equal(AlteredName, resultUpdate.Name);
             Assert.Equal(AlteredCourseId, resultUpdate.CourseId);

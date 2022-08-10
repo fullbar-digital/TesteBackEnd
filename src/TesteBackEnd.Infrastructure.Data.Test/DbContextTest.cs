@@ -13,7 +13,7 @@ namespace TesteBackEnd.Infrastructure.Data.Test
         {
             var serviceCollection = new ServiceCollection();
             serviceCollection.AddDbContext<TesteBackEndDbContext>(
-                o => o.UseSqlServer($"Persist Security Info=False;User ID=sa; Password=L30&t4t4; Initial Catalog={dbName};Data Source=localhost;"),
+                o => o.UseSqlServer($"Persist Security Info=False;User ID=sa; Password=1234&Abcd; Initial Catalog={dbName};Data Source=localhost;"),
                 ServiceLifetime.Transient
             );
 

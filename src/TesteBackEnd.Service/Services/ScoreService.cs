@@ -11,12 +11,14 @@ namespace TesteBackEnd.Service.Services
     {
         private IScoreRepository _repository;
         private IStudentRepository _studentRepository;
+        private IDisciplineRepository _disciplineRepository;
         protected readonly IMapper _mapper;
-        public ScoreService(IScoreRepository repository, IMapper mapper, INotifier notifier, IStudentRepository studentRepository) : base(notifier)
+        public ScoreService(IScoreRepository repository, IMapper mapper, INotifier notifier, IStudentRepository studentRepository, IDisciplineRepository disciplineRepository) : base(notifier)
         {
             _repository = repository;
             _mapper = mapper;
             _studentRepository = studentRepository;
+            _disciplineRepository = disciplineRepository;
         }
 
         public async Task<ScoreDto> SelectAsync(Guid id)
@@ -39,6 +41,18 @@ namespace TesteBackEnd.Service.Services
 
         public async Task<ScoreDtoCreateResult> InsertAsync(ScoreDtoCreate item)
         {
+            if (!await _disciplineRepository.ExistAsync(item.DisciplineId))
+            {
+                Notify("Disciplina inválida.");
+                return null;
+            }
+
+            if (!await _studentRepository.ExistAsync(item.StudentId))
+            {
+                Notify("Estudante inválido.");
+                return null;
+            }
+
             var model = _mapper.Map<ScoreModel>(item);
             var entity = _mapper.Map<ScoreEntity>(model);
             entity.Discipline = null;
@@ -48,10 +62,22 @@ namespace TesteBackEnd.Service.Services
 
             await _studentRepository.UpdateAsync(_student);
             return _mapper.Map<ScoreDtoCreateResult>(result);
+
         }
 
         public async Task<ScoreDtoUpdateResult> UpdateAsync(ScoreDtoUpdate item)
         {
+            if (!await _disciplineRepository.ExistAsync(item.DisciplineId))
+            {
+                Notify("Disciplina inválida.");
+                return null;
+            }
+
+            if (!await _studentRepository.ExistAsync(item.StudentId))
+            {
+                Notify("Estudante inválido.");
+                return null;
+            }
             var model = _mapper.Map<ScoreModel>(item);
             var entity = _mapper.Map<ScoreEntity>(model);
             var result = await _repository.UpdateAsync(entity);
