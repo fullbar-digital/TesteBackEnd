@@ -16,6 +16,7 @@ services:
     environment:
       - SqlServer=Persist Security Info=False;User ID=sa; Password=1234&Abcd; Initial Catalog=TesteBackEnd;Data Source=mssql-server;
       - MIGRATE=false
+      - REDIS_CONNECTION=redis://default:Redis2019!@testebackend-redis:6379
   mssql-server:
     image: mcr.microsoft.com/mssql/server:2019-latest
     container_name: "testebackend-db"
@@ -27,3 +28,10 @@ services:
       - "1433:1433"
     volumes:
       - "./data-mssql:/var/opt/mssql/data"
+  redis:
+    image: redis
+    restart: always
+    container_name: "testebackend-redis"
+    command: redis-server --requirepass Redis2019!
+    ports:
+      - "6379:6379"

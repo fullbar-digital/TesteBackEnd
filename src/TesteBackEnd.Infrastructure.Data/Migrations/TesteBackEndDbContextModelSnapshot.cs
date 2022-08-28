@@ -32,7 +32,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 10, 9, 56, 0, 651, DateTimeKind.Local).AddTicks(8266));
+                        .HasDefaultValue(new DateTime(2022, 8, 12, 8, 56, 10, 892, DateTimeKind.Local).AddTicks(744));
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -57,7 +57,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 10, 9, 56, 0, 651, DateTimeKind.Local).AddTicks(8786));
+                        .HasDefaultValue(new DateTime(2022, 8, 12, 8, 56, 10, 892, DateTimeKind.Local).AddTicks(1276));
 
                     b.Property<decimal>("MinimalScore")
                         .HasColumnType("decimal(18,2)");
@@ -74,6 +74,46 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                     b.ToTable("Disciplines", (string)null);
                 });
 
+            modelBuilder.Entity("TesteBackEnd.Domain.Entities.LogEntity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("Exception")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Level")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LogEvent")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MessageTemplate")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Properties")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("TimeStamp")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Logs", (string)null);
+                });
+
             modelBuilder.Entity("TesteBackEnd.Domain.Entities.ScoreEntity", b =>
                 {
                     b.Property<Guid>("Id")
@@ -84,7 +124,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 10, 9, 56, 0, 651, DateTimeKind.Local).AddTicks(9278));
+                        .HasDefaultValue(new DateTime(2022, 8, 12, 8, 56, 10, 892, DateTimeKind.Local).AddTicks(1762));
 
                     b.Property<Guid>("DisciplineId")
                         .HasColumnType("uniqueidentifier");
@@ -122,7 +162,7 @@ namespace TesteBackEnd.Infrastructure.Data.Migrations
                         .IsRequired()
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 8, 10, 9, 56, 0, 651, DateTimeKind.Local).AddTicks(7701));
+                        .HasDefaultValue(new DateTime(2022, 8, 12, 8, 56, 10, 892, DateTimeKind.Local).AddTicks(245));
 
                     b.Property<string>("Name")
                         .IsRequired()

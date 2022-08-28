@@ -47,6 +47,12 @@ namespace TesteBackEnd.Service.Services
                 Notify("Curso inválido.");
                 return null;
             }
+            if (SelectAsync()
+            .Result.Where(p => p.AcademicRecord.ToLower() == item.AcademicRecord.ToLower()).Any())
+            {
+                Notify("Já existe um Aluno com o RA informado.");
+                return null;
+            }
 
             var model = _mapper.Map<StudentModel>(item);
             var entity = _mapper.Map<StudentEntity>(model);
@@ -75,9 +81,9 @@ namespace TesteBackEnd.Service.Services
             if (entity.Scores.Any())
             {
                 foreach (var score in entity.Scores)
-                    await _scoreRepository.DeleteAsync(score.Id);
+                    await _scoreRepository.DeleteAsync(score);
             }
-            return await _repository.DeleteAsync(id);
+            return await _repository.DeleteAsync(entity);
         }
 
         public async Task<IEnumerable<StudentDto>> FilterAsync(Expression<Func<StudentEntity, bool>> predicado)

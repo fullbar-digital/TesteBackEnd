@@ -86,7 +86,8 @@ namespace TesteBackEnd.Service.Services
 
         public async Task<bool> DeleteAsync(Guid id)
         {
-            return await _repository.DeleteAsync(id);
+            var entity = await _repository.SelectAsync(id);
+            return await _repository.DeleteAsync(entity);
         }
     }
 }

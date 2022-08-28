@@ -11,6 +11,7 @@ namespace TesteBackEnd.Infrastructure.Data.Context
         public DbSet<CourseEntity> Courses { get; set; }
         public DbSet<DisciplineEntity> Disciplines { get; set; }
         public DbSet<ScoreEntity> Scores { get; set; }
+        public DbSet<LogEntity> Logs { get; set; }
         public TesteBackEndDbContext(DbContextOptions<TesteBackEndDbContext> options) : base(options)
         {
         }
@@ -22,6 +23,7 @@ namespace TesteBackEnd.Infrastructure.Data.Context
             modelBuilder.Entity<CourseEntity>(new CourseMapping().Configure);
             modelBuilder.Entity<DisciplineEntity>(new DisciplineMapping().Configure);
             modelBuilder.Entity<ScoreEntity>(new ScoreMapping().Configure);
+            modelBuilder.Entity<LogEntity>(new LogMapping().Configure);
         }
 
     }

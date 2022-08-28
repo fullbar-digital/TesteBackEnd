@@ -48,6 +48,38 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.Enrichers.CorrelationId": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.3.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.7.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -133,6 +165,68 @@
         }
       }
     },
+    "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Caching\\TesteBackEnd.Insfrastructure.Caching.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Caching\\TesteBackEnd.Insfrastructure.Caching.csproj",
+        "projectName": "TesteBackEnd.Insfrastructure.Caching",
+        "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Caching\\TesteBackEnd.Insfrastructure.Caching.csproj",
+        "packagesPath": "C:\\Users\\1760968\\.nuget\\packages\\",
+        "outputPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Caching\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\1760968\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.CrossCutting\\TesteBackEnd.Infrastructure.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -158,6 +252,9 @@
               "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj": {
                 "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj"
               },
+              "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Caching\\TesteBackEnd.Insfrastructure.Caching.csproj": {
+                "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Caching\\TesteBackEnd.Insfrastructure.Caching.csproj"
+              },
               "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Data\\TesteBackEnd.Infrastructure.Data.csproj": {
                 "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Data\\TesteBackEnd.Infrastructure.Data.csproj"
               },
@@ -181,9 +278,21 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.7, )"
+            },
+            "ServiceStack.Redis": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -229,6 +338,9 @@
             "projectReferences": {
               "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj": {
                 "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Domain\\TesteBackEnd.Domain.csproj"
+              },
+              "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Caching\\TesteBackEnd.Insfrastructure.Caching.csproj": {
+                "projectPath": "C:\\Projetos DotNet\\Teste\\TesteBackEnd\\src\\TesteBackEnd.Infrastructure.Caching\\TesteBackEnd.Insfrastructure.Caching.csproj"
               }
             }
           }

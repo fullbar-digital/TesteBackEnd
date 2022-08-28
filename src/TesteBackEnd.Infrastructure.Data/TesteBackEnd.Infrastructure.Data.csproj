@@ -2,6 +2,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TesteBackEnd.Domain\TesteBackEnd.Domain.csproj" />
+    <ProjectReference Include="..\TesteBackEnd.Infrastructure.Caching\TesteBackEnd.Insfrastructure.Caching.csproj" />
+    
   </ItemGroup>
 
   <ItemGroup>

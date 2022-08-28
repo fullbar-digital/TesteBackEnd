@@ -14,4 +14,11 @@ namespace TesteBackEnd.Domain.Entities
             set { _createdAt = (value == null ? DateTime.UtcNow : value); }
         }
     }
+
+
+    public interface IBaseEntity
+    {
+        public Guid Id { get; set; }
+        public DateTime? CreatedAt { get; set; }
+    }
 }

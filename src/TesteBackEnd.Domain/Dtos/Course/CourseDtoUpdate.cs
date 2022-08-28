@@ -6,7 +6,7 @@ using TesteBackEnd.Domain.Entities;
 
 namespace TesteBackEnd.Domain.Dtos.Course
 {
-    public class CourseDtoUpdate
+    public class CourseDtoUpdate : BaseDto
     {
         public string Name { get; set; }
     }

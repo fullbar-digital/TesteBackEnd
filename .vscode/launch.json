@@ -17,7 +17,8 @@
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
                 "SqlServer": "Persist Security Info=False;User ID=sa; Password=1234&Abcd; Initial Catalog=TesteBackEnd;Data Source=localhost;",
-                "MIGRATE": "false"
+                "MIGRATE": "false",
+                "REDIS_CONNECTION": "redis://default:Redis2019!@localhost:6379",
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"

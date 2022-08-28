@@ -2,13 +2,8 @@ using TesteBackEnd.Domain.Entities;
 
 namespace TesteBackEnd.Domain.Interfaces
 {
-    public interface IScoreRepository
+    public interface IScoreRepository : IQuery<ScoreEntity>, ICommand<ScoreEntity>
     {
-        Task<ScoreEntity> SelectAsync(Guid id);
-        Task<IEnumerable<ScoreEntity>> SelectAsync();
-        Task<bool> ExistAsync(Guid id);
-        Task<ScoreEntity> InsertAsync(ScoreEntity item);
-        Task<ScoreEntity> UpdateAsync(ScoreEntity item);
-        Task<bool> DeleteAsync(Guid id);
+
     }
 }

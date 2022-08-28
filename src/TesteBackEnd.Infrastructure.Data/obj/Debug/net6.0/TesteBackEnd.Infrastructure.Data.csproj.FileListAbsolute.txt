@@ -32,3 +32,5 @@ C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data\obj\D
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data\obj\Debug\net6.0\TesteBackEnd.Infrastructure.Data.pdb
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data\obj\Debug\net6.0\TesteBackEnd.Infrastructure.Data.genruntimeconfig.cache
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data\obj\Debug\net6.0\ref\TesteBackEnd.Infrastructure.Data.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.pdb

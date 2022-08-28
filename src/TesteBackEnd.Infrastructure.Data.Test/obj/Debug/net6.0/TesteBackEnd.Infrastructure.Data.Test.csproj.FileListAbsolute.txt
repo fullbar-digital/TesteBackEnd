@@ -145,3 +145,9 @@ C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\obj\Debug\net6.0\TesteBackEnd.Infrastructure.Data.Test.pdb
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\obj\Debug\net6.0\TesteBackEnd.Infrastructure.Data.Test.genruntimeconfig.cache
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\obj\Debug\net6.0\ref\TesteBackEnd.Infrastructure.Data.Test.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\bin\Debug\net6.0\ServiceStack.Common.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\bin\Debug\net6.0\ServiceStack.Interfaces.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\bin\Debug\net6.0\ServiceStack.Redis.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\bin\Debug\net6.0\ServiceStack.Text.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Data.Test\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.pdb

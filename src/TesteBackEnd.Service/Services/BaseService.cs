@@ -1,5 +1,6 @@
 using FluentValidation;
 using FluentValidation.Results;
+using TesteBackEnd.Domain.Dtos;
 using TesteBackEnd.Domain.Entities;
 using TesteBackEnd.Domain.Interfaces;
 using TesteBackEnd.Domain.Notifications;
@@ -13,7 +14,7 @@ namespace TesteBackEnd.Service.Services
         {
             _notifier = notifier;
         }
-        protected bool ValidationExecute<TValidation, TEntity>(TValidation validation, TEntity entity) where TValidation : AbstractValidator<TEntity> where TEntity : BaseEntity
+        protected bool ValidationExecute<TValidation, TEntity>(TValidation validation, TEntity entity) where TValidation : AbstractValidator<TEntity> where TEntity : BaseDto
         {
             var validator = validation.Validate(entity);
             if (validator.IsValid) { return true; };
@@ -31,6 +32,5 @@ namespace TesteBackEnd.Service.Services
                 this.Notify(error.ErrorMessage);
             }
         }
-
     }
 }

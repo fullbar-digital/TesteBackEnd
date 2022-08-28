@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Serilog;
 using TesteBackEnd.Domain.Dtos.Course;
 using TesteBackEnd.Domain.Interfaces;
 
@@ -14,9 +15,11 @@ namespace TesteBackEnd.Application.Controllers
     public class CoursesController : MainController
     {
         protected readonly ICourseService _service;
-        public CoursesController(ICourseService service, INotifier notifier) : base(notifier)
+        private readonly ILogger<CoursesController> _logger;
+        public CoursesController(ICourseService service, INotifier notifier, ILogger<CoursesController> logger) : base(notifier)
         {
             _service = service;
+            _logger = logger;
         }
 
         /// <summary>
@@ -38,6 +41,7 @@ namespace TesteBackEnd.Application.Controllers
             }
             catch (Exception ex)
             {
+                _logger.LogError($"{ex.Message}");
                 ErrorNotifier(ex.Message);
                 return CustomResponse();
             }
@@ -48,11 +52,11 @@ namespace TesteBackEnd.Application.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("{id}")]
+        [Route("{id}", Name = "GetCourse")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(CourseDto))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<CourseDto>> Get(Guid id)
+        public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -79,7 +83,7 @@ namespace TesteBackEnd.Application.Controllers
         /// Creates a single Course
         /// </summary>
         /// <returns></returns>
-        public async Task<ActionResult<CourseDtoCreateResult>> Post([FromBody] CourseDtoCreate entity)
+        public async Task<ActionResult> Post([FromBody] CourseDtoCreate entity)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -88,7 +92,7 @@ namespace TesteBackEnd.Application.Controllers
             {
                 var result = await _service.InsertAsync(entity);
                 if (result != null)
-                    return Created(nameof(Get), result);
+                    return Created(new Uri(Url.Link("GetCourse", new { id = result.Id })), result);
                 else
                 {
                     return CustomResponse();
@@ -114,7 +118,7 @@ namespace TesteBackEnd.Application.Controllers
         [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public async Task<ActionResult<CourseDtoUpdateResult>> Put([FromRoute] Guid id, [FromBody] CourseDtoUpdate dto)
+        public async Task<ActionResult> Put([FromRoute] Guid id, [FromBody] CourseDtoUpdate dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

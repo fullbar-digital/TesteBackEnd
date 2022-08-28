@@ -19,31 +19,22 @@ namespace TesteBackEnd.Infrastructure.Data.Repository
 
 
 
-        public async Task<IEnumerable<StudentEntity>> FilterAsync(Expression<Func<StudentEntity, bool>> predicate)
-        {
-            return await _context.Students
+        public async Task<IEnumerable<StudentEntity>> FilterAsync(Expression<Func<StudentEntity, bool>> predicate) => await _context.Students
             .AsNoTracking()
             .Include(x => x.Scores).ThenInclude(d => d.Discipline)
             .Include(c => c.Course)
             .Where(predicate).ToListAsync();
-        }
 
-        public override async Task<StudentEntity?> SelectAsync(Guid id)
-        {
-            return await _context.Students
+        public override async Task<StudentEntity> SelectAsync(Guid id) => await _context.Students
                .AsNoTracking()
                .Include(x => x.Scores).ThenInclude(d => d.Discipline)
                .Where(s => s.Id == id)
                .FirstOrDefaultAsync();
-        }
 
 
-        public override async Task<IEnumerable<StudentEntity>> SelectAsync()
-        {
-            return await _context.Students
+        public override async Task<IEnumerable<StudentEntity>> SelectAsync() => await _context.Students
                .AsNoTracking()
                .Include(x => x.Scores).ThenInclude(d => d.Discipline)
                .ToListAsync();
-        }
     }
 }

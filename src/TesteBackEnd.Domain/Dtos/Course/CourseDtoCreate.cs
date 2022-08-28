@@ -6,7 +6,7 @@ using TesteBackEnd.Domain.Dtos.Discipline;
 
 namespace TesteBackEnd.Domain.Dtos.Course
 {
-    public class CourseDtoCreate
+    public class CourseDtoCreate : BaseDto
     {
         public string Name { get; set; }
     }

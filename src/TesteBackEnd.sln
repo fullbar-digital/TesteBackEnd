@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteBackEnd.Infrastructure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteBackEnd.Service.Test", "TesteBackEnd.Service.Test\TesteBackEnd.Service.Test.csproj", "{AFCB472C-31BF-497E-994B-E088EECED178}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteBackEnd.Application.Test", "TesteBackEnd.Application.Test\TesteBackEnd.Application.Test.csproj", "{5EA68DAC-554D-4608-BEC6-D9F6F895F4F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteBackEnd.Insfrastructure.Caching", "TesteBackEnd.Infrastructure.Caching\TesteBackEnd.Insfrastructure.Caching.csproj", "{E5736210-C98A-4981-B259-A245FB23D52C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,13 @@ Global
 		{5C898E8B-8009-42B8-A739-8A1B2DBECC78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C898E8B-8009-42B8-A739-8A1B2DBECC78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C898E8B-8009-42B8-A739-8A1B2DBECC78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EA68DAC-554D-4608-BEC6-D9F6F895F4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EA68DAC-554D-4608-BEC6-D9F6F895F4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EA68DAC-554D-4608-BEC6-D9F6F895F4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EA68DAC-554D-4608-BEC6-D9F6F895F4F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5736210-C98A-4981-B259-A245FB23D52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5736210-C98A-4981-B259-A245FB23D52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5736210-C98A-4981-B259-A245FB23D52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5736210-C98A-4981-B259-A245FB23D52C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

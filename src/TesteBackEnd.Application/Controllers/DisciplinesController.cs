@@ -44,11 +44,11 @@ namespace TesteBackEnd.Application.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("{id}")]
+        [Route("{id}", Name = "GetDiscipline")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(DisciplineDto))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<DisciplineDto>> Get(Guid id)
+        public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -72,11 +72,11 @@ namespace TesteBackEnd.Application.Controllers
         [ProducesResponseType(StatusCodes.Status201Created)]
 
         /// <summary>
-        /// Creates a single user
+        /// Creates a single discipline
         /// </summary>
-        /// <param name="user"></param>
+        /// <param name="entity"></param>
         /// <returns></returns>
-        public async Task<ActionResult<DisciplineDtoCreateResult>> Post([FromBody] DisciplineDtoCreate entity)
+        public async Task<ActionResult> Post([FromBody] DisciplineDtoCreate entity)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -85,7 +85,7 @@ namespace TesteBackEnd.Application.Controllers
             {
                 var result = await _service.InsertAsync(entity);
                 if (result != null)
-                    return Created(nameof(Get), result);
+                    return Created(new Uri(Url.Link("Get", new { id = result.Id })), result);
                 else
                 {
                     return CustomResponse();
@@ -110,7 +110,7 @@ namespace TesteBackEnd.Application.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<DisciplineDtoUpdateResult>> Put([FromRoute] Guid id, [FromBody] DisciplineDtoUpdate dto)
+        public async Task<ActionResult> Put([FromRoute] Guid id, [FromBody] DisciplineDtoUpdate dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

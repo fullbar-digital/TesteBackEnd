@@ -32,3 +32,5 @@ C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Service\obj\Debug\net6.0\
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Service\obj\Debug\net6.0\refint\TesteBackEnd.Service.dll
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Service\obj\Debug\net6.0\TesteBackEnd.Service.pdb
 C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Service\obj\Debug\net6.0\ref\TesteBackEnd.Service.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Service\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Service\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.pdb

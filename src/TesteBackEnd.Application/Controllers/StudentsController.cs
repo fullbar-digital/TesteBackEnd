@@ -28,7 +28,7 @@ namespace TesteBackEnd.Application.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
-        public async Task<ActionResult<IEnumerable<StudentDto>>> Filter([FromBody] StudentDtoFilter filter)
+        public async Task<ActionResult> Filter([FromBody] StudentDtoFilter filter)
         {
             try
             {
@@ -99,11 +99,11 @@ namespace TesteBackEnd.Application.Controllers
         /// <param name="id"></param>
         /// <returns></returns>
         [HttpGet]
-        [Route("{id}")]
+        [Route("{id}", Name = "GetStudent")]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(StudentDto))]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public async Task<ActionResult<StudentDto>> Get(Guid id)
+        public async Task<ActionResult> Get(Guid id)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -131,7 +131,7 @@ namespace TesteBackEnd.Application.Controllers
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        public async Task<ActionResult<StudentDtoCreateResult>> Post([FromBody] StudentDtoCreate entity)
+        public async Task<ActionResult> Post([FromBody] StudentDtoCreate entity)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -140,7 +140,7 @@ namespace TesteBackEnd.Application.Controllers
             {
                 var result = await _service.InsertAsync(entity);
                 if (result != null)
-                    return Created(nameof(Get), result);
+                    return Created(new Uri(Url.Link("Get", new { id = result.Id })), result);
                 else
                 {
                     return CustomResponse();
@@ -163,7 +163,7 @@ namespace TesteBackEnd.Application.Controllers
         /// </summary>
         /// <param name="entity"></param>
         /// <returns></returns>
-        public async Task<ActionResult<StudentDtoCreateResult>> Post([FromBody] ScoreDtoCreate entity)
+        public async Task<ActionResult> Post([FromBody] ScoreDtoCreate entity)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -198,7 +198,7 @@ namespace TesteBackEnd.Application.Controllers
         [ProducesResponseType(StatusCodes.Status202Accepted)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
 
-        public async Task<ActionResult<StudentDtoUpdateResult>> Put([FromRoute] Guid id, [FromBody] StudentDtoUpdate dto)
+        public async Task<ActionResult> Put([FromRoute] Guid id, [FromBody] StudentDtoUpdate dto)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

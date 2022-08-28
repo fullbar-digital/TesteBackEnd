@@ -1,12 +1,15 @@
 using System.Linq.Expressions;
+using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using TesteBackEnd.Domain.Entities;
 using TesteBackEnd.Domain.Interfaces;
+using TesteBackEnd.Infrastructure.Caching.Interfaces;
 using TesteBackEnd.Infrastructure.Data.Context;
 
 namespace TesteBackEnd.Infrastructure.Data.Repository
 {
-    public class BaseRepository<T> : IRepository<T> where T : BaseEntity
+    public class BaseRepository<T> : IQuery<T>, ICommand<T> where T : BaseEntity
     {
         protected readonly TesteBackEndDbContext _context;
         protected DbSet<T> _dataSet;
@@ -25,27 +28,18 @@ namespace TesteBackEnd.Infrastructure.Data.Repository
             return await _dataSet.AnyAsync(p => p.Id.Equals(id));
         }
 
-
-
         public virtual async Task<T> SelectAsync(Guid id)
         {
             return await _dataSet.SingleOrDefaultAsync(p => p.Id.Equals(id));
         }
 
-        public virtual async Task<IEnumerable<T>> SelectAsync()
-        {
-            return await _dataSet.ToListAsync();
-        }
+        public virtual async Task<IEnumerable<T>> SelectAsync() => await _dataSet.ToListAsync();
 
-        public async Task<bool> DeleteAsync(Guid id)
+        public async Task<bool> DeleteAsync(T entity)
         {
             try
             {
-                var result = await _dataSet.SingleOrDefaultAsync(p => p.Id.Equals(id));
-                if (result == null)
-                    return false;
-
-                _dataSet.Remove(result);
+                _dataSet.Remove(entity);
                 await _context.SaveChangesAsync();
 
                 return true;
@@ -66,37 +60,27 @@ namespace TesteBackEnd.Infrastructure.Data.Repository
                 }
                 entity.CreatedAt = DateTime.UtcNow;
                 _dataSet.Add(entity);
-
                 await _context.SaveChangesAsync();
+                return entity;
             }
             catch (Exception)
             {
                 throw;
             }
-
-            return entity;
         }
 
         public async Task<T> UpdateAsync(T entity)
         {
             try
             {
-                var result = await _dataSet.SingleOrDefaultAsync(p => p.Id.Equals(entity.Id));
-                if (result == null)
-                    return null;
-
-                entity.CreatedAt = result.CreatedAt;
-
-                _context.Entry(result).CurrentValues.SetValues(entity);
+                _dataSet.Update(entity);
                 await _context.SaveChangesAsync();
-
+                return entity;
             }
             catch (Exception)
             {
                 throw;
             }
-
-            return entity;
         }
     }
 }

@@ -1,0 +1,12 @@
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.deps.json
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\bin\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.pdb
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.csproj.AssemblyReference.cache
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.AssemblyInfoInputs.cache
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.AssemblyInfo.cs
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.csproj.CoreCompileInputs.cache
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\refint\TesteBackEnd.Insfrastructure.Caching.dll
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\TesteBackEnd.Insfrastructure.Caching.pdb
+C:\Projetos DotNet\Teste\TesteBackEnd\src\TesteBackEnd.Infrastructure.Caching\obj\Debug\net6.0\ref\TesteBackEnd.Insfrastructure.Caching.dll

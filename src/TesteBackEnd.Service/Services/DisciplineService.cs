@@ -42,6 +42,12 @@ namespace TesteBackEnd.Service.Services
                 Notify("Curso inválido.");
                 return null;
             }
+            if (SelectAsync()
+            .Result.Where(p => p.CourseId == item.CourseId && p.Name.ToLower() == item.Name.ToLower()).Any())
+            {
+                Notify("Já existe uma disciplina com esse nome para o curso.");
+                return null;
+            }
             var model = _mapper.Map<DisciplineModel>(item);
             var entity = _mapper.Map<DisciplineEntity>(model);
             var result = await _repository.InsertAsync(entity);
@@ -64,7 +70,8 @@ namespace TesteBackEnd.Service.Services
 
         public async Task<bool> DeleteAsync(Guid id)
         {
-            return await _repository.DeleteAsync(id);
+            var entity = await _repository.SelectAsync(id);
+            return await _repository.DeleteAsync(entity);
         }
     }
 }
