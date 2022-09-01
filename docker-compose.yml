@@ -1,0 +1,37 @@
+# Please refer https://aka.ms/HTTPSinContainer on how to setup an https developer certificate for your ASP .NET Core service.
+
+version: '3.4'
+
+services:
+  testebackendapplication:
+    image: testebackendapplication
+    container_name: "testebackend-api"
+    build:
+      context: .
+      dockerfile: src/TesteBackEnd.Application/Dockerfile
+    ports:
+      - 5008:5008
+    depends_on:
+      - mssql-server
+    environment:
+      - SqlServer=Persist Security Info=False;User ID=sa; Password=1234&Abcd; Initial Catalog=TesteBackEnd;Data Source=mssql-server;
+      - MIGRATE=false
+      - REDIS_CONNECTION=redis://default:Redis2019!@testebackend-redis:6379
+  mssql-server:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: "testebackend-db"
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "1234&Abcd"
+      MSSQL_PID: Express
+    ports:
+      - "1433:1433"
+    volumes:
+      - "./data-mssql:/var/opt/mssql/data"
+  redis:
+    image: redis
+    restart: always
+    container_name: "testebackend-redis"
+    command: redis-server --requirepass Redis2019!
+    ports:
+      - "6379:6379"
