@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.WebAPI", "src\Teste.WebAPI\Teste.WebAPI.csproj", "{4ECE4720-1012-4B19-89DF-CBF6EBA69C90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassManager.WebAPI", "src\Teste.WebAPI\ClassManager.WebAPI.csproj", "{4ECE4720-1012-4B19-89DF-CBF6EBA69C90}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{8302DFA2-5E55-4016-8806-E371E5D816DA}"
 EndProject
@@ -13,15 +13,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "98 - Tests", "98 - Tests", "{292A98D2-FE89-4FFB-992E-5E6348DB9A0E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Domain", "src\Teste.Domain\Teste.Domain.csproj", "{BE55867F-C3FA-478F-97D2-3BDEF8A59C58}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassManager.Domain", "src\Teste.Domain\ClassManager.Domain.csproj", "{BE55867F-C3FA-478F-97D2-3BDEF8A59C58}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Infra.Data", "src\Teste.Infra.Data\Teste.Infra.Data.csproj", "{E2FE3164-6268-4253-9682-B7303646F780}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassManager.Infra.Data", "src\Teste.Infra.Data\ClassManager.Infra.Data.csproj", "{E2FE3164-6268-4253-9682-B7303646F780}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Teste.Application", "src\Teste.Application\Teste.Application.csproj", "{6D1E2CFF-3986-42AC-832F-D573DB72FB1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassManager.Application", "src\Teste.Application\ClassManager.Application.csproj", "{6D1E2CFF-3986-42AC-832F-D573DB72FB1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testes.UnitTests.Common", "test\Testes.UnitTests.Common\Testes.UnitTests.Common.csproj", "{50B1AC5B-922F-402A-B54C-91DE86DBCF33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassManager.UnitTests.Common", "test\Testes.UnitTests.Common\ClassManager.UnitTests.Common.csproj", "{50B1AC5B-922F-402A-B54C-91DE86DBCF33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste.Testes.UnitTests", "test\Teste.Testes.UnitTests\Teste.Testes.UnitTests.csproj", "{D53B9815-FE80-42C9-A2C9-F8463FC21625}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassManager.Testes.UnitTests", "test\Teste.Testes.UnitTests\ClassManager.Testes.UnitTests.csproj", "{D53B9815-FE80-42C9-A2C9-F8463FC21625}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
